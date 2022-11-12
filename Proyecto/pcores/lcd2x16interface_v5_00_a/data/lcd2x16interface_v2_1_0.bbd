@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v5_00_a/data/lcd2x16interface_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Sun Nov 06 21:36:03 2022 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+LcdCtrFsm.ngc,cldInterface.ngc,lcd2x16interface.ngc,ram.ngc,LCDRam.ngc

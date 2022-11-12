@@ -1,0 +1,22 @@
+microblaze_0
+MAIN_SOURCES = firmware/main.c drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c 
+MAIN_HEADERS = 
+MAIN_CC = mb-gcc
+MAIN_CC_SIZE = mb-size
+MAIN_CC_OPT = -O2
+MAIN_CFLAGS = 
+MAIN_CC_SEARCH = # -B
+MAIN_LIBPATH = -L./microblaze_0/lib/ # -L
+MAIN_INCLUDES = -I./microblaze_0/include/ # -I
+MAIN_LFLAGS = # -l
+MAIN_LINKER_SCRIPT = 
+MAIN_CC_DEBUG_FLAG =  -g 
+MAIN_CC_PROFILE_FLAG = # -pg
+MAIN_CC_GLOBPTR_FLAG= # -mxl-gp-opt
+MAIN_MODE = executable
+MAIN_LIBG_OPT = -$(MAIN_MODE) microblaze_0
+MAIN_CC_INFERRED_FLAGS= -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b 
+MAIN_CC_START_ADDR_FLAG=  # -Wl,-defsym -Wl,_TEXT_START_ADDR=
+MAIN_CC_STACK_SIZE_FLAG=  # -Wl,-defsym -Wl,_STACK_SIZE=
+MAIN_CC_HEAP_SIZE_FLAG=  # -Wl,-defsym -Wl,_HEAP_SIZE=
+                  $(MAIN_CC_INFERRED_FLAGS)  \

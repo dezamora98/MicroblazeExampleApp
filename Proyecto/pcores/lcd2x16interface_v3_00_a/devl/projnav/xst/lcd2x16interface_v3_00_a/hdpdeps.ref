@@ -1,0 +1,25 @@
+V3 12
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd 2022/11/06.20:17:47 M.81d
+EN lcd2x16interface_v3_00_a/lcd2x16interface 1668117064 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1668117029 \
+      LB plbv46_slave_single_v1_01_a LB lcd2x16interface_v3_00_a \
+      EN lcd2x16interface_v3_00_a/user_logic 1668117062 \
+      PB proc_common_v3_00_a/ipif_pkg 1668117049 \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1668117060
+AR lcd2x16interface_v3_00_a/lcd2x16interface/IMP 1668117065 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd \
+      EN lcd2x16interface_v3_00_a/lcd2x16interface 1668117064 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP lcd2x16interface_v3_00_a/user_logic
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd 2022/11/10.16:48:54 M.81d
+EN lcd2x16interface_v3_00_a/user_logic 1668117062 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1668117029
+AR lcd2x16interface_v3_00_a/user_logic/IMP 1668117063 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd \
+      EN lcd2x16interface_v3_00_a/user_logic 1668117062 CP cldInterface

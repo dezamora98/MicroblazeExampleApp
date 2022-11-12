@@ -1,0 +1,10 @@
+-batch 
+-create lcd2x16interface 
+-ver 3.00.a 
+-dir "Z:\SysEmp\test_MB_LCDCtr\TestLCD_2" 
+-lang vhdl 
+-bus plbv46 s 
+-reg 1 
+-xps 
+-ise 
+-driver 

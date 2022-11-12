@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a\devl\projnav\test_lcdinterface.ncd
+OUTFILE=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a\devl\projnav\test_lcdinterface.bit
+FAMILY=Spartan3E
+PART=xc3s1600e-4fg320
+WORKINGDIR=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a\devl\projnav
+LICENSE=WebPack
+USER_INFO=0_0_0

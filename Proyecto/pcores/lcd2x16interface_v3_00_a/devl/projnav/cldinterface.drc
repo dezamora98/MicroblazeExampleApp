@@ -1,0 +1,8 @@
+Release 12.4 Drc M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Nov 10 16:39:43 2022
+
+drc -z cldInterface.ncd cldInterface.pcf
+
+DRC detected 0 errors and 0 warnings.

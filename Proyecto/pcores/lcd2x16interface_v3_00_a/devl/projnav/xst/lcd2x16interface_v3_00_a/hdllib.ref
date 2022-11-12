@@ -1,0 +1,4 @@
+AR lcd2x16interface imp //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd sub00/vhpl03 1668117065
+AR user_logic imp //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd sub00/vhpl01 1668117063
+EN lcd2x16interface NULL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd sub00/vhpl02 1668117064
+EN user_logic NULL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd sub00/vhpl00 1668117062

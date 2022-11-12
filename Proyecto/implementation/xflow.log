@@ -1,0 +1,418 @@
+Release 12.4 Xflow M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc3s1600efg320-4 -implement xflow.opt system.ngc
+ 
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Using Flow File: Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/fpga.flw 
+Using Option File(s): 
+ Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc3s1600efg320-4 -nt timestamp -bm system.bmm
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc" -uc system.ucf
+system.ngd 
+#----------------------------------------------#
+Release 12.4 - ngdbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc3s1600efg320-4 -nt timestamp -bm system.bmm
+Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance
+   clock_generator_0/DCM0_INST/Using_Virtex.DCM_INST. The following new TNM
+   groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PERIOD
+   "clock_generator_0_clock_generator_0_SIG_DCM0_CLK0" TS_sys_clk_pin HIGH 50%>
+
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:478 - clock net mdm_0/bscan_drck1 with clock driver
+   mdm_0/mdm_0/BUFG_DRCK1 drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -pr b -ol high -timing -detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Map M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "3s1600efg320-4".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 5 secs 
+Total CPU  time at the beginning of Placer: 5 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:48a41539) REAL time: 9 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:48a41539) REAL time: 9 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:2e04d811) REAL time: 9 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:9ba8230e) REAL time: 15 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:9ba8230e) REAL time: 15 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:9ba8230e) REAL time: 15 secs 
+
+Phase 7.8  Global Placement
+.............................................................................................................................
+.....
+Phase 7.8  Global Placement (Checksum:18228c01) REAL time: 17 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:18228c01) REAL time: 18 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:8d45dbbb) REAL time: 24 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:8d45dbbb) REAL time: 24 secs 
+
+Total REAL time to Placer completion: 24 secs 
+Total CPU  time to Placer completion: 23 secs 
+Running post-placement packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+  Number of Slice Flip Flops:         1,194 out of  29,504    4%
+  Number of 4 input LUTs:             2,092 out of  29,504    7%
+Logic Distribution:
+  Number of occupied Slices:          1,674 out of  14,752   11%
+    Number of Slices containing only related logic:   1,674 out of   1,674 100%
+    Number of Slices containing unrelated logic:          0 out of   1,674   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,254 out of  29,504    7%
+    Number used as logic:             1,725
+    Number used as a route-thru:        162
+    Number used for Dual Port RAMs:     256
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     111
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 14 out of     250    5%
+  Number of RAMB16s:                     17 out of      36   47%
+  Number of BUFGMUXs:                     2 out of      24    8%
+  Number of DCMs:                         1 out of       8   12%
+  Number of BSCANs:                       1 out of       1  100%
+  Number of MULT18X18SIOs:                3 out of      36    8%
+
+Average Fanout of Non-Clock Nets:                3.74
+
+Peak Memory Usage:  234 MB
+Total REAL time to MAP completion:  25 secs 
+Total CPU time to MAP completion:   24 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - par M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/12.4/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '3s1600e.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s1600e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2010-11-18".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          14 out of 250     5%
+
+   Number of External Input IOBs                  2
+
+      Number of External Input IBUFs              2
+        Number of LOCed External Input IBUFs      2 out of 2     100%
+
+
+   Number of External Output IOBs                12
+
+      Number of External Output IOBs             12
+        Number of LOCed External Output IOBs     12 out of 12    100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BSCANs                          1 out of 1     100%
+   Number of BUFGMUXs                        2 out of 24      8%
+   Number of DCMs                            1 out of 8      12%
+   Number of MULT18X18SIOs                   3 out of 36      8%
+   Number of RAMB16s                        17 out of 36     47%
+   Number of Slices                       1674 out of 14752  11%
+      Number of SLICEMs                    195 out of 7376    2%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 8 secs 
+Finished initial Timing Analysis.  REAL time: 8 secs 
+
+WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 11931 unrouted;      REAL time: 21 secs 
+
+Phase  2  : 10498 unrouted;      REAL time: 22 secs 
+
+Phase  3  : 3610 unrouted;      REAL time: 24 secs 
+
+Phase  4  : 3610 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 25 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 33 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+WARNING:Route:455 - CLK Net:fpga_0_clk_1_sys_clk_pin_IBUFG may have excessive skew because 
+      5 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 35 secs 
+Total CPU time to Router completion: 35 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      clk_50_0000MHz | BUFGMUX_X1Y10| No   | 1011 |  0.288     |  0.549      |
++---------------------+--------------+------+------+------------+-------------+
+|     mdm_0/Dbg_Clk_1 |  BUFGMUX_X1Y0| No   |  171 |  0.289     |  0.549      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   35 |  0.493     |  2.332      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.287     |  2.573      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     1.137ns|    18.863ns|       0|           0
+  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.620ns|            |       0|           0
+  ck_generator_0_clock_generator_0_SIG_DCM0 |             |            |            |        |            
+  _CLK0" TS_sys_clk_pin         HIGH 50%    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |    17.647ns|     2.353ns|       0|           0
+  pin" 50 MHz HIGH 50%                      | HOLD        |     0.607ns|            |       0|           0
+                                            | MINLOWPULSE |    14.000ns|     6.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     20.000ns|      6.000ns|     18.863ns|            0|            0|            3|       163506|
+| TS_clock_generator_0_clock_gen|     20.000ns|     18.863ns|          N/A|            0|            0|       163506|            0|
+| erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 39 secs 
+Total CPU time to PAR completion: 36 secs 
+
+Peak Memory Usage:  227 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 5
+Number of info messages: 0
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3e/data/spartan3e.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/spartan3e.acd>
+Loading device for application Rf_Device from file '3s1600e.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s1600e, package fg320, speed -4
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc3s1600e,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and
+   'Phase Error' calculations, these terms will be zero in the Clock Uncertainty
+   calculation.  Please make appropriate modification to SYSTEM_JITTER to
+   account for the unsupported Discrete Jitter and Phase Error.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 163509 paths, 0 nets, and 10403 connections
+
+Design statistics:
+   Minimum period:  18.863ns (Maximum frequency:  53.014MHz)
+
+
+Analysis completed Thu Nov 10 21:50:04 2022
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 4
+Total time: 4 secs 
+
+

@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.xst" -ofn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.syr" 
+xst -intstyle ise -ifn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.xst" -ofn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test.ucf -p xc3s1600e-fg320-4 cldInterface.ngc cldInterface.ngd  
+map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o cldInterface_map.ncd cldInterface.ngd cldInterface.pcf 
+par -w -intstyle ise -ol high -t 1 cldInterface_map.ncd cldInterface.ncd cldInterface.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cldInterface.twx cldInterface.ncd -o cldInterface.twr cldInterface.pcf -ucf test.ucf 
+xst -intstyle ise -ifn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.xst" -ofn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.syr" 
+xst -intstyle ise -ifn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.xst" -ofn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test.ucf -p xc3s1600e-fg320-4 cldInterface.ngc cldInterface.ngd  
+map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o cldInterface_map.ncd cldInterface.ngd cldInterface.pcf 
+par -w -intstyle ise -ol high -t 1 cldInterface_map.ncd cldInterface.ncd cldInterface.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cldInterface.twx cldInterface.ncd -o cldInterface.twr cldInterface.pcf -ucf test.ucf 
+bitgen -intstyle ise -f cldInterface.ut cldInterface.ncd 
+xst -intstyle ise -ifn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.xst" -ofn "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/cldInterface.syr" 

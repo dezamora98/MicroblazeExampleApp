@@ -1,0 +1,195 @@
+Mapping logical library work (line 1) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 5) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 6) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 7) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 8) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 12) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 13) to current logical library
+lcd2x16interface_v3_00_a ...
+Mapping logical library work (line 16) to current logical library
+lcd2x16interface_v3_00_a ...
+Parsing XST project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit lcd2x16interface is vhdl
+...
+INFO:EDK:3391 - Create temporary xst project file:
+   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface.prj
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav
+/ipcore_dir/LcdRam.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <LcdRam> compiled.
+Entity <LcdRam> (Architecture <LcdRam_a>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Package <family_support> compiled.
+Package body <family_support> compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+_tx_fsm.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <lcd_tx_fsm> compiled.
+Entity <lcd_tx_fsm> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+_init_fsm.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <lcd_init_fsm> compiled.
+Entity <lcd_init_fsm> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+_host_if.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <lcd_host_if> compiled.
+Entity <lcd_host_if> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/Crt
+LcdRam.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <CtrLcdRam> compiled.
+Entity <CtrLcdRam> (Architecture <arch>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Entity <counter_f> compiled.
+Entity <counter_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Entity <pselect_f> compiled.
+Entity <pselect_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Entity <or_gate128> compiled.
+Entity <or_gate128> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/Lcd
+Ctrfsm.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <LcdCtrFsm> compiled.
+Entity <LcdCtrFsm> (Architecture <arch>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <lcd> compiled.
+Entity <lcd> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+Interface.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <cldInterface> compiled.
+Entity <cldInterface> (Architecture <arch>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plb_slave_attachment> compiled.
+Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plbv46_slave_single> compiled.
+Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/use
+r_logic.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd
+2x16interface.vhd" in Library lcd2x16interface_v3_00_a.
+Entity <lcd2x16interface> compiled.
+Entity <lcd2x16interface> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = lcd2x16interface
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:3590 - Unable to delete temporary project file
+   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface.prj : 13
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE PLBV46 parameter is not defined
+   in the HDL source
+INFO:EDK:1631 - Infer bus clock [SPLB_Clk] for bus interface SPLB ...
+Copying file LcdRam.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcd_tx_fsm.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcd_init_fsm.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcd_host_if.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file CrtLcdRam.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file LcdCtrfsm.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcd.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcdInterface.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file user_logic.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+Copying file lcd2x16interface.vhd to
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores/lcd2x16interface_v3_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a.
+
+Summary:
+
+  Logical library     : lcd2x16interface_v3_00_a
+  Version             : 3.00.a
+  Bus interface(s)    : SPLB 
+
+The following sub-directories will be created:
+
+  - lcd2x16interface_v3_00_a\data
+  - lcd2x16interface_v3_00_a\hdl
+  - lcd2x16interface_v3_00_a\hdl\vhdl
+  - lcd2x16interface_v3_00_a\netlist
+
+
+The following HDL source files will be copied into the
+lcd2x16interface_v3_00_a\hdl\vhdl directory:
+
+  - LcdRam.vhd
+  - lcd_tx_fsm.vhd
+  - lcd_init_fsm.vhd
+  - lcd_host_if.vhd
+  - CrtLcdRam.vhd
+  - LcdCtrfsm.vhd
+  - lcd.vhd
+  - lcdInterface.vhd
+  - user_logic.vhd
+  - lcd2x16interface.vhd
+
+The following files will be created under the lcd2x16interface_v3_00_a\data
+directory:
+
+  - lcd2x16interface_v2_1_0.mpd
+  - lcd2x16interface_v2_1_0.pao
+
+

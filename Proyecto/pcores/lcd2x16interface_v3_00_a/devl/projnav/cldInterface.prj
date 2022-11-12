@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/LcdRam.vhd"
+vhdl work "../../hdl/vhdl/lcd_tx_fsm.vhd"
+vhdl work "../../hdl/vhdl/lcd_init_fsm.vhd"
+vhdl work "../../hdl/vhdl/lcd_host_if.vhd"
+vhdl work "../../hdl/vhdl/LcdCtrfsm.vhd"
+vhdl work "../../hdl/vhdl/lcd.vhd"
+vhdl work "../../hdl/vhdl/lcdInterface.vhd"

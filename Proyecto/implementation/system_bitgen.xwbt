@@ -1,0 +1,7 @@
+INFILE=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\implementation\system.ncd
+OUTFILE=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\implementation\system.bit
+FAMILY=Spartan3E
+PART=xc3s1600e-4fg320
+WORKINGDIR=Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\implementation
+LICENSE=WebPack
+USER_INFO=0_0_0

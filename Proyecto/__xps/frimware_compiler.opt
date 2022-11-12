@@ -1,0 +1,22 @@
+microblaze_0
+FRIMWARE_SOURCES = firmware/lcd2x16SInterface.h firmware/lcd2x16Sinterface.c firmware/lcd2x16Sinterface.cpp firmware/main.c 
+FRIMWARE_HEADERS = 
+FRIMWARE_CC = mb-gcc
+FRIMWARE_CC_SIZE = mb-size
+FRIMWARE_CC_OPT = -O0
+FRIMWARE_CFLAGS = 
+FRIMWARE_CC_SEARCH = # -B
+FRIMWARE_LIBPATH = -L./microblaze_0/lib/ # -L
+FRIMWARE_INCLUDES = -I./microblaze_0/include/ # -I
+FRIMWARE_LFLAGS = # -l
+FRIMWARE_LINKER_SCRIPT = 
+FRIMWARE_CC_DEBUG_FLAG =  -g 
+FRIMWARE_CC_PROFILE_FLAG = # -pg
+FRIMWARE_CC_GLOBPTR_FLAG= -mxl-gp-opt
+FRIMWARE_MODE = executable
+FRIMWARE_LIBG_OPT = -$(FRIMWARE_MODE) microblaze_0
+FRIMWARE_CC_INFERRED_FLAGS= -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b 
+FRIMWARE_CC_START_ADDR_FLAG=  # -Wl,-defsym -Wl,_TEXT_START_ADDR=
+FRIMWARE_CC_STACK_SIZE_FLAG=  # -Wl,-defsym -Wl,_STACK_SIZE=
+FRIMWARE_CC_HEAP_SIZE_FLAG=  # -Wl,-defsym -Wl,_HEAP_SIZE=
+                  $(FRIMWARE_CC_INFERRED_FLAGS)  \

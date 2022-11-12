@@ -1,0 +1,168 @@
+//! **************************************************************************
+// Written by: Map M.81d on Thu Nov 10 16:38:49 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "en" LOCATE = SITE "M18" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "R15" LEVEL 1;
+COMP "sfce" LOCATE = SITE "D16" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "data<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "M16" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "P6" LEVEL 1;
+COMP "data<6>" LOCATE = SITE "R8" LEVEL 1;
+COMP "data<7>" LOCATE = SITE "T8" LEVEL 1;
+COMP "rs" LOCATE = SITE "L18" LEVEL 1;
+COMP "rw" LOCATE = SITE "L17" LEVEL 1;
+COMP "rst" LOCATE = SITE "K17" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+PIN
+        Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.A_pins<10>
+        = BEL
+        "Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.A"
+        PINNAME CLKA;
+PIN
+        Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.B_pins<10>
+        = BEL
+        "Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.B"
+        PINNAME CLKB;
+TIMEGRP sys_clk_pin = BEL "Inst_LcdCtrFsm/lcd_curr_state_FSM_FFd1" BEL
+        "Inst_LcdCtrFsm/lcd_curr_state_FSM_FFd2" BEL
+        "Inst_LcdCtrFsm/counter_0" BEL "Inst_LcdCtrFsm/counter_1" BEL
+        "Inst_LcdCtrFsm/counter_2" BEL "Inst_LcdCtrFsm/counter_3" BEL
+        "Inst_LcdCtrFsm/counter_4" BEL "Inst_lcd/Inst_lcd_host_if/cnt40us_0"
+        BEL "Inst_lcd/Inst_lcd_host_if/cnt40us_1" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_2" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_3" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_4" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_5" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_6" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_7" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_8" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_9" BEL
+        "Inst_lcd/Inst_lcd_host_if/cnt40us_10" BEL
+        "Inst_lcd/Inst_lcd_host_if/lcd_host_if_curr_state_FSM_FFd1" BEL
+        "Inst_lcd/Inst_lcd_host_if/lcd_host_if_curr_state_FSM_FFd2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_9" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt40us_10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_9" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_11" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_12" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_13" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_14" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_15" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt1p64ms_16" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_9" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_11" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_12" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_13" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_14" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_15" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_16" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_17" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_18" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt15ms_19" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_9" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_11" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_12" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_13" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_14" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_15" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_16" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt4p1ms_17" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_9" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_11" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/cnt100us_12" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd1" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd4" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd7" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd5" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd6" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd11" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd12" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd13" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd4" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd1" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd5" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd6" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd2" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/cnt230ns_3" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/cnt230ns_2" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/cnt230ns_1" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/cnt230ns_0" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/flag40us_0" BEL
+        "Inst_lcd/Inst_lcd_host_if/lcd_host_if_curr_state_FSM_FFd3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd8" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd10" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/flag40us_2" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/flag40us_3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/flag40us_4" BEL
+        "Inst_lcd/Inst_lcd_host_if/dack" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd14" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/lcd_init_curr_state_FSM_FFd9" BEL
+        "Inst_lcd/Inst_lcd_tx_fsm/lcd_tx_curr_state_FSM_FFd3" BEL
+        "Inst_lcd/Inst_lcd_init_fsm/flag40us_1" PIN
+        "Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.A_pins<10>"
+        PIN
+        "Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.B_pins<10>"
+        BEL "clk_BUFGP/BUFG.GCLKMUX" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 50 MHz HIGH 50%;
+PIN rst_pins<0> = BEL "rst" PINNAME PAD;
+PIN "rst_pins<0>" TIG;
+SCHEMATIC END;
+

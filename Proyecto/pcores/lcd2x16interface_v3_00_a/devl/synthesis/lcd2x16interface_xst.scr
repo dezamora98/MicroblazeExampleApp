@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "\\vboxsvr\workarea\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a\devl\synthesis\lcd2x16interface_xst.prj"
+-top lcd2x16interface
+-p virtex5
+-ofn "\\vboxsvr\workarea\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v3_00_a\devl\synthesis\lcd2x16interface_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib lcd2x16interface_v3_00_a

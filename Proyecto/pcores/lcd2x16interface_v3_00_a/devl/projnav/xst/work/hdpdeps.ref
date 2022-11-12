@@ -1,0 +1,51 @@
+V3 27
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.vhd 2022/11/10.16:35:55 M.81d
+EN work/LcdRam 1668117040 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/LcdRam/LcdRam_a 1668117041 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.vhd \
+      EN work/LcdRam 1668117040
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd.vhd 2022/11/06.19:45:38 M.81d
+EN work/lcd 1668117052 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/lcd/Behavioral 1668117053 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd.vhd \
+      EN work/lcd 1668117052 CP lcd_tx_fsm CP lcd_init_fsm CP lcd_host_if
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/LcdCtrfsm.vhd 2022/11/10.16:15:14 M.81d
+EN work/LcdCtrFsm 1668117050 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/LcdCtrfsm.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110 \
+      PB ieee/std_logic_arith 1290154109
+AR work/LcdCtrFsm/arch 1668117051 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/LcdCtrfsm.vhd \
+      EN work/LcdCtrFsm 1668117050 CP LcdRam
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcdInterface.vhd 2022/11/10.16:41:54 M.81d
+EN work/cldInterface 1668117056 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcdInterface.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
+AR work/cldInterface/arch 1668117057 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcdInterface.vhd \
+      EN work/cldInterface 1668117056 CP LcdCtrFsm CP lcd
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_host_if.vhd 2019/03/05.08:44:02 M.81d
+EN work/lcd_host_if 1668117038 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_host_if.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/lcd_host_if/Behavioral 1668117039 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_host_if.vhd \
+      EN work/lcd_host_if 1668117038
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_init_fsm.vhd 2019/03/05.08:46:54 M.81d
+EN work/lcd_init_fsm 1668117036 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_init_fsm.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/lcd_init_fsm/Behavioral 1668117037 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_init_fsm.vhd \
+      EN work/lcd_init_fsm 1668117036
+FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_tx_fsm.vhd 2019/03/05.08:44:02 M.81d
+EN work/lcd_tx_fsm 1668117034 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_tx_fsm.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/lcd_tx_fsm/Behavioral 1668117035 \
+      FL //vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_tx_fsm.vhd \
+      EN work/lcd_tx_fsm 1668117034
