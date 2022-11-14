@@ -13,3 +13,29 @@ Done writing filter settings to:
 	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
 Done writing Tab View settings to:
 	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+Assigned Driver spi 3.01.a for instance xps_spi_0
+xps_spi_0 has been added to the project
+WARNING:EDK:2137 - Peripheral xps_spi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral xps_spi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral spi is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance spi port SCK external with net as port name
+Instance spi port SCK connector undefined, using spi_SCK
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance spi port MISO external with net as port name
+Instance spi port MISO connector undefined, using spi_MISO
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance spi port MOSI external with net as port name
+Instance spi port MOSI connector undefined, using spi_MOSI
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance spi port SS external with net as port name
+Instance spi port SS connector undefined, using spi_SS
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored

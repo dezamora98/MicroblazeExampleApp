@@ -22,6 +22,10 @@
  PORT lcd2x16interface_0_en_pin = lcd2x16interface_0_en, DIR = O
  PORT lcd2x16interface_0_rw_pin = lcd2x16interface_0_rw, DIR = O
  PORT lcd2x16interface_0_sfce_pin = lcd2x16interface_0_sfce, DIR = O
+ PORT spi_SCK = spi_SCK, DIR = IO
+ PORT spi_MISO = spi_MISO, DIR = IO
+ PORT spi_MOSI = spi_MOSI, DIR = IO
+ PORT spi_SS = spi_SS, DIR = IO, VEC = [0:3]
 
 
 BEGIN microblaze
@@ -135,5 +139,18 @@ BEGIN lcd2x16interface
  PORT en = lcd2x16interface_0_en
  PORT rw = lcd2x16interface_0_rw
  PORT sfce = lcd2x16interface_0_sfce
+END
+
+BEGIN xps_spi
+ PARAMETER INSTANCE = spi
+ PARAMETER HW_VER = 2.02.a
+ PARAMETER C_NUM_SS_BITS = 4
+ PARAMETER C_BASEADDR = 0xFFFFFFFF
+ PARAMETER C_HIGHADDR = 0x00000000
+ BUS_INTERFACE SPLB = mb_plb
+ PORT SCK = spi_SCK
+ PORT MISO = spi_MISO
+ PORT MOSI = spi_MOSI
+ PORT SS = spi_SS
 END
 
