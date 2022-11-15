@@ -1,0 +1,1 @@
+La interfaz de periféricos en serie (SPI) de XPS se conecta al PLB V4.6 (_Bus Local del Procesador_ con simplificaciones de Xilinx) y proporciona una como EEPROMs y dispositivos flash serie SPI. SPI. El protocolo SPI, como se describe en la hoja de datos del Motorola M68HC11, proporciona un método sencillo para que un maestro y un esclavo seleccionado para intercambiar datos.
