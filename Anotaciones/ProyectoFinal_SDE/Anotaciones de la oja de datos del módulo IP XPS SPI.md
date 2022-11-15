@@ -10,7 +10,12 @@ La interfaz de periféricos en serie (SPI) de XPS se conecta al PLB V4.6 (_Bus L
 - Admite los modos de selección automática o manual de esclavos
 - Admite transacciones de MSB/LSB primero.
 - Admite una longitud de transferencia de 8 bits, 16 bits o 32 bits.
-- Admite la capacidad de bucle de retorno local para realizar pruebas
+- Admite la capacidad de bucle de retorno local para realizar pruebas.
 - Admite múltiples maestros y esclavos entorno.
-- Opción de 16 elementos de profundidad (un elemento es un byte, una
-media palabra o una palabra) para transmitir y recibir FIFOs
+- Opción de 16 elementos de profundidad (un elemento es un byte, una media palabra o una palabra) para transmitir y recibir FIFOs
+
+![[Pasted image 20221114230045.png]]
+
+El núcleo IP SPI de XPS soporta el modo de selección manual de esclavos como modo de operación por defecto. Este modo permite al usuario controlar manualmente la línea de selección de esclavos mediante los datos escritos en el registro de selección de esclavos. Esto permite transferir un número arbitrario de elementos sin alternar la línea de selección de esclavo entre los elementos. Sin embargo, el usuario debe conmutar la línea de selección de esclavos antes de iniciar una nueva transferencia.
+
+El otro modo de funcionamiento es el de selección automática de esclavos. En este modo, la línea de selección de esclavo se conmuta automáticamente después de cada transferencia de elementos. Este modo se describe con más detalle en la sección Protocolo SPI con Slave Select Assertion.
