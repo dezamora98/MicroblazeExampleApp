@@ -2,6 +2,7 @@ La interfaz de periféricos en serie (SPI) de XPS se conecta al PLB V4.6 (_Bus L
 * Se conecta como esclavo de 32 bits en buses PLB V4.6 de 32 64 o 128 bits.
 - Soporta cuatro señales de interfaz (MOSI, MISO, SCK y SS).
 - Soporta el bit de selección de esclavo (SS) para cada esclavo en el bus SPI.
+	- El XPS SPI IP Core puede comunicarse con maestros y esclavos tanto fuera como dentro del chip. El número de esclavos está limitado a 32 por el tamaño del registro de selección de esclavos. Sin embargo, el número de esclavos y maestros afectará al rendimiento alcanzable en términos de frecuencia y utilización de recursos.
 - Admite los modos de selección automática o manual de esclavos
 	- El code SPI de XPS soporta el modo de selección manual de esclavos como modo de operación por defecto. Este modo permite al usuario controlar manualmente la línea de selección de esclavos mediante los datos escritos en el registro de selección de esclavos. Esto permite transferir un número arbitrario de elementos sin alternar la línea de selección de esclavo entre los elementos. Sin embargo, el usuario debe conmutar la línea de selección de esclavos antes de iniciar una nueva transferencia.
 	- El otro modo de funcionamiento es el de selección automática de esclavos. En este modo, la línea de selección de esclavo se conmuta automáticamente después de cada transferencia de elementos. Este modo se describe con más detalle en la sección **Protocolo SPI con Slave Select Assertion**.
