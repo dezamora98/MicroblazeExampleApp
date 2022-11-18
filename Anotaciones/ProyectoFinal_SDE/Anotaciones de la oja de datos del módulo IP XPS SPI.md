@@ -20,10 +20,4 @@ La interfaz de periféricos en serie (SPI) de XPS se conecta al PLB V4.6 (_Bus L
 - Opción de 16 elementos de profundidad (un elemento es un byte, una media palabra o una palabra) para transmitir y recibir FIFOs
 
 
-
-
-
-
-
-
 ![[Pasted image 20221114230045.png]]
