@@ -39,3 +39,8 @@ WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proye
 Make instance spi port SS external with net as port name
 Instance spi port SS connector undefined, using spi_SS
 WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 127 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Writing filter settings....
+Done writing filter settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
+Done writing Tab View settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
