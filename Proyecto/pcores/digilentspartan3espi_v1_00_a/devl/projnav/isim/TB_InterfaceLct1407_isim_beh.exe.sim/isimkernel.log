@@ -1,0 +1,28 @@
+Command line:
+   TB_InterfaceLct1407_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1047
+
+Fri Dec 09 00:52:17 2022
+
+
+ Elaboration Time: 0.050072 sec
+
+ Current Memory Usage: 333.275 Meg
+
+ Total Signals          : 22
+ Total Nets             : 39
+ Total Signal Drivers   : 13
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 7
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 557
+
+ Total Simulation Time: 0.060087 sec
+
+ Current Memory Usage: 333.275 Meg
+
+Fri Dec 09 00:55:49 2022
+

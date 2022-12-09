@@ -13,23 +13,23 @@ entity InterfaceLct1407 is
 end InterfaceLct1407 ;
 
 architecture arch of InterfaceLct1407 is
-    type state is (StConv,StSckFalling, StStandby);
+    type state is (StStandby, StConv, StReadData);
     signal NextState, CurrentState: state;
-    signal Count: integer range 0 to 33;
+    signal Count: integer range 0 to 34;
     signal ClkDiv: std_logic;
 begin
 
     BitCounter : process( Clk, Rst )
     begin
         if Clk'event and Clk = '1' then
-            if rst = '1' then
+            if rst = '1' or Cs = '1' then
                 ClkDiv <= '0'
                 Count <= 0;
                 NextState <= StStandby;
             elsif Cs = '0' then
                 CurrentState <= NextState;
                 ClkDiv <= not ClkDiv;
-                if div = '1' then
+                if ClkDiv = '0' then
                     count <= count + 1;
                 end if ;
             else
@@ -38,26 +38,33 @@ begin
         end if ;
     end process ; -- BitCounter
 
-    ClcNextState : process(NextState,Cs)
+    ClcNextState : process(NextState,Count)
     begin
-        if Cs = '0' then
-            case( CurrentState ) is
-            
-                when StConv =>
-                    if Count = 1 then
-                        NextState <= Stconv 
-                    end if ;
-            
-                when others =>
-            
-            end case ;
-        else
-            NextState <= StStandby
-        end if ;
+        case( CurrentState ) is
+        
+            when StStandby =>
+                if Cs = '0' then
+                    NextState <= StConv
+                end if ;
+
+            when StConv =>
+                if Count = 1 then
+                    NextState <= StReadData
+                end if ;
+
+            When StReadData =>
+                if Count > 2 and Count < 17 then
+                    DataCh0(Count - 3) <= Miso; 
+                elsif Count > 18 and Count < 32 then
+                    DataCh1(Count - 19) <= Miso;
+                elsif Count = 34 then
+                    NextState <= StStandby                    
+                end if ;
+        
+            when others =>
+        
+        end case ;
         
     end process ; -- ClcNextState
-
-    Conv <= '1' when count = 1 and state = StConv else '0';
-    DataCh0(Count-3) <= Miso when state = Stfalling and Count  
 
 end architecture ; -- arch

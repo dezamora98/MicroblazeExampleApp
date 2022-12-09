@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-08T12:43:21</DateModified>
+  <DateModified>2022-12-09T00:48:13</DateModified>
   <ModuleName>digilentspartan3espi</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/devl/projnav/iseconfig/digilentspartan3espi.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/devl/projnav</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/devl/projnav\</ImplementationReportsDirectory>
   <DateInitialized>2022-12-08T12:43:21</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
