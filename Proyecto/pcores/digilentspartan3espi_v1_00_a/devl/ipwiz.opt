@@ -1,0 +1,10 @@
+-batch 
+-create digilentspartan3espi 
+-ver 1.00.a 
+-dir "Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto" 
+-lang vhdl 
+-bus plbv46 s 
+-reg 1 
+-xps 
+-ise 
+-driver 

@@ -8,7 +8,10 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/devl/projnav/ipcore_dir/LcdRam.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

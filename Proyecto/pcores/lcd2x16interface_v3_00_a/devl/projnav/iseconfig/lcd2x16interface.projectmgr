@@ -7,24 +7,27 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CtrLcdRam - arch Z:|SysEmp|ProyectoFinal|ProyectoFinalSDE|Proyecto|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|CrtLcdRam.vhd</ClosedNode>
          <ClosedNode>/LcdCtrFsm - arch Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|LcdCtrfsm.vhd/CtrRam - CtrLcdRam - arch</ClosedNode>
          <ClosedNode>/Unassigned User Library Modules/lcd2x16interface - IMP/PLBV46_SLAVE_SINGLE_I - plbv46_slave_single - implementation</ClosedNode>
          <ClosedNode>/Unassigned User Library Modules/lcd2x16interface - IMP/USER_LOGIC_I - user_logic - IMP/Inst_cldInterface - cldInterface - arch/Inst_lcd - lcd - Behavioral</ClosedNode>
          <ClosedNode>/cldInterface - arch Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|lcdInterface.vhd</ClosedNode>
          <ClosedNode>/lcd - Behavioral Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|lcd.vhd</ClosedNode>
+         <ClosedNode>/lcd2x16interface - IMP Z:|SysEmp|ProyectoFinal|ProyectoFinalSDE|Proyecto|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|lcd2x16interface.vhd/PLBV46_SLAVE_SINGLE_I - plbv46_slave_single - implementation</ClosedNode>
          <ClosedNode>/lcd2x16interface - IMP Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|lcd2x16interface.vhd/PLBV46_SLAVE_SINGLE_I - plbv46_slave_single - implementation</ClosedNode>
          <ClosedNode>/lcd2x16interface - IMP Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|hdl|vhdl|lcd2x16interface.vhd/USER_LOGIC_I - user_logic - IMP/Inst_cldInterface - cldInterface - arch/Inst_lcd - lcd - Behavioral</ClosedNode>
+         <ClosedNode>/test_lcdinterface - arch Z:|SysEmp|ProyectoFinal|ProyectoFinalSDE|Proyecto|pcores|lcd2x16interface_v3_00_a|devl|projnav|test_lcdinterface.vhd</ClosedNode>
          <ClosedNode>/test_lcdinterface - arch Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|devl|projnav|test_lcdinterface.vhd/Inst_cldInterface - cldInterface - arch/Inst_LcdCtrFsm - LcdCtrFsm - arch</ClosedNode>
          <ClosedNode>/test_lcdinterface - arch Z:|SysEmp|test_MB_LCDCtr|TestLCD_2|pcores|lcd2x16interface_v3_00_a|devl|projnav|test_lcdinterface.vhd/Inst_cldInterface - cldInterface - arch/Inst_lcd - lcd - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd)</SelectedItem>
+         <SelectedItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000020f0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd)</CurrentItem>
+      <CurrentItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -74,13 +77,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
@@ -162,13 +165,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

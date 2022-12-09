@@ -88,7 +88,8 @@ implementation/lmb_bram_wrapper.ngc \
 implementation/clock_generator_0_wrapper.ngc \
 implementation/mdm_0_wrapper.ngc \
 implementation/proc_sys_reset_0_wrapper.ngc \
-implementation/lcd2x16interface_0_wrapper.ngc
+implementation/lcd2x16interface_0_wrapper.ngc \
+implementation/spi_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

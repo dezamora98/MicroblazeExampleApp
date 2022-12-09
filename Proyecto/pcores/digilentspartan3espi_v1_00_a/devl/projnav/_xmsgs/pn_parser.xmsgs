@@ -38,37 +38,10 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd&quot; into library proc_common_v3_00_a</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/devl/projnav/test_lcdinterface.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/digilentspartan3espi.vhd&quot; into library digilentspartan3espi_v1_00_a</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/CrtLcdRam.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/DisRAM.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/LcdCtrfsm.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd2x16interface.vhd&quot; into library lcd2x16interface_v3_00_a</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcdInterface.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_host_if.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_init_fsm.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/lcd_tx_fsm.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/lcd2x16interface_v3_00_a/hdl/vhdl/user_logic.vhd&quot; into library lcd2x16interface_v3_00_a</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/user_logic.vhd&quot; into library digilentspartan3espi_v1_00_a</arg>
 </msg>
 
 </messages>
