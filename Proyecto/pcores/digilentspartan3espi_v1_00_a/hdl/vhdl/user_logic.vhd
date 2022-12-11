@@ -97,7 +97,23 @@ entity user_logic is
   port
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
-    --USER ports added here
+    Miso : in std_logic;
+    Mosi : out std_logic;
+    Sck : out std_logic;
+
+    MB_Miso: out std_logic;
+    MB_Mosi: in std_logic;
+    MB_Sck: in std_logic;
+
+    SS_ADC: in std_logic;
+    SS_AMP: in std_logic;
+    SS_Flash: in std_logic;
+
+    CS_DAC: out std_logic;
+    CS_ADC: out std_logic;
+    CS_AMP: out std_logic;
+    CS_Flash: out std_logic;
+
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -128,7 +144,23 @@ end entity user_logic;
 architecture IMP of user_logic is
 
   --USER signal declarations added here, as needed for user logic
+  COMPONENT InterfaceLct1407
+    PORT(
+      Clk : IN std_logic;
+      Rst : IN std_logic;
+      Cs : IN std_logic;
+      Miso : IN std_logic;          
+      ack : OUT std_logic;
+      Conv : OUT std_logic;
+      Sck : OUT std_logic;
+      DataCh0 : OUT std_logic_vector(0 to 13);
+      DataCh1 : OUT std_logic_vector(0 to 13)
+    );
+	END COMPONENT;
 
+  signal S_Sck: std_logic;
+  signal s_ack_adc: std_logic;
+  signal s_slv_reg0: std_logic_vector(0 to C_SLV_DWIDTH-1);
   ------------------------------------------
   -- Signals for user logic slave model s/w accessible register example
   ------------------------------------------
@@ -142,6 +174,20 @@ architecture IMP of user_logic is
 begin
 
   --USER logic implementation added here
+  IntLct1407: InterfaceLct1407 PORT MAP(
+		Clk => Bus2IP_Clk,
+		Rst => Bus2IP_Reset,
+		Cs => slv_reg_read_sel(0),
+		ack => s_ack_adc,
+		Miso => Miso,
+		Conv => CS_DAC,
+		Sck => S_Sck,
+		DataCh0 => s_slv_reg0(0 to 13),
+		DataCh1 => s_slv_reg0(16 to 31)
+	);
+
+  sck <= MB_Sck when  slv_reg_read_sel(0) = '0' else S_Sck;
+
 
   ------------------------------------------
   -- Example code to read/write user logic slave model s/w accessible registers
@@ -164,7 +210,7 @@ begin
   slv_reg_write_sel <= Bus2IP_WrCE(0 to 0);
   slv_reg_read_sel  <= Bus2IP_RdCE(0 to 0);
   slv_write_ack     <= Bus2IP_WrCE(0);
-  slv_read_ack      <= Bus2IP_RdCE(0);
+  slv_read_ack      <= Bus2IP_RdCE(0) and s_ack_adc;  -- añadiendo ack del dac
 
   -- implement slave model software accessible register(s)
   SLAVE_REG_WRITE_PROC : process( Bus2IP_Clk ) is

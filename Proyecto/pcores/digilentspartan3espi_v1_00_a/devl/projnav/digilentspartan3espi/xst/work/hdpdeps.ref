@@ -1,8 +1,16 @@
-V3 3
-FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/InterfaceLct1407.vhd 2022/12/11.05:57:40 M.81d
-EN work/InterfaceLct1407 1670756275 \
+V3 8
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/InterfaceLct1407.vhd 2022/12/11.06:38:20 M.81d
+EN work/InterfaceLct1407 1670759392 \
       FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/InterfaceLct1407.vhd \
       PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
-AR work/InterfaceLct1407/arch 1670756276 \
+AR work/InterfaceLct1407/arch 1670759393 \
       FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/InterfaceLct1407.vhd \
-      EN work/InterfaceLct1407 1670756275
+      EN work/InterfaceLct1407 1670759392
+EN work/user_logic 0 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PH proc_common_v3_00_a/proc_common_pkg 0
+AR work/user_logic/IMP 0 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN work/user_logic 0 CP InterfaceLct1407

@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-11T05:51:18</DateModified>
-  <ModuleName>InterfaceLct1407</ModuleName>
-  <SummaryTimeStamp>2022-12-11T05:08:15</SummaryTimeStamp>
+  <DateModified>2022-12-11T06:13:19</DateModified>
+  <ModuleName>user_logic</ModuleName>
+  <SummaryTimeStamp>2022-12-11T05:57:57</SummaryTimeStamp>
   <SavedFilePath>//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/devl/projnav/digilentspartan3espi/iseconfig/TB_InterfaceLct1407.xreport</SavedFilePath>
   <ImplementationReportsDirectory>Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_00_a/devl/projnav/digilentspartan3espi</ImplementationReportsDirectory>
-  <DateInitialized>2022-12-11T04:55:11</DateInitialized>
+  <DateInitialized>2022-12-11T06:13:19</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
   <viewgroup label="Design Overview" >
-   <view inputState="Unknown" program="implementation" ShowPartitionData="false" type="FPGASummary" file="InterfaceLct1407_summary.html" label="Summary" >
+   <view inputState="Unknown" program="implementation" ShowPartitionData="false" type="FPGASummary" file="user_logic_summary.html" label="Summary" >
     <toc-item title="Design Overview" target="Design Overview" />
     <toc-item title="Design Utilization Summary" target="Design Utilization Summary" />
     <toc-item title="Performance Summary" target="Performance Summary" />
     <toc-item title="Failing Constraints" target="Failing Constraints" />
     <toc-item title="Detailed Reports" target="Detailed Reports" />
    </view>
-   <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="InterfaceLct1407_envsettings.html" label="System Settings" />
-   <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="InterfaceLct1407_map.xrpt" label="IOB Properties" />
-   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Control_Sets" file="InterfaceLct1407_map.xrpt" label="Control Set Information" />
-   <view inputState="Translated" program="map" locator="MAP_MODULE_HIERARCHY" contextTags="FPGA_ONLY" type="Module_Utilization" file="InterfaceLct1407_map.xrpt" label="Module Level Utilization" />
-   <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="InterfaceLct1407.ptwx" label="Timing Constraints" translator="ptwxToTableXML.xslt" />
-   <view inputState="Mapped" program="par" locator="PAR_PINOUT_BY_PIN_NUMBER" contextTags="FPGA_ONLY" type="PinoutData" file="InterfaceLct1407_par.xrpt" label="Pinout Report" />
-   <view inputState="Mapped" program="par" locator="PAR_CLOCK_TABLE" contextTags="FPGA_ONLY" type="ClocksData" file="InterfaceLct1407_par.xrpt" label="Clock Report" />
-   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY,EDK_OFF" type="Timing_Analyzer" file="InterfaceLct1407.twx" label="Static Timing" />
-   <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="InterfaceLct1407_html/fit/report.htm" label="CPLD Fitter Report" />
-   <view inputState="Fitted" program="taengine" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="InterfaceLct1407_html/tim/report.htm" label="CPLD Timing Report" />
+   <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="user_logic_envsettings.html" label="System Settings" />
+   <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="user_logic_map.xrpt" label="IOB Properties" />
+   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Control_Sets" file="user_logic_map.xrpt" label="Control Set Information" />
+   <view inputState="Translated" program="map" locator="MAP_MODULE_HIERARCHY" contextTags="FPGA_ONLY" type="Module_Utilization" file="user_logic_map.xrpt" label="Module Level Utilization" />
+   <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="user_logic.ptwx" label="Timing Constraints" translator="ptwxToTableXML.xslt" />
+   <view inputState="Mapped" program="par" locator="PAR_PINOUT_BY_PIN_NUMBER" contextTags="FPGA_ONLY" type="PinoutData" file="user_logic_par.xrpt" label="Pinout Report" />
+   <view inputState="Mapped" program="par" locator="PAR_CLOCK_TABLE" contextTags="FPGA_ONLY" type="ClocksData" file="user_logic_par.xrpt" label="Clock Report" />
+   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY,EDK_OFF" type="Timing_Analyzer" file="user_logic.twx" label="Static Timing" />
+   <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="user_logic_html/fit/report.htm" label="CPLD Fitter Report" />
+   <view inputState="Fitted" program="taengine" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="user_logic_html/tim/report.htm" label="CPLD Timing Report" />
   </viewgroup>
   <viewgroup label="XPS Errors and Warnings" >
    <view program="platgen" WrapMessages="true" contextTags="EDK_ON" hidden="true" type="MessageList" hideColumns="Filtered" file="__xps/ise/_xmsgs/platgen.xmsgs" label="Platgen Messages" />
@@ -40,7 +40,7 @@
    <view inputState="PreSynthesized" program="libgen" contextTags="EDK_ON" hidden="true" type="Secondary_Report" file="libgen.log" label="Libgen Log File" />
    <view inputState="PreSynthesized" program="simgen" contextTags="EDK_ON" hidden="true" type="Secondary_Report" file="simgen.log" label="Simgen Log File" />
    <view inputState="PreSynthesized" program="bitinit" contextTags="EDK_ON" hidden="true" type="Secondary_Report" file="bitinit.log" label="BitInit Log File" />
-   <view inputState="PreSynthesized" program="system" contextTags="EDK_ON" hidden="true" type="Secondary_Report" file="InterfaceLct1407.log" label="System Log File" />
+   <view inputState="PreSynthesized" program="system" contextTags="EDK_ON" hidden="true" type="Secondary_Report" file="user_logic.log" label="System Log File" />
   </viewgroup>
   <viewgroup label="Errors and Warnings" >
    <view program="pn" WrapMessages="true" contextTags="EDK_OFF" type="MessageList" hideColumns="Filtered, New" file="_xmsgs/pn_parser.xmsgs" label="Parser Messages" />
@@ -56,7 +56,7 @@
    <view inputState="Current" program="fitting" WrapMessages="true" fileList="_xmsgs/xst.xmsgs,_xmsgs/ngdbuild.xmsgs,_xmsgs/cpldfit.xmsgs,_xmsgs/xpwr.xmsgs" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="CPLD_MessageList" hideColumns="Filtered" file="_xmsgs/*.xmsgs" label="All Implementation Messages (CPLD)" />
   </viewgroup>
   <viewgroup label="Detailed Reports" >
-   <view program="xst" contextTags="XST_ONLY,EDK_OFF" hidden="false" type="Report" file="InterfaceLct1407.syr" label="Synthesis Report" >
+   <view program="xst" contextTags="XST_ONLY,EDK_OFF" hidden="false" type="Report" file="user_logic.syr" label="Synthesis Report" >
     <toc-item title="Top of Report" target="Copyright " searchDir="Forward" />
     <toc-item title="Synthesis Options Summary" target="   Synthesis Options Summary   " />
     <toc-item title="HDL Compilation" target="   HDL Compilation   " />
@@ -82,15 +82,15 @@
     <toc-item title="Timing Details" target="Timing Details" subItemLevel="2" />
     <toc-item title="Cross Clock Domains Report" target="Cross Clock Domains Report:" subItemLevel="2" />
    </view>
-   <view program="synplify" contextTags="SYNPLIFY_ONLY,EDK_OFF" hidden="true" type="Report" file="InterfaceLct1407.srr" label="Synplify Report" />
-   <view program="precision" contextTags="PRECISION_ONLY,EDK_OFF" hidden="true" type="Report" file="InterfaceLct1407.prec_log" label="Precision Report" />
-   <view inputState="Synthesized" program="ngdbuild" type="Report" file="InterfaceLct1407.bld" label="Translation Report" >
+   <view program="synplify" contextTags="SYNPLIFY_ONLY,EDK_OFF" hidden="true" type="Report" file="user_logic.srr" label="Synplify Report" />
+   <view program="precision" contextTags="PRECISION_ONLY,EDK_OFF" hidden="true" type="Report" file="user_logic.prec_log" label="Precision Report" />
+   <view inputState="Synthesized" program="ngdbuild" type="Report" file="user_logic.bld" label="Translation Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Command Line" target="Command Line:" />
     <toc-item title="Partition Status" target="Partition Implementation Status" />
     <toc-item title="Final Summary" target="NGDBUILD Design Results Summary:" />
    </view>
-   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" type="Report" file="InterfaceLct1407_map.mrp" label="Map Report" >
+   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" type="Report" file="user_logic_map.mrp" label="Map Report" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
     <toc-item title="Section 1: Errors" target="Section 1 -" searchDir="Backward" />
     <toc-item title="Section 2: Warnings" target="Section 2 -" searchDir="Backward" />
@@ -106,7 +106,7 @@
     <toc-item title="Section 12: Control Set Information" target="Section 12 -" searchDir="Backward" />
     <toc-item title="Section 13: Utilization by Hierarchy" target="Section 13 -" searchDir="Backward" />
    </view>
-   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" type="Report" file="InterfaceLct1407.par" label="Place and Route Report" >
+   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" type="Report" file="user_logic.par" label="Place and Route Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Device Utilization" target="Device Utilization Summary:" />
     <toc-item title="Router Information" target="Starting Router" />
@@ -115,7 +115,7 @@
     <toc-item title="Timing Results" target="Timing Score:" />
     <toc-item title="Final Summary" target="Peak Memory Usage:" />
    </view>
-   <view inputState="Routed" program="trce" contextTags="FPGA_ONLY" type="Report" file="InterfaceLct1407.twr" label="Post-PAR Static Timing Report" >
+   <view inputState="Routed" program="trce" contextTags="FPGA_ONLY" type="Report" file="user_logic.twr" label="Post-PAR Static Timing Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Timing Report Description" target="Device,package,speed:" />
     <toc-item title="Informational Messages" target="INFO:" />
@@ -126,22 +126,22 @@
     <toc-item title="Timing Summary" target="Timing summary:" />
     <toc-item title="Trace Settings" target="Trace Settings:" />
    </view>
-   <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="Report" file="InterfaceLct1407.rpt" label="CPLD Fitter Report (Text)" >
+   <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="Report" file="user_logic.rpt" label="CPLD Fitter Report (Text)" >
     <toc-item title="Top of Report" target="cpldfit:" searchDir="Forward" />
     <toc-item title="Resources Summary" target="**  Mapped Resource Summary  **" />
     <toc-item title="Pin Resources" target="** Pin Resources **" />
     <toc-item title="Global Resources" target="** Global Control Resources **" />
    </view>
-   <view inputState="Fitted" program="taengine" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="Report" file="InterfaceLct1407.tim" label="CPLD Timing Report (Text)" >
+   <view inputState="Fitted" program="taengine" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="Report" file="user_logic.tim" label="CPLD Timing Report (Text)" >
     <toc-item title="Top of Report" target="Performance Summary Report" searchDir="Forward" />
     <toc-item title="Performance Summary" target="Performance Summary:" />
    </view>
-   <view inputState="Routed" program="xpwr" contextTags="EDK_OFF" type="Report" file="InterfaceLct1407.pwr" label="Power Report" >
+   <view inputState="Routed" program="xpwr" contextTags="EDK_OFF" type="Report" file="user_logic.pwr" label="Power Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Power summary" target="Power summary" />
     <toc-item title="Thermal summary" target="Thermal summary" />
    </view>
-   <view inputState="Routed" program="bitgen" contextTags="FPGA_ONLY" type="Report" file="InterfaceLct1407.bgn" label="Bitgen Report" >
+   <view inputState="Routed" program="bitgen" contextTags="FPGA_ONLY" type="Report" file="user_logic.bgn" label="Bitgen Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Bitgen Options" target="Summary of Bitgen Options:" />
     <toc-item title="Final Summary" target="DRC detected" />
@@ -149,20 +149,20 @@
   </viewgroup>
   <viewgroup label="Secondary Reports" >
    <view inputState="PreSynthesized" program="isim" hidden="if_missing" type="Secondary_Report" file="isim.log" label="ISIM Simulator Log" />
-   <view inputState="Synthesized" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/synthesis/InterfaceLct1407_synthesis.nlf" label="Post-Synthesis Simulation Model Report" >
+   <view inputState="Synthesized" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/synthesis/user_logic_synthesis.nlf" label="Post-Synthesis Simulation Model Report" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
    </view>
-   <view inputState="Translated" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/translate/InterfaceLct1407_translate.nlf" label="Post-Translate Simulation Model Report" >
+   <view inputState="Translated" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/translate/user_logic_translate.nlf" label="Post-Translate Simulation Model Report" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
    </view>
-   <view inputState="Translated" program="netgen" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_tran_fecn.nlf" label="Post-Translate Formality Netlist Report" />
-   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Secondary_Report" file="InterfaceLct1407_map.map" label="Map Log File" >
+   <view inputState="Translated" program="netgen" hidden="if_missing" type="Secondary_Report" file="user_logic_tran_fecn.nlf" label="Post-Translate Formality Netlist Report" />
+   <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Secondary_Report" file="user_logic_map.map" label="Map Log File" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
     <toc-item title="Design Information" target="Design Information" />
     <toc-item title="Design Summary" target="Design Summary" />
    </view>
    <view inputState="Routed" program="smartxplorer" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="smartxplorer_results/smartxplorer.txt" label="SmartXplorer Report" />
-   <view inputState="Mapped" program="trce" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_preroute.twr" label="Post-Map Static Timing Report" >
+   <view inputState="Mapped" program="trce" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic_preroute.twr" label="Post-Map Static Timing Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
     <toc-item title="Timing Report Description" target="Device,package,speed:" />
     <toc-item title="Informational Messages" target="INFO:" />
@@ -173,43 +173,43 @@
     <toc-item title="Timing Summary" target="Timing summary:" />
     <toc-item title="Trace Settings" target="Trace Settings:" />
    </view>
-   <view inputState="Mapped" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/map/InterfaceLct1407_map.nlf" label="Post-Map Simulation Model Report" />
-   <view inputState="Mapped" program="map" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_map.psr" label="Physical Synthesis Report" >
+   <view inputState="Mapped" program="netgen" hidden="if_missing" type="Secondary_Report" file="netgen/map/user_logic_map.nlf" label="Post-Map Simulation Model Report" />
+   <view inputState="Mapped" program="map" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic_map.psr" label="Physical Synthesis Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
    </view>
-   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="true" type="Pad_Report" file="InterfaceLct1407_pad.txt" label="Pad Report" >
+   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="true" type="Pad_Report" file="user_logic_pad.txt" label="Pad Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
    </view>
-   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="true" type="Secondary_Report" file="InterfaceLct1407.unroutes" label="Unroutes Report" >
+   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="true" type="Secondary_Report" file="user_logic.unroutes" label="Unroutes Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
    </view>
-   <view inputState="Mapped" program="map" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_preroute.tsi" label="Post-Map Constraints Interaction Report" >
+   <view inputState="Mapped" program="map" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic_preroute.tsi" label="Post-Map Constraints Interaction Report" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
    </view>
-   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.grf" label="Guide Results Report" />
-   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.dly" label="Asynchronous Delay Report" />
-   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.clk_rgn" label="Clock Region Report" />
-   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.tsi" label="Post-Place and Route Constraints Interaction Report" >
+   <view inputState="Mapped" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.grf" label="Guide Results Report" />
+   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.dly" label="Asynchronous Delay Report" />
+   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.clk_rgn" label="Clock Region Report" />
+   <view inputState="Routed" program="par" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.tsi" label="Post-Place and Route Constraints Interaction Report" >
     <toc-item title="Top of Report" target="Copyright (c)" searchDir="Forward" />
    </view>
-   <view inputState="Routed" program="netgen" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_par_fecn.nlf" label="Post-Place and Route Formality Netlist Report" />
-   <view inputState="Routed" program="netgen" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="netgen/par/InterfaceLct1407_timesim.nlf" label="Post-Place and Route Simulation Model Report" />
-   <view inputState="Routed" program="netgen" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407_sta.nlf" label="Primetime Netlist Report" >
+   <view inputState="Routed" program="netgen" hidden="if_missing" type="Secondary_Report" file="user_logic_par_fecn.nlf" label="Post-Place and Route Formality Netlist Report" />
+   <view inputState="Routed" program="netgen" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="netgen/par/user_logic_timesim.nlf" label="Post-Place and Route Simulation Model Report" />
+   <view inputState="Routed" program="netgen" hidden="if_missing" type="Secondary_Report" file="user_logic_sta.nlf" label="Primetime Netlist Report" >
     <toc-item title="Top of Report" target="Release" searchDir="Forward" />
    </view>
-   <view inputState="Routed" program="ibiswriter" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.ibs" label="IBIS Model" >
+   <view inputState="Routed" program="ibiswriter" hidden="if_missing" type="Secondary_Report" file="user_logic.ibs" label="IBIS Model" >
     <toc-item title="Top of Report" target="IBIS Models for" searchDir="Forward" />
     <toc-item title="Component" target="Component " />
    </view>
-   <view inputState="Routed" program="pin2ucf" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.lck" label="Back-annotate Pin Report" >
+   <view inputState="Routed" program="pin2ucf" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.lck" label="Back-annotate Pin Report" >
     <toc-item title="Top of Report" target="pin2ucf Report File" searchDir="Forward" />
     <toc-item title="Constraint Conflicts Information" target="Constraint Conflicts Information" />
    </view>
-   <view inputState="Routed" program="pin2ucf" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="InterfaceLct1407.lpc" label="Locked Pin Constraints" >
+   <view inputState="Routed" program="pin2ucf" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="user_logic.lpc" label="Locked Pin Constraints" >
     <toc-item title="Top of Report" target="top.lpc" searchDir="Forward" />
     <toc-item title="Newly Added Constraints" target="The following constraints were newly added" />
    </view>
-   <view inputState="Translated" program="netgen" contextTags="CPLD_ONLY,EDK_OFF" hidden="if_missing" type="Secondary_Report" file="netgen/fit/InterfaceLct1407_timesim.nlf" label="Post-Fit Simulation Model Report" />
+   <view inputState="Translated" program="netgen" contextTags="CPLD_ONLY,EDK_OFF" hidden="if_missing" type="Secondary_Report" file="netgen/fit/user_logic_timesim.nlf" label="Post-Fit Simulation Model Report" />
    <view inputState="Routed" program="bitgen" contextTags="FPGA_ONLY" hidden="if_missing" type="HTML" file="usage_statistics_webtalk.html" label="WebTalk Report" />
    <view inputState="Routed" program="bitgen" contextTags="FPGA_ONLY" hidden="if_missing" type="Secondary_Report" file="webtalk.log" label="WebTalk Log File" />
   </viewgroup>
