@@ -1,0 +1,2 @@
+vhdl work "../../../hdl/vhdl/InterfaceLct1407.vhd"
+vhdl work "../../../hdl/vhdl/TB_InterfaceLct1407.vhd"

@@ -111,8 +111,11 @@ BEGIN
          wait until Sck = '1';
          Miso <= Frame(i);
       end loop ; -- ADC_Frame
-	  
+
+      -- insert stimulus here 
+	  wait for 100ns;
       wait;
    end process;
 
 END;
+

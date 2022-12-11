@@ -1,0 +1,10 @@
+Command line:
+   TB_InterfaceLct1407_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1089
+
+Sun Dec 11 05:56:18 2022
+
+
+ Elaboration Time: 0.060086 sec
