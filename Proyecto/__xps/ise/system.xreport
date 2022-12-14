@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-11T06:55:31</DateModified>
+  <DateModified>2022-12-14T16:43:10</DateModified>
   <ModuleName>system</ModuleName>
-  <SummaryTimeStamp>2022-12-11T06:55:31</SummaryTimeStamp>
-  <SavedFilePath>Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/__xps/ise/system.xreport</SavedFilePath>
+  <SummaryTimeStamp>2022-12-14T16:43:10</SummaryTimeStamp>
+  <SavedFilePath>E:/ProyectoFinalSDE/Proyecto/__xps/ise/system.xreport</SavedFilePath>
   <FilterFile>filter.filter</FilterFile>
-  <SavedFilterFilePath>Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/__xps/ise</SavedFilterFilePath>
+  <SavedFilterFilePath>E:/ProyectoFinalSDE/Proyecto/__xps/ise</SavedFilterFilePath>
   <DateInitialized>2022-11-06T15:53:44</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
