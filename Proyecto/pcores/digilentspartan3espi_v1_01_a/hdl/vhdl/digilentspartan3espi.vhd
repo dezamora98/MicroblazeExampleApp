@@ -170,9 +170,7 @@ entity digilentspartan3espi is
 		MB_Mosi: in std_logic;
 		MB_Sck: in std_logic;
 
-		SS_DAC: in std_logic;
-		SS_AMP: in std_logic;
-		SS_Flash: in std_logic;
+		SS_Spi: in std_logic_vector(0 to 2);
 
 		CS_DAC: out std_logic;
 		CS_ADC: out std_logic;
@@ -410,9 +408,9 @@ begin
       MB_Mosi =>  MB_Mosi,
       MB_Sck  =>  MB_Sck,
 
-      SS_DAC    =>  SS_DAC,
-      SS_AMP    =>  SS_AMP,
-      SS_Flash  =>  SS_Flash,
+      SS_DAC    =>  SS_Spi(0),
+      SS_AMP    =>  SS_Spi(1),
+      SS_Flash  =>  SS_Spi(2),
 
       CS_DAC    =>  CS_DAC,
       CS_ADC    =>  CS_ADC,

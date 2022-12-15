@@ -3,8 +3,7 @@
 
 int main (void)
 {
-    printLcd("Ahora siiiiiiiii",0);	
-	printLcd(";)",16);	
+    printLcd("Pincha ('_')",0);
     while(1);
     return 0;
 }

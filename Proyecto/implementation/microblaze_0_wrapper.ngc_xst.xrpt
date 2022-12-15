@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Thu Nov 10 18:26:17 2022">
+  <application stringID="Xst" timeStamp="Thu Dec 15 11:05:57 2022">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -45,7 +45,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="AMD Ryzen 5 5500U with Radeon Graphics         "/>
-          <item stringID="speed" value="2096 MHz"/>
+          <item stringID="speed" value="2095 MHz"/>
         </row>
       </table>
     </section>
@@ -61,7 +61,7 @@
       <item DEFAULT="/" stringID="XST_HIERARCHYSEPARATOR" value="/"/>
       <item DEFAULT="YES" label="-iobuf" stringID="XST_IOBUF" value="NO"/>
       <item DEFAULT="" label="-sd" stringID="XST_SD" value="{../implementation/microblaze_0_wrapper}"/>
-      <item DEFAULT="" label="-vlgincdir" stringID="XST_VLGINCDIR" value="{&quot;Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\&quot; &quot;C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\&quot; }"/>
+      <item DEFAULT="" label="-vlgincdir" stringID="XST_VLGINCDIR" value="{&quot;Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\&quot; &quot;C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\&quot; }"/>
     </section>
     <section stringID="XST_HDL_SYNTHESIS_REPORT">
       <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="2"></item>

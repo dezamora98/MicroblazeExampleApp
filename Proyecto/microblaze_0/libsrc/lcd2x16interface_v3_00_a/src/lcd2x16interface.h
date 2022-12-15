@@ -14,6 +14,10 @@
 #include "xstatus.h"
 #include "xil_io.h"
 
+#include "xparameters.h"
+#include "lcd2x16interface.h"
+#include "string.h"
+
 /************************** Constant Definitions ***************************/
 
 
@@ -115,5 +119,8 @@
  *
  */
 XStatus LCD2X16INTERFACE_SelfTest(void * baseaddr_p);
+
+void printLcd(const char* msg,u8 initaddr);
+u32 invertbits(u32 n, u8 size);
 
 #endif /** LCD2X16INTERFACE_H */

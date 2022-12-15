@@ -24,7 +24,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "microblaze_0_wrapper_xst.prj"
-Verilog Include Directory          : {"Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc3s1600efg320-4
@@ -331,7 +331,7 @@ Compiling vhdl file "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mi
 Entity <MicroBlaze> compiled.
 WARNING:HDLParsers:3293 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_00_b/hdl/vhdl/microblaze.vhd" Line 1057. Constant 'C_CORE_GENERATION_INFO' C_CORE_GENERATION_INFO is not locally static.
 Entity <MicroBlaze> (Architecture <IMP>) compiled.
-Compiling vhdl file "//vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/hdl/microblaze_0_wrapper.vhd" in Library work.
+Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/microblaze_0_wrapper.vhd" in Library work.
 Entity <microblaze_0_wrapper> compiled.
 Entity <microblaze_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -2836,7 +2836,7 @@ Unit <microblaze> synthesized.
 
 
 Synthesizing Unit <microblaze_0_wrapper>.
-    Related source file is "//vboxsvr/workarea/SysEmp/test_MB_LCDCtr/TestLCD_2/hdl/microblaze_0_wrapper.vhd".
+    Related source file is "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/microblaze_0_wrapper.vhd".
 Unit <microblaze_0_wrapper> synthesized.
 
 WARNING:Xst:524 - All outputs of the instance <PVR_I> of the block <PVR> are unconnected in block <Data_Flow>.
@@ -3458,12 +3458,12 @@ Delay:               3.644ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 40.00 secs
-Total CPU time to Xst completion: 39.72 secs
+Total REAL time to Xst completion: 41.00 secs
+Total CPU time to Xst completion: 41.20 secs
  
 --> 
 
-Total memory usage is 228108 kilobytes
+Total memory usage is 227944 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  623 (   0 filtered)

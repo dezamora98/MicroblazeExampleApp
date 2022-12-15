@@ -1,10 +1,9 @@
 //! **************************************************************************
-// Written by: Map M.81d on Thu Nov 10 21:49:16 2022
+// Written by: Map M.81d on Thu Dec 15 11:09:47 2022
 //! **************************************************************************
 
 SCHEMATIC START;
-NET "microblaze_0/microblaze_0/Area.Data_Flow_I/PC_Module_I/pc_write_I"
-        USELOWSKEWLINES;
+COMP "CS_DAC_pin" LOCATE = SITE "N8" LEVEL 1;
 COMP "lcd2x16interface_0_en_pin" LOCATE = SITE "M18" LEVEL 1;
 COMP "fpga_0_clk_1_sys_clk_pin" LOCATE = SITE "C9" LEVEL 1;
 PIN fpga_0_clk_1_sys_clk_pin_pin<0> = BEL "fpga_0_clk_1_sys_clk_pin" PINNAME
@@ -12,6 +11,10 @@ PIN fpga_0_clk_1_sys_clk_pin_pin<0> = BEL "fpga_0_clk_1_sys_clk_pin" PINNAME
 PIN "fpga_0_clk_1_sys_clk_pin_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
 COMP "lcd2x16interface_0_sfce_pin" LOCATE = SITE "D16" LEVEL 1;
 COMP "fpga_0_rst_1_sys_rst_pin" LOCATE = SITE "K17" LEVEL 1;
+COMP "Miso_pin" LOCATE = SITE "N10" LEVEL 1;
+COMP "CS_AMP_pin" LOCATE = SITE "N7" LEVEL 1;
+COMP "Sck_pin" LOCATE = SITE "U16" LEVEL 1;
+COMP "Mosi_pin" LOCATE = SITE "T4" LEVEL 1;
 COMP "lcd2x16interface_0_data_pin<0>" LOCATE = SITE "R15" LEVEL 1;
 COMP "lcd2x16interface_0_data_pin<1>" LOCATE = SITE "R16" LEVEL 1;
 COMP "lcd2x16interface_0_data_pin<2>" LOCATE = SITE "P17" LEVEL 1;
@@ -22,6 +25,10 @@ COMP "lcd2x16interface_0_data_pin<6>" LOCATE = SITE "R8" LEVEL 1;
 COMP "lcd2x16interface_0_data_pin<7>" LOCATE = SITE "T8" LEVEL 1;
 COMP "lcd2x16interface_0_rs_pin" LOCATE = SITE "L18" LEVEL 1;
 COMP "lcd2x16interface_0_rw_pin" LOCATE = SITE "L17" LEVEL 1;
+COMP "CS_Flash_pin" LOCATE = SITE "U3" LEVEL 1;
+COMP "CS_ADC_pin" LOCATE = SITE "P11" LEVEL 1;
+NET "microblaze_0/microblaze_0/Area.Data_Flow_I/PC_Module_I/pc_write_I"
+        USELOWSKEWLINES;
 PIN lmb_bram/lmb_bram/ramb16_s2_s2_0.A_pins<14> = BEL
         "lmb_bram/lmb_bram/ramb16_s2_s2_0.A" PINNAME CLKA;
 PIN lmb_bram/lmb_bram/ramb16_s2_s2_0.B_pins<14> = BEL
@@ -321,6 +328,30 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_15"
         BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_16"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_17"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_18"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_19"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_20"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_21"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_22"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_23"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_24"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_25"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_26"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_27"
+        BEL
         "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_28"
         BEL
         "microblaze_0/microblaze_0/Area.Using_Ext_Databus.Using_D_PLB.DPLB_Interface_I1/DPLB_M_ABus_29"
@@ -358,6 +389,30 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_14"
         BEL
         "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_15"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_16"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_17"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_18"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_19"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_20"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_21"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_22"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_23"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_24"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_25"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_26"
+        BEL
+        "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_27"
         BEL
         "microblaze_0/microblaze_0/Area.Using_I_PLB.IPLB_Interface_I1/instr_addr_28"
         BEL
@@ -1880,6 +1935,8 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL "mb_plb/mb_plb/I_PLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[0].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[1].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[2].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[3].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_0" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_1" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_2" BEL
@@ -1896,6 +1953,18 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_13" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_14" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_15" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_16" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_17" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_18" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_19" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_20" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_21" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_22" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_23" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_24" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_25" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_26" BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_27" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_28" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_29" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_BE_0" BEL
@@ -2568,6 +2637,424 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "lcd2x16interface_0/lcd2x16interface_0/USER_LOGIC_I/Inst_cldInterface/Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.A_pins<10>"
         PIN
         "lcd2x16interface_0/lcd2x16interface_0/USER_LOGIC_I/Inst_cldInterface/Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram.B_pins<10>"
+        BEL "spi/spi/I_SPI_MODULE/transfer_start_1" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_5" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_7" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_3" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_4" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_1" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_0" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_status_reg_2" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/rd_clear_sl_busy" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_wrcomp_i" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_24" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_26" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_27" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_28" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_29" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_30" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_31" BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/drr_Overrun_strobe"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
+        BEL "spi/spi/ip2Bus_WrAck_fifo_no" BEL "spi/spi/ip2Bus_RdAck_fifo_no"
+        BEL "spi/spi/ip2Bus_WrAck_fifo_no_d1" BEL
+        "spi/spi/ip2Bus_RdAck_fifo_no_d1" BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_7"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_6"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/sr_7_Rx_Empty_i"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_4"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_3"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_5"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_1"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_0"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/Register_Data_2"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_7"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_6"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_4"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/sr_5_Tx_Empty_i"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_5"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_2"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_1"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_3"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/register_Data_r_0"
+        BEL
+        "spi/spi/MAP_SIGNALS_AND_REG_WITHOUT_FIFOS.I_RECEIVE_REG/dtr_underrun_d1"
+        BEL "spi/spi/I_INTERRUPT_CONTROL/irpt_rdack_d1" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ipif_glbl_irpt_enable_reg" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/Intr2Bus_WrAck" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_7" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_5" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_4" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_3" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_2" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_1" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_0" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/Intr2Bus_RdAck" BEL
+        "spi/spi/I_INTERRUPT_CONTROL/irpt_wrack_d1" BEL
+        "spi/spi/I_STATUS_REG/register_Data_int_2" BEL
+        "spi/spi/I_STATUS_REG/register_Data_int_1" BEL
+        "spi/spi/I_STATUS_REG/register_Data_int_0" BEL
+        "spi/spi/I_STATUS_REG/modf" BEL "spi/spi/I_SOFT_RESET/FF_WRACK" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[7].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[6].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[5].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[4].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[3].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[2].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[1].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/RESET_FLOPS[0].RST_FLOPS" BEL
+        "spi/spi/I_SOFT_RESET/reset_trig" BEL
+        "spi/spi/I_SOFT_RESET/sw_rst_cond_d1" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_9" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_8" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_0" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_6" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_5" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_7" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_3" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_2" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_4" BEL
+        "spi/spi/I_CONTROL_REG_1/control_register_data_int_1" BEL
+        "spi/spi/I_SPI_MODULE/Ratio_Count_0" BEL
+        "spi/spi/I_SPI_MODULE/Ratio_Count_1" BEL
+        "spi/spi/I_SPI_MODULE/Ratio_Count_2" BEL
+        "spi/spi/I_SPI_MODULE/Ratio_Count_3" BEL "spi/spi/I_SPI_MODULE/sck_d2"
+        BEL "spi/spi/I_SPI_MODULE/SPIXfer_done_int_d1" BEL
+        "spi/spi/I_SPI_MODULE/sck_d1" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_0" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_1" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_2" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_3" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_4" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_5" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_6" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_7" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_7" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_6" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_5" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_0" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_1" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_2" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_3" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_4" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_5" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_6" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0011_7" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_4" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_3" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_2" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_1" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_0" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_1" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_2" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_3" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_4" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_5" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_6" BEL
+        "spi/spi/I_SPI_MODULE/rx_shft_reg_s_7" BEL
+        "spi/spi/I_SPI_MODULE/Receive_Data_0" BEL
+        "spi/spi/I_SPI_MODULE/SPIXfer_done_int" BEL
+        "spi/spi/I_SPI_MODULE/SPIXfer_done_int_pulse_d2" BEL
+        "spi/spi/I_SPI_MODULE/transfer_start_d1" BEL
+        "spi/spi/I_SPI_MODULE/Count_trigger_d1" BEL
+        "spi/spi/I_SPI_MODULE/sck_o_int" BEL
+        "spi/spi/I_SPI_MODULE/SS_Asserted_1dly" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_1" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_0" BEL
+        "spi/spi/I_SPI_MODULE/Serial_Dout" BEL
+        "spi/spi/I_SPI_MODULE/MODF_strobe" BEL
+        "spi/spi/I_SPI_MODULE/transfer_start" BEL
+        "spi/spi/I_SPI_MODULE/Allow_MODF_Strobe" BEL
+        "spi/spi/I_SPI_MODULE/SCK_O" BEL "spi/spi/I_SPI_MODULE/SS_O_1" BEL
+        "spi/spi/I_SPI_MODULE/SS_O_2" BEL "spi/spi/I_SPI_MODULE/SS_O_0" BEL
+        "spi/spi/I_SPI_MODULE/Count_trigger" BEL
+        "spi/spi/I_SPI_MODULE/Count_4" BEL "spi/spi/I_SPI_MODULE/Count_3" BEL
+        "spi/spi/I_SPI_MODULE/Count_2" BEL "spi/spi/I_SPI_MODULE/Count_1" BEL
+        "spi/spi/I_SPI_MODULE/Count_0" BEL
+        "spi/spi/I_SPI_MODULE/SPIXfer_done_int_pulse_d1" BEL
+        "spi/spi/I_SPI_MODULE/Allow_Slave_MODF_Strobe" BEL
+        "spi/spi/I_SPI_MODULE/DTR_underrun" BEL
+        "spi/spi/I_SPI_MODULE/Serial_Din" BEL
+        "spi/spi/I_SPI_MODULE/Slave_MODF_strobe" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_7" BEL
+        "spi/spi/I_SPI_MODULE/SS_Asserted" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_6" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_5" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_4" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_3" BEL
+        "spi/spi/I_SPI_MODULE/Shift_Reg_2" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_3"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_2"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_16"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_16"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_7"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_8"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_10"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_7"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_20"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_8"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_10"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_21"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_17"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_18"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_19"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_20"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_21"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_17"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_18"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_19"
+        BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_busy" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/bus2ip_be_i_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/bus2ip_be_i_3" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/data_timeout" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/bus2ip_rnw_i" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/set_sl_busy" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_be_reg_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_be_reg_3" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_rnw_reg" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rearbitrate_i" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_1" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_2" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_3" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_4" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_5" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_6" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_7" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_8" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_9" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_10" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_11" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_12" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_13" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_14" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_15" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_16" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_17" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_18" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_19" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_20" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_21" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_22" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_23" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_24" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_25" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_26" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_27" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_28" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_abus_reg_29" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_22" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_23" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/sl_rddbus_i_25" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/addr_cntl_cs_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_pavalid_reg" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30" BEL
+        "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31" BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_5"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_3"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_2"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_1"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd2"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_6"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_7"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_4"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_13"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_3"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_12"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_2"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_11"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_1"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_10"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_9"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_8"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_7"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_6"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_5"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_4"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_3"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_2"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_1"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_0"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_13"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_12"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_11"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_10"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_9"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/ClkDiv"
+        BEL
+        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_8"
         BEL "clock_generator_0/clock_generator_0/DCM0_CLK0_BUFG_INST.GCLKMUX"
         BEL "clock_generator_0/clock_generator_0/DCM0_CLK0_BUFG_INST";
 PIN

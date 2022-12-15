@@ -32,6 +32,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="digilentspartan3espi.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="digilentspartan3espi.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="digilentspartan3espi.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="digilentspartan3espi_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="digilentspartan3espi_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="digilentspartan3espi_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="digilentspartan3espi_xst.xrpt"/>
@@ -80,7 +81,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671116062" xil_pn:in_ck="2072486293107199191" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4021151293042837188" xil_pn:start_ts="1671116055">
+    <transform xil_pn:end_ts="1671119794" xil_pn:in_ck="2072486293107199191" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4021151293042837188" xil_pn:start_ts="1671119787">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>

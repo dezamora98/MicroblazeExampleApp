@@ -10,4 +10,4 @@ run
 -hierarchy_separator /
 -iobuf NO
 -sd {../implementation/microblaze_0_wrapper}
--vlgincdir {"Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+-vlgincdir {"Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\" "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

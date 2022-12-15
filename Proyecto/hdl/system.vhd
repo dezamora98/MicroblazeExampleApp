@@ -15,7 +15,14 @@ entity system is
     lcd2x16interface_0_rs_pin : out std_logic;
     lcd2x16interface_0_en_pin : out std_logic;
     lcd2x16interface_0_rw_pin : out std_logic;
-    lcd2x16interface_0_sfce_pin : out std_logic
+    lcd2x16interface_0_sfce_pin : out std_logic;
+    Miso_pin : in std_logic;
+    Mosi_pin : out std_logic;
+    Sck_pin : out std_logic;
+    CS_DAC_pin : out std_logic;
+    CS_ADC_pin : out std_logic;
+    CS_AMP_pin : out std_logic;
+    CS_Flash_pin : out std_logic
   );
 end system;
 
@@ -613,7 +620,7 @@ architecture STRUCTURE of system is
       PLB_Clk : in std_logic;
       SYS_Rst : in std_logic;
       PLB_Rst : out std_logic;
-      SPLB_Rst : out std_logic_vector(0 to 1);
+      SPLB_Rst : out std_logic_vector(0 to 3);
       MPLB_Rst : out std_logic_vector(0 to 1);
       PLB_dcrAck : out std_logic;
       PLB_dcrDBus : out std_logic_vector(0 to 31);
@@ -637,22 +644,22 @@ architecture STRUCTURE of system is
       M_type : in std_logic_vector(0 to 5);
       M_wrBurst : in std_logic_vector(0 to 1);
       M_wrDBus : in std_logic_vector(0 to 63);
-      Sl_addrAck : in std_logic_vector(0 to 1);
-      Sl_MRdErr : in std_logic_vector(0 to 3);
-      Sl_MWrErr : in std_logic_vector(0 to 3);
-      Sl_MBusy : in std_logic_vector(0 to 3);
-      Sl_rdBTerm : in std_logic_vector(0 to 1);
-      Sl_rdComp : in std_logic_vector(0 to 1);
-      Sl_rdDAck : in std_logic_vector(0 to 1);
-      Sl_rdDBus : in std_logic_vector(0 to 63);
-      Sl_rdWdAddr : in std_logic_vector(0 to 7);
-      Sl_rearbitrate : in std_logic_vector(0 to 1);
-      Sl_SSize : in std_logic_vector(0 to 3);
-      Sl_wait : in std_logic_vector(0 to 1);
-      Sl_wrBTerm : in std_logic_vector(0 to 1);
-      Sl_wrComp : in std_logic_vector(0 to 1);
-      Sl_wrDAck : in std_logic_vector(0 to 1);
-      Sl_MIRQ : in std_logic_vector(0 to 3);
+      Sl_addrAck : in std_logic_vector(0 to 3);
+      Sl_MRdErr : in std_logic_vector(0 to 7);
+      Sl_MWrErr : in std_logic_vector(0 to 7);
+      Sl_MBusy : in std_logic_vector(0 to 7);
+      Sl_rdBTerm : in std_logic_vector(0 to 3);
+      Sl_rdComp : in std_logic_vector(0 to 3);
+      Sl_rdDAck : in std_logic_vector(0 to 3);
+      Sl_rdDBus : in std_logic_vector(0 to 127);
+      Sl_rdWdAddr : in std_logic_vector(0 to 15);
+      Sl_rearbitrate : in std_logic_vector(0 to 3);
+      Sl_SSize : in std_logic_vector(0 to 7);
+      Sl_wait : in std_logic_vector(0 to 3);
+      Sl_wrBTerm : in std_logic_vector(0 to 3);
+      Sl_wrComp : in std_logic_vector(0 to 3);
+      Sl_wrDAck : in std_logic_vector(0 to 3);
+      Sl_MIRQ : in std_logic_vector(0 to 7);
       PLB_MIRQ : out std_logic_vector(0 to 1);
       PLB_ABus : out std_logic_vector(0 to 31);
       PLB_UABus : out std_logic_vector(0 to 31);
@@ -684,13 +691,13 @@ architecture STRUCTURE of system is
       PLB_rdPendReq : out std_logic;
       PLB_wrPendReq : out std_logic;
       PLB_rdBurst : out std_logic;
-      PLB_rdPrim : out std_logic_vector(0 to 1);
+      PLB_rdPrim : out std_logic_vector(0 to 3);
       PLB_reqPri : out std_logic_vector(0 to 1);
       PLB_size : out std_logic_vector(0 to 3);
       PLB_type : out std_logic_vector(0 to 2);
       PLB_wrBurst : out std_logic;
       PLB_wrDBus : out std_logic_vector(0 to 31);
-      PLB_wrPrim : out std_logic_vector(0 to 1);
+      PLB_wrPrim : out std_logic_vector(0 to 3);
       PLB_SaddrAck : out std_logic;
       PLB_SMRdErr : out std_logic_vector(0 to 1);
       PLB_SMWrErr : out std_logic_vector(0 to 1);
@@ -1080,12 +1087,142 @@ architecture STRUCTURE of system is
     );
   end component;
 
+  component spi_wrapper is
+    port (
+      SCK_I : in std_logic;
+      SCK_O : out std_logic;
+      SCK_T : out std_logic;
+      MISO_I : in std_logic;
+      MISO_O : out std_logic;
+      MISO_T : out std_logic;
+      MOSI_I : in std_logic;
+      MOSI_O : out std_logic;
+      MOSI_T : out std_logic;
+      SPISEL : in std_logic;
+      SS_I : in std_logic_vector(0 to 2);
+      SS_O : out std_logic_vector(0 to 2);
+      SS_T : out std_logic;
+      SPLB_Clk : in std_logic;
+      SPLB_Rst : in std_logic;
+      PLB_ABus : in std_logic_vector(0 to 31);
+      PLB_PAValid : in std_logic;
+      PLB_masterID : in std_logic_vector(0 to 0);
+      PLB_RNW : in std_logic;
+      PLB_BE : in std_logic_vector(0 to 3);
+      PLB_size : in std_logic_vector(0 to 3);
+      PLB_type : in std_logic_vector(0 to 2);
+      PLB_wrDBus : in std_logic_vector(0 to 31);
+      Sl_addrAck : out std_logic;
+      Sl_SSize : out std_logic_vector(0 to 1);
+      Sl_wait : out std_logic;
+      Sl_rearbitrate : out std_logic;
+      Sl_wrDAck : out std_logic;
+      Sl_wrComp : out std_logic;
+      Sl_rdDBus : out std_logic_vector(0 to 31);
+      Sl_rdDAck : out std_logic;
+      Sl_rdComp : out std_logic;
+      Sl_MBusy : out std_logic_vector(0 to 1);
+      Sl_MWrErr : out std_logic_vector(0 to 1);
+      Sl_MRdErr : out std_logic_vector(0 to 1);
+      PLB_UABus : in std_logic_vector(0 to 31);
+      PLB_SAValid : in std_logic;
+      PLB_rdPrim : in std_logic;
+      PLB_wrPrim : in std_logic;
+      PLB_abort : in std_logic;
+      PLB_busLock : in std_logic;
+      PLB_MSize : in std_logic_vector(0 to 1);
+      PLB_lockErr : in std_logic;
+      PLB_wrBurst : in std_logic;
+      PLB_rdBurst : in std_logic;
+      PLB_wrPendReq : in std_logic;
+      PLB_rdPendReq : in std_logic;
+      PLB_wrPendPri : in std_logic_vector(0 to 1);
+      PLB_rdPendPri : in std_logic_vector(0 to 1);
+      PLB_reqPri : in std_logic_vector(0 to 1);
+      PLB_TAttribute : in std_logic_vector(0 to 15);
+      Sl_wrBTerm : out std_logic;
+      Sl_rdWdAddr : out std_logic_vector(0 to 3);
+      Sl_rdBTerm : out std_logic;
+      Sl_MIRQ : out std_logic_vector(0 to 1);
+      IP2INTC_Irpt : out std_logic
+    );
+  end component;
+
+  component digilent_spartan3e_spi_wrapper is
+    port (
+      Miso : in std_logic;
+      Mosi : out std_logic;
+      Sck : out std_logic;
+      MB_Miso : out std_logic;
+      MB_Mosi : in std_logic;
+      MB_Sck : in std_logic;
+      SS_Spi : in std_logic_vector(0 to 2);
+      CS_DAC : out std_logic;
+      CS_ADC : out std_logic;
+      CS_AMP : out std_logic;
+      CS_Flash : out std_logic;
+      SPLB_Clk : in std_logic;
+      SPLB_Rst : in std_logic;
+      PLB_ABus : in std_logic_vector(0 to 31);
+      PLB_UABus : in std_logic_vector(0 to 31);
+      PLB_PAValid : in std_logic;
+      PLB_SAValid : in std_logic;
+      PLB_rdPrim : in std_logic;
+      PLB_wrPrim : in std_logic;
+      PLB_masterID : in std_logic_vector(0 to 0);
+      PLB_abort : in std_logic;
+      PLB_busLock : in std_logic;
+      PLB_RNW : in std_logic;
+      PLB_BE : in std_logic_vector(0 to 3);
+      PLB_MSize : in std_logic_vector(0 to 1);
+      PLB_size : in std_logic_vector(0 to 3);
+      PLB_type : in std_logic_vector(0 to 2);
+      PLB_lockErr : in std_logic;
+      PLB_wrDBus : in std_logic_vector(0 to 31);
+      PLB_wrBurst : in std_logic;
+      PLB_rdBurst : in std_logic;
+      PLB_wrPendReq : in std_logic;
+      PLB_rdPendReq : in std_logic;
+      PLB_wrPendPri : in std_logic_vector(0 to 1);
+      PLB_rdPendPri : in std_logic_vector(0 to 1);
+      PLB_reqPri : in std_logic_vector(0 to 1);
+      PLB_TAttribute : in std_logic_vector(0 to 15);
+      Sl_addrAck : out std_logic;
+      Sl_SSize : out std_logic_vector(0 to 1);
+      Sl_wait : out std_logic;
+      Sl_rearbitrate : out std_logic;
+      Sl_wrDAck : out std_logic;
+      Sl_wrComp : out std_logic;
+      Sl_wrBTerm : out std_logic;
+      Sl_rdDBus : out std_logic_vector(0 to 31);
+      Sl_rdWdAddr : out std_logic_vector(0 to 3);
+      Sl_rdDAck : out std_logic;
+      Sl_rdComp : out std_logic;
+      Sl_rdBTerm : out std_logic;
+      Sl_MBusy : out std_logic_vector(0 to 1);
+      Sl_MWrErr : out std_logic_vector(0 to 1);
+      Sl_MRdErr : out std_logic_vector(0 to 1);
+      Sl_MIRQ : out std_logic_vector(0 to 1)
+    );
+  end component;
+
   -- Internal signals
 
   signal Dcm_all_locked : std_logic;
   signal Debug_SYS_Rst : std_logic;
+  signal Digilent_Spartan3e_SPI_CS_ADC : std_logic;
+  signal Digilent_Spartan3e_SPI_CS_AMP : std_logic;
+  signal Digilent_Spartan3e_SPI_CS_DAC : std_logic;
+  signal Digilent_Spartan3e_SPI_CS_Flash : std_logic;
+  signal Digilent_Spartan3e_SPI_Miso : std_logic;
+  signal Digilent_Spartan3e_SPI_Mosi : std_logic;
+  signal Digilent_Spartan3e_SPI_Sck : std_logic;
   signal Ext_BRK : std_logic;
   signal Ext_NM_BRK : std_logic;
+  signal SPI_MB_Miso : std_logic;
+  signal SPI_MB_Mosi : std_logic;
+  signal SPI_MB_Sck : std_logic;
+  signal SS_Spi : std_logic_vector(0 to 2);
   signal clk_50_0000MHz : std_logic;
   signal dcm_clk_s : std_logic;
   signal dlmb_LMB_ABus : std_logic_vector(0 to 31);
@@ -1183,7 +1320,7 @@ architecture STRUCTURE of system is
   signal mb_plb_PLB_rdBurst : std_logic;
   signal mb_plb_PLB_rdPendPri : std_logic_vector(0 to 1);
   signal mb_plb_PLB_rdPendReq : std_logic;
-  signal mb_plb_PLB_rdPrim : std_logic_vector(0 to 1);
+  signal mb_plb_PLB_rdPrim : std_logic_vector(0 to 3);
   signal mb_plb_PLB_reqPri : std_logic_vector(0 to 1);
   signal mb_plb_PLB_size : std_logic_vector(0 to 3);
   signal mb_plb_PLB_type : std_logic_vector(0 to 2);
@@ -1191,24 +1328,24 @@ architecture STRUCTURE of system is
   signal mb_plb_PLB_wrDBus : std_logic_vector(0 to 31);
   signal mb_plb_PLB_wrPendPri : std_logic_vector(0 to 1);
   signal mb_plb_PLB_wrPendReq : std_logic;
-  signal mb_plb_PLB_wrPrim : std_logic_vector(0 to 1);
-  signal mb_plb_SPLB_Rst : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_MBusy : std_logic_vector(0 to 3);
-  signal mb_plb_Sl_MIRQ : std_logic_vector(0 to 3);
-  signal mb_plb_Sl_MRdErr : std_logic_vector(0 to 3);
-  signal mb_plb_Sl_MWrErr : std_logic_vector(0 to 3);
-  signal mb_plb_Sl_SSize : std_logic_vector(0 to 3);
-  signal mb_plb_Sl_addrAck : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_rdBTerm : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_rdComp : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_rdDAck : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_rdDBus : std_logic_vector(0 to 63);
-  signal mb_plb_Sl_rdWdAddr : std_logic_vector(0 to 7);
-  signal mb_plb_Sl_rearbitrate : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_wait : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_wrBTerm : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_wrComp : std_logic_vector(0 to 1);
-  signal mb_plb_Sl_wrDAck : std_logic_vector(0 to 1);
+  signal mb_plb_PLB_wrPrim : std_logic_vector(0 to 3);
+  signal mb_plb_SPLB_Rst : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_MBusy : std_logic_vector(0 to 7);
+  signal mb_plb_Sl_MIRQ : std_logic_vector(0 to 7);
+  signal mb_plb_Sl_MRdErr : std_logic_vector(0 to 7);
+  signal mb_plb_Sl_MWrErr : std_logic_vector(0 to 7);
+  signal mb_plb_Sl_SSize : std_logic_vector(0 to 7);
+  signal mb_plb_Sl_addrAck : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_rdBTerm : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_rdComp : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_rdDAck : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_rdDBus : std_logic_vector(0 to 127);
+  signal mb_plb_Sl_rdWdAddr : std_logic_vector(0 to 15);
+  signal mb_plb_Sl_rearbitrate : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_wait : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_wrBTerm : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_wrComp : std_logic_vector(0 to 3);
+  signal mb_plb_Sl_wrDAck : std_logic_vector(0 to 3);
   signal mb_reset : std_logic;
   signal microblaze_0_mdm_bus_Dbg_Capture : std_logic;
   signal microblaze_0_mdm_bus_Dbg_Clk : std_logic;
@@ -1221,9 +1358,11 @@ architecture STRUCTURE of system is
   signal net_gnd0 : std_logic;
   signal net_gnd1 : std_logic_vector(0 downto 0);
   signal net_gnd2 : std_logic_vector(1 downto 0);
+  signal net_gnd3 : std_logic_vector(0 to 2);
   signal net_gnd4 : std_logic_vector(0 to 3);
   signal net_gnd10 : std_logic_vector(0 to 9);
   signal net_gnd32 : std_logic_vector(0 to 31);
+  signal net_vcc0 : std_logic;
   signal sys_bus_reset : std_logic_vector(0 to 0);
   signal sys_rst_s : std_logic;
 
@@ -1239,6 +1378,8 @@ architecture STRUCTURE of system is
   attribute BOX_TYPE of mdm_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of proc_sys_reset_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of lcd2x16interface_0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of spi_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of digilent_spartan3e_spi_wrapper : component is "user_black_box";
 
 begin
 
@@ -1251,12 +1392,21 @@ begin
   lcd2x16interface_0_en_pin <= lcd2x16interface_0_en;
   lcd2x16interface_0_rw_pin <= lcd2x16interface_0_rw;
   lcd2x16interface_0_sfce_pin <= lcd2x16interface_0_sfce;
+  Digilent_Spartan3e_SPI_Miso <= Miso_pin;
+  Mosi_pin <= Digilent_Spartan3e_SPI_Mosi;
+  Sck_pin <= Digilent_Spartan3e_SPI_Sck;
+  CS_DAC_pin <= Digilent_Spartan3e_SPI_CS_DAC;
+  CS_ADC_pin <= Digilent_Spartan3e_SPI_CS_ADC;
+  CS_AMP_pin <= Digilent_Spartan3e_SPI_CS_AMP;
+  CS_Flash_pin <= Digilent_Spartan3e_SPI_CS_Flash;
   net_gnd0 <= '0';
   net_gnd1(0 downto 0) <= B"0";
   net_gnd10(0 to 9) <= B"0000000000";
   net_gnd2(1 downto 0) <= B"00";
+  net_gnd3(0 to 2) <= B"000";
   net_gnd32(0 to 31) <= B"00000000000000000000000000000000";
   net_gnd4(0 to 3) <= B"0000";
+  net_vcc0 <= '1';
 
   microblaze_0 : microblaze_0_wrapper
     port map (
@@ -2304,6 +2454,123 @@ begin
       Sl_MWrErr => mb_plb_Sl_MWrErr(2 to 3),
       Sl_MRdErr => mb_plb_Sl_MRdErr(2 to 3),
       Sl_MIRQ => mb_plb_Sl_MIRQ(2 to 3)
+    );
+
+  spi : spi_wrapper
+    port map (
+      SCK_I => net_gnd0,
+      SCK_O => SPI_MB_Sck,
+      SCK_T => open,
+      MISO_I => SPI_MB_Miso,
+      MISO_O => open,
+      MISO_T => open,
+      MOSI_I => net_gnd0,
+      MOSI_O => SPI_MB_Mosi,
+      MOSI_T => open,
+      SPISEL => net_vcc0,
+      SS_I => net_gnd3,
+      SS_O => SS_Spi,
+      SS_T => open,
+      SPLB_Clk => clk_50_0000MHz,
+      SPLB_Rst => mb_plb_SPLB_Rst(2),
+      PLB_ABus => mb_plb_PLB_ABus,
+      PLB_PAValid => mb_plb_PLB_PAValid,
+      PLB_masterID => mb_plb_PLB_masterID(0 to 0),
+      PLB_RNW => mb_plb_PLB_RNW,
+      PLB_BE => mb_plb_PLB_BE,
+      PLB_size => mb_plb_PLB_size,
+      PLB_type => mb_plb_PLB_type,
+      PLB_wrDBus => mb_plb_PLB_wrDBus,
+      Sl_addrAck => mb_plb_Sl_addrAck(2),
+      Sl_SSize => mb_plb_Sl_SSize(4 to 5),
+      Sl_wait => mb_plb_Sl_wait(2),
+      Sl_rearbitrate => mb_plb_Sl_rearbitrate(2),
+      Sl_wrDAck => mb_plb_Sl_wrDAck(2),
+      Sl_wrComp => mb_plb_Sl_wrComp(2),
+      Sl_rdDBus => mb_plb_Sl_rdDBus(64 to 95),
+      Sl_rdDAck => mb_plb_Sl_rdDAck(2),
+      Sl_rdComp => mb_plb_Sl_rdComp(2),
+      Sl_MBusy => mb_plb_Sl_MBusy(4 to 5),
+      Sl_MWrErr => mb_plb_Sl_MWrErr(4 to 5),
+      Sl_MRdErr => mb_plb_Sl_MRdErr(4 to 5),
+      PLB_UABus => mb_plb_PLB_UABus,
+      PLB_SAValid => mb_plb_PLB_SAValid,
+      PLB_rdPrim => mb_plb_PLB_rdPrim(2),
+      PLB_wrPrim => mb_plb_PLB_wrPrim(2),
+      PLB_abort => mb_plb_PLB_abort,
+      PLB_busLock => mb_plb_PLB_busLock,
+      PLB_MSize => mb_plb_PLB_MSize,
+      PLB_lockErr => mb_plb_PLB_lockErr,
+      PLB_wrBurst => mb_plb_PLB_wrBurst,
+      PLB_rdBurst => mb_plb_PLB_rdBurst,
+      PLB_wrPendReq => mb_plb_PLB_wrPendReq,
+      PLB_rdPendReq => mb_plb_PLB_rdPendReq,
+      PLB_wrPendPri => mb_plb_PLB_wrPendPri,
+      PLB_rdPendPri => mb_plb_PLB_rdPendPri,
+      PLB_reqPri => mb_plb_PLB_reqPri,
+      PLB_TAttribute => mb_plb_PLB_TAttribute,
+      Sl_wrBTerm => mb_plb_Sl_wrBTerm(2),
+      Sl_rdWdAddr => mb_plb_Sl_rdWdAddr(8 to 11),
+      Sl_rdBTerm => mb_plb_Sl_rdBTerm(2),
+      Sl_MIRQ => mb_plb_Sl_MIRQ(4 to 5),
+      IP2INTC_Irpt => open
+    );
+
+  Digilent_Spartan3e_SPI : digilent_spartan3e_spi_wrapper
+    port map (
+      Miso => Digilent_Spartan3e_SPI_Miso,
+      Mosi => Digilent_Spartan3e_SPI_Mosi,
+      Sck => Digilent_Spartan3e_SPI_Sck,
+      MB_Miso => SPI_MB_Miso,
+      MB_Mosi => SPI_MB_Mosi,
+      MB_Sck => SPI_MB_Sck,
+      SS_Spi => SS_Spi,
+      CS_DAC => Digilent_Spartan3e_SPI_CS_DAC,
+      CS_ADC => Digilent_Spartan3e_SPI_CS_ADC,
+      CS_AMP => Digilent_Spartan3e_SPI_CS_AMP,
+      CS_Flash => Digilent_Spartan3e_SPI_CS_Flash,
+      SPLB_Clk => clk_50_0000MHz,
+      SPLB_Rst => mb_plb_SPLB_Rst(3),
+      PLB_ABus => mb_plb_PLB_ABus,
+      PLB_UABus => mb_plb_PLB_UABus,
+      PLB_PAValid => mb_plb_PLB_PAValid,
+      PLB_SAValid => mb_plb_PLB_SAValid,
+      PLB_rdPrim => mb_plb_PLB_rdPrim(3),
+      PLB_wrPrim => mb_plb_PLB_wrPrim(3),
+      PLB_masterID => mb_plb_PLB_masterID(0 to 0),
+      PLB_abort => mb_plb_PLB_abort,
+      PLB_busLock => mb_plb_PLB_busLock,
+      PLB_RNW => mb_plb_PLB_RNW,
+      PLB_BE => mb_plb_PLB_BE,
+      PLB_MSize => mb_plb_PLB_MSize,
+      PLB_size => mb_plb_PLB_size,
+      PLB_type => mb_plb_PLB_type,
+      PLB_lockErr => mb_plb_PLB_lockErr,
+      PLB_wrDBus => mb_plb_PLB_wrDBus,
+      PLB_wrBurst => mb_plb_PLB_wrBurst,
+      PLB_rdBurst => mb_plb_PLB_rdBurst,
+      PLB_wrPendReq => mb_plb_PLB_wrPendReq,
+      PLB_rdPendReq => mb_plb_PLB_rdPendReq,
+      PLB_wrPendPri => mb_plb_PLB_wrPendPri,
+      PLB_rdPendPri => mb_plb_PLB_rdPendPri,
+      PLB_reqPri => mb_plb_PLB_reqPri,
+      PLB_TAttribute => mb_plb_PLB_TAttribute,
+      Sl_addrAck => mb_plb_Sl_addrAck(3),
+      Sl_SSize => mb_plb_Sl_SSize(6 to 7),
+      Sl_wait => mb_plb_Sl_wait(3),
+      Sl_rearbitrate => mb_plb_Sl_rearbitrate(3),
+      Sl_wrDAck => mb_plb_Sl_wrDAck(3),
+      Sl_wrComp => mb_plb_Sl_wrComp(3),
+      Sl_wrBTerm => mb_plb_Sl_wrBTerm(3),
+      Sl_rdDBus => mb_plb_Sl_rdDBus(96 to 127),
+      Sl_rdWdAddr => mb_plb_Sl_rdWdAddr(12 to 15),
+      Sl_rdDAck => mb_plb_Sl_rdDAck(3),
+      Sl_rdComp => mb_plb_Sl_rdComp(3),
+      Sl_rdBTerm => mb_plb_Sl_rdBTerm(3),
+      Sl_MBusy => mb_plb_Sl_MBusy(6 to 7),
+      Sl_MWrErr => mb_plb_Sl_MWrErr(6 to 7),
+      Sl_MRdErr => mb_plb_Sl_MRdErr(6 to 7),
+      Sl_MIRQ => mb_plb_Sl_MIRQ(6 to 7)
     );
 
 end architecture STRUCTURE;

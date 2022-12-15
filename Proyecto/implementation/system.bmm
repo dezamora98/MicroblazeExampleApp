@@ -1,4 +1,4 @@
-// File: Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\implementation\system.bmm
+// File: Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\implementation\system.bmm
 
 ADDRESS_MAP microblaze_0 MICROBLAZE 100
 	ADDRESS_SPACE lmb_bram_combined COMBINED [0x00000000:0x00007fff]

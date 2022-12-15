@@ -91,4 +91,4 @@ vhdl microblaze_v8_00_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcore
 vhdl microblaze_v8_00_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\hdl\vhdl\mmu_utlb.vhd"
 vhdl microblaze_v8_00_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\hdl\vhdl\mmu.vhd"
 vhdl microblaze_v8_00_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\hdl\vhdl\microblaze.vhd"
-vhdl work "\\vboxsvr\workarea\SysEmp\test_MB_LCDCtr\TestLCD_2\hdl\microblaze_0_wrapper.vhd"
+vhdl work "\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\hdl\microblaze_0_wrapper.vhd"

@@ -5,7 +5,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Command Line: platgen -p xc3s1600efg320-4 -lang vhdl -msg
 __xps/ise/xmsgprops.lst system.mhs 
 
-Parse Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/system.mhs ...
+Parse Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/system.mhs ...
 
 Read MPD definitions ...
 
@@ -19,6 +19,7 @@ Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
 Address Map for Processor microblaze_0
   (0000000000-0x00007fff) dlmb_cntlr	dlmb
   (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
   (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
@@ -28,7 +29,7 @@ INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 2
+   C_PLBV46_NUM_SLAVES value to 4
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
@@ -58,27 +59,46 @@ INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
    _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
    to 2
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER C_SPLB_DWIDTH
-   value to 32
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
    C_SPLB_NUM_MASTERS value to 2
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
    C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
 
 Checking platform address map ...
 
 Checking platform configuration ...
-IPNAME:plb_v46 INSTANCE:mb_plb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 41 - 2 master(s) : 2 slave(s)
-IPNAME:lmb_v10 INSTANCE:ilmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 48 - 1 master(s) : 1 slave(s)
-IPNAME:lmb_v10 INSTANCE:dlmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 55 - 1 master(s) : 1 slave(s)
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
@@ -130,7 +150,8 @@ WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
    _v2_1_0.mpd line 229 - floating connection!
 WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 124 - floating connection!
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
 
 Performing Clock DRCs...
 
@@ -205,52 +226,55 @@ Creating hardware output directories ...
 
 Managing hardware (BBD-specified) netlist files ...
 IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 127 - Copying (BBD-specified)
-netlist files.
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+(BBD-specified) netlist files.
+IPNAME:digilentspartan3espi INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Copying
+(BBD-specified) netlist files.
 
 Managing cache ...
-IPNAME:microblaze INSTANCE:microblaze_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 27 - Copying cache
-implementation netlist
-IPNAME:plb_v46 INSTANCE:mb_plb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 41 - Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:ilmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 48 - Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:dlmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 55 - Copying cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - Copying
+cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - Copying
+cache implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 62 - Copying cache
-implementation netlist
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 69 - Copying
+cache implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 71 - Copying cache
-implementation netlist
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 78 - Copying
+cache implementation netlist
 IPNAME:bram_block INSTANCE:lmb_bram -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 80 - Copying cache
-implementation netlist
-IPNAME:mdm INSTANCE:mdm_0 - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line
-102 - Copying cache implementation netlist
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 - Copying
+cache implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 109 - Copying
+cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 114 - Copying cache
-implementation netlist
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 121 - Copying
+cache implementation netlist
 IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 127 - Copying cache
-implementation netlist
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 80 - elaborating IP
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 -
+elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 87 - elaborating IP
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 -
+elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -263,13 +287,31 @@ Running XST synthesis ...
 INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:clock_generator_0 - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line
-87 - Running XST synthesis
+INSTANCE:microblaze_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 34 - Running
+XST synthesis
+INSTANCE:mb_plb - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs
+line 48 - Running XST synthesis
+INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 - Running
+XST synthesis
+INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line
+147 - Running XST synthesis
+INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Running
+XST synthesis
 
 Running NGCBUILD ...
+IPNAME:microblaze_0_wrapper INSTANCE:microblaze_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 34 - Running
+NGCBUILD
 IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 87 - Running NGCBUILD
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 - Running
+NGCBUILD
+IPNAME:digilent_spartan3e_spi_wrapper INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Running
+NGCBUILD
 
 Rebuilding cache ...
 
-Total run time: 9.00 seconds
+Total run time: 104.00 seconds

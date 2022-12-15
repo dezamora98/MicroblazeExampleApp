@@ -8,42 +8,6 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">ilmb_LMB_ReadStrobe</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;16&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;17&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;18&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;19&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;20&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;21&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;22&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;23&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;24&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;25&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;26&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;27&gt;</arg> has no load.
-</msg>
-
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb_PLB_ABus&lt;30&gt;</arg> has no load.
 </msg>
 
@@ -959,24 +923,6 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/Bus_Error_Det</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_SrdBTerm</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_SrdDAck</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_SwrBTerm</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_SwrDAck</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_Sssize&lt;0&gt;</arg> has no load.
-</msg>
-
-<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/PLB_Sssize&lt;1&gt;</arg> has no load.
-</msg>
-
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">mb_plb/MPLB_Rst&lt;0&gt;</arg> has no load.
 </msg>
 
@@ -1028,6 +974,21 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">proc_sys_reset_0/proc_sys_reset_0/Peripheral_aresetn&lt;0&gt;</arg> has no load.
 </msg>
 
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/MISO_T</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/SS_T</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/IP2INTC_Irpt</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/MOSI_T</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/SCK_T</arg> has no load.
+</msg>
+
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
 </msg>
 
@@ -1043,10 +1004,10 @@
 <msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
 </messages>

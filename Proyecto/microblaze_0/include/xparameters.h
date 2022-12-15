@@ -17,6 +17,17 @@
 
 /******************************************************************/
 
+/* Definitions for driver DIGILENTSPARTAN3ESPI */
+#define XPAR_DIGILENTSPARTAN3ESPI_NUM_INSTANCES 1
+
+/* Definitions for peripheral DIGILENT_SPARTAN3E_SPI */
+#define XPAR_DIGILENT_SPARTAN3E_SPI_DEVICE_ID 0
+#define XPAR_DIGILENT_SPARTAN3E_SPI_BASEADDR 0xFFFFFFFF
+#define XPAR_DIGILENT_SPARTAN3E_SPI_HIGHADDR 0x00000000
+
+
+/******************************************************************/
+
 
 /* Definitions for peripheral DLMB_CNTLR */
 #define XPAR_DLMB_CNTLR_BASEADDR 0x00000000
@@ -65,6 +76,33 @@
 #define XPAR_UARTLITE_0_ODD_PARITY 0
 #define XPAR_UARTLITE_0_DATA_BITS 0
 #define XPAR_UARTLITE_0_SIO_CHAN -1
+
+
+/******************************************************************/
+
+/* Definitions for driver SPI */
+#define XPAR_XSPI_NUM_INSTANCES 1
+
+/* Definitions for peripheral SPI */
+#define XPAR_SPI_DEVICE_ID 0
+#define XPAR_SPI_BASEADDR 0x83400000
+#define XPAR_SPI_HIGHADDR 0x8340FFFF
+#define XPAR_SPI_FIFO_EXIST 0
+#define XPAR_SPI_SPI_SLAVE_ONLY 0
+#define XPAR_SPI_NUM_SS_BITS 3
+#define XPAR_SPI_NUM_TRANSFER_BITS 8
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral SPI */
+#define XPAR_SPI_0_DEVICE_ID XPAR_SPI_DEVICE_ID
+#define XPAR_SPI_0_BASEADDR 0x83400000
+#define XPAR_SPI_0_HIGHADDR 0x8340FFFF
+#define XPAR_SPI_0_FIFO_EXIST 0
+#define XPAR_SPI_0_SPI_SLAVE_ONLY 0
+#define XPAR_SPI_0_NUM_SS_BITS 3
+#define XPAR_SPI_0_NUM_TRANSFER_BITS 8
 
 
 /******************************************************************/

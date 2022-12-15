@@ -4,13 +4,13 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: digilentspartan3espi.prj
 
@@ -129,7 +129,8 @@ Architecture implementation of Entity plbv46_slave_single is up to date.
 Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd" in Library digilentspartan3espi_v1_01_a.
 Architecture imp of Entity user_logic is up to date.
 Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd" in Library digilentspartan3espi_v1_01_a.
-Architecture imp of Entity digilentspartan3espi is up to date.
+Entity <digilentspartan3espi> compiled.
+Entity <digilentspartan3espi> (Architecture <imp>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -869,8 +870,8 @@ Delay:               6.113ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.84 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.53 secs
  
 --> 
 

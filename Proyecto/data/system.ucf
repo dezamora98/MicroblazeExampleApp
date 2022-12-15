@@ -5,6 +5,43 @@ Net fpga_0_clk_1_sys_clk_pin LOC=c9  |  IOSTANDARD = LVCMOS33  |  CLOCK_DEDICATE
 Net fpga_0_rst_1_sys_rst_pin TIG;
 Net fpga_0_rst_1_sys_rst_pin LOC=K17  |  IOSTANDARD = LVCMOS33  |  PULLDOWN;
 
+#====SPI interface========
+NET "Miso_pin"  LOC = "N10" | IOSTANDARD = LVCMOS33 ;
+NET "Mosi_pin"  LOC = "T4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+NET "Sck_pin"   LOC = "U16" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+
+NET "CS_DAC_pin"    LOC = "N8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+NET "CS_ADC_pin"    LOC = "P11" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+NET "CS_AMP_pin"    LOC = "N7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+NET "CS_Flash_pin"  LOC = "U3" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+
+# Original UCF for Digilent Spartan 3E 1600.
+    # FLASH
+    #    NET "SPI_MISO" LOC = "N10" | IOSTANDARD = LVCMOS33 ;
+    #    NET "SPI_MOSI" LOC = "T4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "SPI_SCK" LOC = "U16" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "SPI_SS_B" LOC = "U3" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+
+    # DAC
+    #    NET "SPI_MISO" LOC = "N10" | IOSTANDARD = LVCMOS33 ;
+    #    NET "SPI_MOSI" LOC = "T4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+    #    NET "SPI_SCK" LOC = "U16" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+    #    NET "DAC_CS" LOC = "N8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+    #    NET "DAC_CLR" LOC = "P8" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+
+    # AMP
+    #    NET "SPI_MOSI" LOC = "T4" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "AMP_CS" LOC = "N7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "SPI_SCK" LOC = "U16" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+    #    NET "AMP_SHDN" LOC = "P7" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "AMP_DOUT" LOC = "E18" | IOSTANDARD = LVCMOS33 ;
+
+    # ADC
+    #    NET "AD_CONV" LOC = "P11" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 6 ;
+    #    NET "SPI_SCK" LOC = "U16" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8 ;
+    #    NET "SPI_MISO" LOC = "N10" | IOSTANDARD = LVCMOS33 ;
+# 
+
 # ==== Character LCD (LCD) ====
 NET "lcd2x16interface_0_en_pin" LOC = "M18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
 NET "lcd2x16interface_0_rs_pin" LOC = "L18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;

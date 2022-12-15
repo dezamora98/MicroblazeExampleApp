@@ -6,7 +6,7 @@
 @REM #
 @REM # Command line for ngdbuild
 @REM #
-ngdbuild -p xc3s1600efg320-4 -nt timestamp -bm system.bmm "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc" -uc system.ucf system.ngd 
+ngdbuild -p xc3s1600efg320-4 -nt timestamp -bm system.bmm "Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc" -uc system.ucf system.ngd 
 
 @REM #
 @REM # Command line for map

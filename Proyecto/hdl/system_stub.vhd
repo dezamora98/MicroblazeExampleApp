@@ -15,7 +15,14 @@ entity system_stub is
     lcd2x16interface_0_rs_pin : out std_logic;
     lcd2x16interface_0_en_pin : out std_logic;
     lcd2x16interface_0_rw_pin : out std_logic;
-    lcd2x16interface_0_sfce_pin : out std_logic
+    lcd2x16interface_0_sfce_pin : out std_logic;
+    Miso_pin : in std_logic;
+    Mosi_pin : out std_logic;
+    Sck_pin : out std_logic;
+    CS_DAC_pin : out std_logic;
+    CS_ADC_pin : out std_logic;
+    CS_AMP_pin : out std_logic;
+    CS_Flash_pin : out std_logic
   );
 end system_stub;
 
@@ -29,7 +36,14 @@ architecture STRUCTURE of system_stub is
       lcd2x16interface_0_rs_pin : out std_logic;
       lcd2x16interface_0_en_pin : out std_logic;
       lcd2x16interface_0_rw_pin : out std_logic;
-      lcd2x16interface_0_sfce_pin : out std_logic
+      lcd2x16interface_0_sfce_pin : out std_logic;
+      Miso_pin : in std_logic;
+      Mosi_pin : out std_logic;
+      Sck_pin : out std_logic;
+      CS_DAC_pin : out std_logic;
+      CS_ADC_pin : out std_logic;
+      CS_AMP_pin : out std_logic;
+      CS_Flash_pin : out std_logic
     );
   end component;
 
@@ -46,7 +60,14 @@ begin
       lcd2x16interface_0_rs_pin => lcd2x16interface_0_rs_pin,
       lcd2x16interface_0_en_pin => lcd2x16interface_0_en_pin,
       lcd2x16interface_0_rw_pin => lcd2x16interface_0_rw_pin,
-      lcd2x16interface_0_sfce_pin => lcd2x16interface_0_sfce_pin
+      lcd2x16interface_0_sfce_pin => lcd2x16interface_0_sfce_pin,
+      Miso_pin => Miso_pin,
+      Mosi_pin => Mosi_pin,
+      Sck_pin => Sck_pin,
+      CS_DAC_pin => CS_DAC_pin,
+      CS_ADC_pin => CS_ADC_pin,
+      CS_AMP_pin => CS_AMP_pin,
+      CS_Flash_pin => CS_Flash_pin
     );
 
 end architecture STRUCTURE;

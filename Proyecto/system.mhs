@@ -22,10 +22,13 @@
  PORT lcd2x16interface_0_en_pin = lcd2x16interface_0_en, DIR = O
  PORT lcd2x16interface_0_rw_pin = lcd2x16interface_0_rw, DIR = O
  PORT lcd2x16interface_0_sfce_pin = lcd2x16interface_0_sfce, DIR = O
- PORT spi_SCK = spi_SCK, DIR = IO
- PORT spi_MISO = spi_MISO, DIR = IO
- PORT spi_MOSI = spi_MOSI, DIR = IO
- PORT spi_SS = spi_SS, DIR = IO, VEC = [0:3]
+ PORT Miso_pin = Digilent_Spartan3e_SPI_Miso, DIR = I
+ PORT Mosi_pin = Digilent_Spartan3e_SPI_Mosi, DIR = O
+ PORT Sck_pin = Digilent_Spartan3e_SPI_Sck, DIR = O
+ PORT CS_DAC_pin = Digilent_Spartan3e_SPI_CS_DAC, DIR = O
+ PORT CS_ADC_pin = Digilent_Spartan3e_SPI_CS_ADC, DIR = O
+ PORT CS_AMP_pin = Digilent_Spartan3e_SPI_CS_AMP, DIR = O
+ PORT CS_Flash_pin = Digilent_Spartan3e_SPI_CS_Flash, DIR = O
 
 
 BEGIN microblaze
@@ -144,13 +147,31 @@ END
 BEGIN xps_spi
  PARAMETER INSTANCE = spi
  PARAMETER HW_VER = 2.02.a
- PARAMETER C_NUM_SS_BITS = 4
- PARAMETER C_BASEADDR = 0xFFFFFFFF
- PARAMETER C_HIGHADDR = 0x00000000
+ PARAMETER C_NUM_SS_BITS = 3
+ PARAMETER C_FIFO_EXIST = 0
+ PARAMETER C_BASEADDR = 0x83400000
+ PARAMETER C_HIGHADDR = 0x8340ffff
  BUS_INTERFACE SPLB = mb_plb
- PORT SCK = spi_SCK
- PORT MISO = spi_MISO
- PORT MOSI = spi_MOSI
- PORT SS = spi_SS
+ PORT SS_O = SS_Spi
+ PORT SCK_O = SPI_MB_Sck
+ PORT MISO_I = SPI_MB_Miso
+ PORT MOSI_O = SPI_MB_Mosi
+END
+
+BEGIN digilentspartan3espi
+ PARAMETER INSTANCE = Digilent_Spartan3e_SPI
+ PARAMETER HW_VER = 1.01.c
+ BUS_INTERFACE SPLB = mb_plb
+ PORT Miso = Digilent_Spartan3e_SPI_Miso
+ PORT Mosi = Digilent_Spartan3e_SPI_Mosi
+ PORT Sck = Digilent_Spartan3e_SPI_Sck
+ PORT MB_Miso = SPI_MB_Miso
+ PORT MB_Mosi = SPI_MB_Mosi
+ PORT MB_Sck = SPI_MB_Sck
+ PORT SS_Spi = SS_Spi
+ PORT CS_DAC = Digilent_Spartan3e_SPI_CS_DAC
+ PORT CS_ADC = Digilent_Spartan3e_SPI_CS_ADC
+ PORT CS_AMP = Digilent_Spartan3e_SPI_CS_AMP
+ PORT CS_Flash = Digilent_Spartan3e_SPI_CS_Flash
 END
 

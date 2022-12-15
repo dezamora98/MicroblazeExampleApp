@@ -14,6 +14,7 @@ Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
 Address Map for Processor microblaze_0
   (0000000000-0x00007fff) dlmb_cntlr	dlmb
   (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
   (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
@@ -23,7 +24,7 @@ INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 2
+   C_PLBV46_NUM_SLAVES value to 4
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
@@ -53,17 +54,33 @@ INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
    _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
    to 2
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER C_SPLB_DWIDTH
-   value to 32
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
    C_SPLB_NUM_MASTERS value to 2
 INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\pcores\lcd2x16interface_v6_00_a\data\lcd2x
-   16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
    C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
 
 Checking platform address map ...
 

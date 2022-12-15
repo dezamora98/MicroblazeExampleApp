@@ -3,10 +3,11 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
 xc3s1600efg320-4 -nt timestamp -bm system.bmm
-Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc -uc system.ucf
-system.ngd
+Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc -uc
+system.ucf system.ngd
 
-Reading NGO file "Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/system.ngc"
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc"
 ...
 Gathering constraint information from source properties...
 Done.
@@ -40,10 +41,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   1
 
-Total memory usage is 90352 kilobytes
+Total memory usage is 92400 kilobytes
 
 Writing NGD file "system.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   2 sec
+Total CPU time to NGDBUILD completion:   3 sec
 
 Writing NGDBUILD log file "system.bld"...

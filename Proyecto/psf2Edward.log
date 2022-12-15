@@ -1,11 +1,14 @@
 
 Checking platform configuration ...
-IPNAME:plb_v46 INSTANCE:mb_plb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 41 - 2 master(s) : 2 slave(s)
-IPNAME:lmb_v10 INSTANCE:ilmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 48 - 1 master(s) : 1 slave(s)
-IPNAME:lmb_v10 INSTANCE:dlmb - Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs
-line 55 - 1 master(s) : 1 slave(s)
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
@@ -57,7 +60,8 @@ WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
    _v2_1_0.mpd line 229 - floating connection!
 WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
-   Z:\SysEmp\test_MB_LCDCtr\TestLCD_2\system.mhs line 124 - floating connection!
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
 
 Performing Clock DRCs...
 

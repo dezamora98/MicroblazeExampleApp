@@ -6,8 +6,8 @@ xc3s1600efg320-4 -intstyle silent -i -sd .. clock_generator_0_wrapper.ngc
 ../clock_generator_0_wrapper.ngc
 
 Reading NGO file
-"Z:/SysEmp/test_MB_LCDCtr/TestLCD_2/implementation/clock_generator_0_wrapper/clo
-ck_generator_0_wrapper.ngc" ...
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/clock_generato
+r_0_wrapper/clock_generator_0_wrapper.ngc" ...
 
 Partition Implementation Status
 -------------------------------

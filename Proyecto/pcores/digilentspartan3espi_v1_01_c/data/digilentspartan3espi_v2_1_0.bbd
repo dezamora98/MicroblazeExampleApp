@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores/digilentspartan3espi_v1_01_c/data/digilentspartan3espi_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Thu Dec 15 10:58:29 2022 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+digilentspartan3espi.ngc

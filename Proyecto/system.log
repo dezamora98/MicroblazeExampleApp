@@ -122,3 +122,2522 @@ Generated Block Diagram.
 Diagram Controls
 Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
 Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+Writing filter settings....
+Done writing filter settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
+Done writing Tab View settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+Assigned Driver digilentspartan3espi 1.01.a for instance digilentspartan3espi_0
+digilentspartan3espi_0 has been added to the project
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver digilentspartan3espi 1.01.a for instance digilentspartan3espi_1
+digilentspartan3espi_1 has been added to the project
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+digilentspartan3espi_1 has been deleted from the project
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+digilentspartan3espi_0 has been deleted from the project
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+Writing filter settings....
+Done writing filter settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
+Done writing Tab View settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 148 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+Assigned Driver digilentspartan3espi 1.01.a for instance digilentspartan3espi_0
+digilentspartan3espi_0 has been added to the project
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port Miso external with net as port name
+Instance digilentspartan3espi_0 port Miso connector undefined, using digilentspartan3espi_0_Miso
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port Mosi external with net as port name
+Instance digilentspartan3espi_0 port Mosi connector undefined, using digilentspartan3espi_0_Mosi
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port Sck external with net as port name
+Instance digilentspartan3espi_0 port Sck connector undefined, using digilentspartan3espi_0_Sck
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port CS_DAC external with net as port name
+Instance digilentspartan3espi_0 port CS_DAC connector undefined, using digilentspartan3espi_0_CS_DAC
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port CS_ADC external with net as port name
+Instance digilentspartan3espi_0 port CS_ADC connector undefined, using digilentspartan3espi_0_CS_ADC
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port CS_AMP external with net as port name
+Instance digilentspartan3espi_0 port CS_AMP connector undefined, using digilentspartan3espi_0_CS_AMP
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Make instance digilentspartan3espi_0 port CS_Flash external with net as port name
+Instance digilentspartan3espi_0 port CS_Flash connector undefined, using digilentspartan3espi_0_CS_Flash
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 131 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+The project's MHS file has changed on disk.
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 152 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 152 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\_xps_tempmhsfilename.mhs line 135 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+The project's MHS file has changed on disk.
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 150 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 150 - base address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR (0x00000000).
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+
+********************************************************************************
+At Local date and time: Thu Dec 15 10:34:46 2022
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc3s1600efg320-4 -lang vhdl    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 12.4 - platgen Xilinx EDK 12.4 Build EDK_MS4.81d
+ (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc3s1600efg320-4 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 151 - base
+   address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR
+   (0x00000000).
+WARNING:EDK:1578 - IPNAME:xps_spi INSTANCE:spi -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 151 - base
+   address C_BASEADDR (0xFFFFFFFF) is greater than high address C_HIGHADDR
+   (0x00000000).
+
+Overriding IP level properties ...
+WARNING:EDK:391 - xps_spi (spi) -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 147 -
+   ADDRESS specified by PARAMETER C_BASEADDR is ignored
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 386 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:ICE CONNECTOR:ilmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 387 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:IUE CONNECTOR:ilmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 388 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 424 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DCE CONNECTOR:dlmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 425 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DUE CONNECTOR:dlmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 426 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_DAC CONNECTOR:spi_SS_O_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 168 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_AMP CONNECTOR:spi_SS_O_1 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 169 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_Flash CONNECTOR:spi_SS_O_1 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 170 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
+WARNING:EDK:2099 - PORT:SS_O CONNECTOR:spi_SS_O -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 157 -
+   floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 217 - tcl is overriding PARAMETER C_D_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 220 - tcl is overriding PARAMETER C_I_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 319 - tcl is overriding PARAMETER
+   C_ADDR_TAG_BITS value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 342 - tcl is overriding PARAMETER
+   C_DCACHE_ADDR_TAG value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 369 - tcl is overriding PARAMETER
+   C_USE_EXT_BRK value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 370 - tcl is overriding PARAMETER
+   C_USE_EXT_NM_BRK value to 1
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x00400000
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x00400000
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The microblaze_0 core has constraints automatically generated by XPS in
+implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The ilmb core has constraints automatically generated by XPS in
+implementation/ilmb_wrapper/ilmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The dlmb core has constraints automatically generated by XPS in
+implementation/dlmb_wrapper/dlmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+(BBD-specified) netlist files.
+IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Copying
+(BBD-specified) netlist files.
+
+Managing cache ...
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - Copying
+cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - Copying
+cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 69 - Copying
+cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 78 - Copying
+cache implementation netlist
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 - Copying
+cache implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 109 - Copying
+cache implementation netlist
+IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 121 - Copying
+cache implementation netlist
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+cache implementation netlist
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 -
+elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 -
+elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_DAC -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_AMP -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_Flash -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+Completion time: 1.00 seconds
+ERROR:EDK:440 - platgen failed with errors!
+make: *** [implementation/microblaze_0_wrapper.ngc] Error 2
+Done!
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+WARNING:EDK:391 - xps_spi (spi) - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - ADDRESS specified by PARAMETER C_BASEADDR is ignored
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc5000000-0xc500ffff) digilentspartan3espi_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+Generated Addresses Successfully
+
+********************************************************************************
+At Local date and time: Thu Dec 15 10:37:29 2022
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc3s1600efg320-4 -lang vhdl    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 12.4 - platgen Xilinx EDK 12.4 Build EDK_MS4.81d
+ (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc3s1600efg320-4 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/system.mhs ...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc5000000-0xc500ffff) digilentspartan3espi_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_b\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 386 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:ICE CONNECTOR:ilmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 387 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:IUE CONNECTOR:ilmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 388 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 424 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DCE CONNECTOR:dlmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 425 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DUE CONNECTOR:dlmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 426 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_DAC CONNECTOR:spi_SS_O_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 170 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_AMP CONNECTOR:spi_SS_O_1 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 171 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:SS_Flash CONNECTOR:spi_SS_O_2 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 172 - No
+   driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
+WARNING:EDK:2099 - PORT:SS_O CONNECTOR:spi_SS_O -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 157 -
+   floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 217 - tcl is overriding PARAMETER C_D_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 220 - tcl is overriding PARAMETER C_I_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 319 - tcl is overriding PARAMETER
+   C_ADDR_TAG_BITS value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 342 - tcl is overriding PARAMETER
+   C_DCACHE_ADDR_TAG value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 369 - tcl is overriding PARAMETER
+   C_USE_EXT_BRK value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 370 - tcl is overriding PARAMETER
+   C_USE_EXT_NM_BRK value to 1
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x80000000
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x80000000
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The microblaze_0 core has constraints automatically generated by XPS in
+implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The ilmb core has constraints automatically generated by XPS in
+implementation/ilmb_wrapper/ilmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The dlmb core has constraints automatically generated by XPS in
+implementation/dlmb_wrapper/dlmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+(BBD-specified) netlist files.
+IPNAME:digilentspartan3espi INSTANCE:digilentspartan3espi_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Copying
+(BBD-specified) netlist files.
+
+Managing cache ...
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - Copying
+cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - Copying
+cache implementation netlist
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 - Copying
+cache implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 109 - Copying
+cache implementation netlist
+IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 121 - Copying
+cache implementation netlist
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+cache implementation netlist
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 -
+elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 -
+elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_DAC -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_AMP -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+ERROR:EDK:1525 - INST:digilentspartan3espi_0 PORT:SS_Flash -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - port
+   is driven by a sourceless connector
+Completion time: 0.00 seconds
+ERROR:EDK:440 - platgen failed with errors!
+make: *** [implementation/microblaze_0_wrapper.ngc] Error 2
+Done!
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+Writing filter settings....
+Done writing filter settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
+Done writing Tab View settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
+Generated Block Diagram.
+Diagram Controls
+Zoom In/Out = ALT + (Mouse + Left Button) or ARROW UP/DOWN.
+Pan = SHIFT + (Mouse + Left Button) or ARROW UP/DOWN/LEFT/RIGHT.
+Assigned Driver digilentspartan3espi 1.01.a for instance digilentspartan3espi_1
+digilentspartan3espi_1 has been added to the project
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral digilentspartan3espi_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Deleting Internal port spi:MISO_I 
+Deleting Internal port digilentspartan3espi_0:MB_Miso 
+Deleting Internal port spi:MOSI_O 
+Deleting Internal port digilentspartan3espi_0:MB_Mosi 
+Deleting Internal port spi:SCK_O 
+Deleting Internal port digilentspartan3espi_0:MB_Sck 
+Deleting Internal port digilentspartan3espi_0:SS_DAC 
+Deleting Internal port digilentspartan3espi_0:SS_AMP 
+Deleting Internal port digilentspartan3espi_0:SS_Flash 
+Deleting External port : Miso_pin 
+Deleting Internal port digilentspartan3espi_0:Miso 
+Deleting External port : Mosi_pin 
+Deleting Internal port digilentspartan3espi_0:Mosi 
+Deleting External port : Sck_pin 
+Deleting Internal port digilentspartan3espi_0:Sck 
+Deleting External port : CS_DAC_pin 
+Deleting Internal port digilentspartan3espi_0:CS_DAC 
+Deleting External port : CS_ADC_pin 
+Deleting Internal port digilentspartan3espi_0:CS_ADC 
+Deleting External port : CS_AMP_pin 
+Deleting Internal port digilentspartan3espi_0:CS_AMP 
+Deleting External port : CS_Flash_pin 
+Deleting Internal port digilentspartan3espi_0:CS_Flash 
+digilentspartan3espi_0 has been deleted from the project
+WARNING:EDK - UCF file has reference to the following nonexistent external port(s), please revise UCF file.
+   CS_ADC_pin
+   CS_AMP_pin
+   CS_DAC_pin
+   CS_Flash_pin
+   Miso_pin
+   Mosi_pin
+   Sck_pin
+Make instance Digilent_Spartan3e_SPI port Mosi external with net as port name
+Instance Digilent_Spartan3e_SPI port Mosi connector undefined, using Digilent_Spartan3e_SPI_Mosi
+Make instance Digilent_Spartan3e_SPI port Sck external with net as port name
+Instance Digilent_Spartan3e_SPI port Sck connector undefined, using Digilent_Spartan3e_SPI_Sck
+Make instance Digilent_Spartan3e_SPI port CS_DAC external with net as port name
+Instance Digilent_Spartan3e_SPI port CS_DAC connector undefined, using Digilent_Spartan3e_SPI_CS_DAC
+Make instance Digilent_Spartan3e_SPI port CS_ADC external with net as port name
+Instance Digilent_Spartan3e_SPI port CS_ADC connector undefined, using Digilent_Spartan3e_SPI_CS_ADC
+Make instance Digilent_Spartan3e_SPI port CS_AMP external with net as port name
+Instance Digilent_Spartan3e_SPI port CS_AMP connector undefined, using Digilent_Spartan3e_SPI_CS_AMP
+Make instance Digilent_Spartan3e_SPI port CS_Flash external with net as port name
+Instance Digilent_Spartan3e_SPI port CS_Flash connector undefined, using Digilent_Spartan3e_SPI_CS_Flash
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:05:51 2022
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc3s1600efg320-4 -lang vhdl    -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 12.4 - platgen Xilinx EDK 12.4 Build EDK_MS4.81d
+ (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc3s1600efg320-4 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/system.mhs ...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 386 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:ICE CONNECTOR:ilmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 387 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:IUE CONNECTOR:ilmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 388 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 424 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DCE CONNECTOR:dlmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 425 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DUE CONNECTOR:dlmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 426 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 217 - tcl is overriding PARAMETER C_D_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 220 - tcl is overriding PARAMETER C_I_PLB
+   value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 319 - tcl is overriding PARAMETER
+   C_ADDR_TAG_BITS value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 342 - tcl is overriding PARAMETER
+   C_DCACHE_ADDR_TAG value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 369 - tcl is overriding PARAMETER
+   C_USE_EXT_BRK value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 370 - tcl is overriding PARAMETER
+   C_USE_EXT_NM_BRK value to 1
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x00400000
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2
+   _10_b\data\lmb_bram_if_cntlr_v2_1_0.mpd line 75 - tcl is overriding PARAMETER
+   C_MASK value to 0x00400000
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The microblaze_0 core has constraints automatically generated by XPS in
+implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The ilmb core has constraints automatically generated by XPS in
+implementation/ilmb_wrapper/ilmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The dlmb core has constraints automatically generated by XPS in
+implementation/dlmb_wrapper/dlmb_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+(BBD-specified) netlist files.
+IPNAME:digilentspartan3espi INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Copying
+(BBD-specified) netlist files.
+
+Managing cache ...
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - Copying
+cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - Copying
+cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 69 - Copying
+cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 78 - Copying
+cache implementation netlist
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 - Copying
+cache implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 109 - Copying
+cache implementation netlist
+IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 121 - Copying
+cache implementation netlist
+IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 134 - Copying
+cache implementation netlist
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:lmb_bram -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 87 -
+elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 -
+elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 1.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:microblaze_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 34 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+INSTANCE:mb_plb - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs
+line 48 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+INSTANCE:spi - Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line
+147 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Running NGCBUILD ...
+IPNAME:microblaze_0_wrapper INSTANCE:microblaze_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 34 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc3s1600efg320-4 -intstyle silent -uc microblaze_0_wrapper.ucf -sd ..
+microblaze_0_wrapper.ngc ../microblaze_0_wrapper.ngc
+
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/microblaze_0_w
+rapper/microblaze_0_wrapper.ngc" ...
+
+Applying constraints in "microblaze_0_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../microblaze_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../microblaze_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 94 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc3s1600efg320-4 -intstyle silent -i -sd .. clock_generator_0_wrapper.ngc
+../clock_generator_0_wrapper.ngc
+
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/clock_generato
+r_0_wrapper/clock_generator_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../clock_generator_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../clock_generator_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:digilent_spartan3e_spi_wrapper INSTANCE:digilent_spartan3e_spi -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 161 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc3s1600efg320-4 -intstyle silent -i -sd .. digilent_spartan3e_spi_wrapper.ngc
+../digilent_spartan3e_spi_wrapper.ngc
+
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/digilent_spart
+an3e_spi_wrapper/digilent_spartan3e_spi_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../digilent_spartan3e_spi_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../digilent_spartan3e_spi_wrapper.blc"...
+
+NGCBUILD done.
+
+Rebuilding cache ...
+
+Total run time: 104.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+XST completed
+Release 12.4 - ngcbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Overriding Xilinx file <ngcflow.csf> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/ngcflow.csf>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe
+./system.ngc ../implementation/system.ngc -sd ../implementation -i
+
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/synthesis/system.ngc" ...
+Loading design module "../implementation/microblaze_0_wrapper.ngc"...
+Loading design module "../implementation/mb_plb_wrapper.ngc"...
+Loading design module "../implementation/ilmb_wrapper.ngc"...
+Loading design module "../implementation/dlmb_wrapper.ngc"...
+Loading design module "../implementation/dlmb_cntlr_wrapper.ngc"...
+Loading design module "../implementation/ilmb_cntlr_wrapper.ngc"...
+Loading design module "../implementation/lmb_bram_wrapper.ngc"...
+Loading design module "../implementation/clock_generator_0_wrapper.ngc"...
+Loading design module "../implementation/mdm_0_wrapper.ngc"...
+Loading design module "../implementation/proc_sys_reset_0_wrapper.ngc"...
+Loading design module "../implementation/lcd2x16interface_0_wrapper.ngc"...
+Loading design module "../implementation/spi_wrapper.ngc"...
+Loading design module "../implementation/digilent_spartan3e_spi_wrapper.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../implementation/system.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../implementation/system.blc"...
+
+NGCBUILD done.
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:09:09 2022
+ make -f system.make bits started...
+*********************************************
+Running Xilinx Implementation tools..
+*********************************************
+xflow -wd implementation -p xc3s1600efg320-4 -implement xflow.opt system.ngc
+Release 12.4 - Xflow M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc3s1600efg320-4 -implement xflow.opt system.ngc
+ 
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Using Flow File:
+Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/fpga.flw 
+Using Option File(s): 
+ Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc3s1600efg320-4 -nt timestamp -bm system.bmm
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc"
+-uc system.ucf system.ngd 
+#----------------------------------------------#
+Release 12.4 - ngdbuild M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3/data/spartan3.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3/data/spartan3.acd>
+
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc3s1600efg320-4 -nt timestamp -bm system.bmm
+Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc -uc
+system.ucf system.ngd
+
+Reading NGO file
+"Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/implementation/system.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance
+   clock_generator_0/DCM0_INST/Using_Virtex.DCM_INST. The following new TNM
+   groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PERIOD
+   "clock_generator_0_clock_generator_0_SIG_DCM0_CLK0" TS_sys_clk_pin HIGH 50>
+
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:478 - clock net mdm_0/bscan_drck1 with clock driver
+   mdm_0/mdm_0/BUFG_DRCK1 drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -pr b -ol high -timing -detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Map M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "3s1600efg320-4".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 8 secs 
+Total CPU  time at the beginning of Placer: 6 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:c0894340) REAL time: 12 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:c0894340) REAL time: 12 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:b1e742d6) REAL time: 12 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:22cf2e01) REAL time: 18 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:22cf2e01) REAL time: 18 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:22cf2e01) REAL time: 18 secs 
+
+Phase 7.8  Global Placement
+..........................
+....................
+Phase 7.8  Global Placement (Checksum:58f6e60d) REAL time: 21 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:58f6e60d) REAL time: 21 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:db4d3829) REAL time: 30 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:db4d3829) REAL time: 30 secs 
+
+Total REAL time to Placer completion: 30 secs 
+Total CPU  time to Placer completion: 27 secs 
+Running post-placement packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+  Number of Slice Flip Flops:         1,546 out of  29,504    5
+  Number of 4 input LUTs:             2,451 out of  29,504    8
+Logic Distribution:
+  Number of occupied Slices:          1,871 out of  14,752   12
+    Number of Slices containing only related logic:   1,871 out of   1,871 100
+    Number of Slices containing unrelated logic:          0 out of   1,871   0
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,613 out of  29,504    8
+    Number used as logic:             2,084
+    Number used as a route-thru:        162
+    Number used for Dual Port RAMs:     256
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:     111
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 21 out of     250    8
+    IOB Flip Flops:                       4
+  Number of RAMB16s:                     17 out of      36   47
+  Number of BUFGMUXs:                     2 out of      24    8
+  Number of DCMs:                         1 out of       8   12
+  Number of BSCANs:                       1 out of       1  100
+  Number of MULT18X18SIOs:                3 out of      36    8
+
+Average Fanout of Non-Clock Nets:                3.64
+
+Peak Memory Usage:  240 MB
+Total REAL time to MAP completion:  32 secs 
+Total CPU time to MAP completion:   28 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - par M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/12.4/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '3s1600e.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s1600e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2010-11-18".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          21 out of 250     8
+
+   Number of External Input IOBs                  3
+
+      Number of External Input IBUFs              3
+        Number of LOCed External Input IBUFs      3 out of 3     100
+
+
+   Number of External Output IOBs                18
+
+      Number of External Output IOBs             18
+        Number of LOCed External Output IOBs     18 out of 18    100
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BSCANs                          1 out of 1     100
+   Number of BUFGMUXs                        2 out of 24      8
+   Number of DCMs                            1 out of 8      12
+   Number of MULT18X18SIOs                   3 out of 36      8
+   Number of RAMB16s                        17 out of 36     47
+   Number of Slices                       1871 out of 14752  12
+      Number of SLICEMs                    192 out of 7376    2
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 9 secs 
+Finished initial Timing Analysis.  REAL time: 9 secs 
+
+WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 13977 unrouted;      REAL time: 22 secs 
+
+Phase  2  : 12268 unrouted;      REAL time: 23 secs 
+
+Phase  3  : 3844 unrouted;      REAL time: 25 secs 
+
+Phase  4  : 3844 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 32 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 34 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+WARNING:Route:455 - CLK Net:fpga_0_clk_1_sys_clk_pin_IBUFG may have excessive skew because 
+      5 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 35 secs 
+Total CPU time to Router completion: 35 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      clk_50_0000MHz | BUFGMUX_X1Y10| No   | 1292 |  0.285     |  0.546      |
++---------------------+--------------+------+------+------------+-------------+
+|     mdm_0/Dbg_Clk_1 |  BUFGMUX_X1Y0| No   |  161 |  0.244     |  0.504      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.289     |  2.570      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   38 |  0.976     |  2.970      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     3.596ns|    16.404ns|       0|           0
+  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.741ns|            |       0|           0
+  ck_generator_0_clock_generator_0_SIG_DCM0 |             |            |            |        |            
+  _CLK0" TS_sys_clk_pin         HIGH 50|             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |    18.247ns|     1.753ns|       0|           0
+  pin" 50 MHz HIGH 50| HOLD        |     0.608ns|            |       0|           0
+                                            | MINLOWPULSE |    14.000ns|     6.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     20.000ns|      6.000ns|     16.404ns|            0|            0|            3|       170312|
+| TS_clock_generator_0_clock_gen|     20.000ns|     16.404ns|          N/A|            0|            0|       170312|            0|
+| erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 39 secs 
+Total CPU time to PAR completion: 37 secs 
+
+Peak Memory Usage:  227 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 5
+Number of info messages: 0
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 12.4 - Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3e/data/spartan3e.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/spartan3e.acd>
+Loading device for application Rf_Device from file '3s1600e.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s1600e, package fg320, speed -4
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc3s1600e,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and
+   'Phase Error' calculations, these terms will be zero in the Clock Uncertainty
+   calculation.  Please make appropriate modification to SYSTEM_JITTER to
+   account for the unsupported Discrete Jitter and Phase Error.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 170315 paths, 0 nets, and 12410 connections
+
+Design statistics:
+   Minimum period:  16.404ns (Maximum frequency:  60.961MHz)
+
+
+Analysis completed Thu Dec 15 11:10:35 2022
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 4
+Total time: 5 secs 
+
+
+xflow done!
+touch __xps/system_routed
+xilperl C:/Xilinx/12.4/ISE_DS/EDK/data/fpga_impl/observe_par.pl -error yes implementation/system.par
+Analyzing implementation/system.par
+*********************************************
+Running Bitgen..
+*********************************************
+cd implementation; bitgen -w -f bitgen.ut system; cd ..
+Release 12.4 - Bitgen M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/12.4/ISE_DS/EDK/spartan3e/data/spartan3e.acd> with local file
+<C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/spartan3e.acd>
+Loading device for application Rf_Device from file '3s1600e.nph' in environment
+C:\Xilinx\12.4\ISE_DS\ISE\;C:\Xilinx\12.4\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc3s1600e, package fg320, speed -4
+Opened constraints file system.pcf.
+
+Thu Dec 15 11:10:40 2022
+
+Running DRC.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<30>> is incomplete. The
+   signal does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "system.bit".
+Bitstream generation is complete.
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:14:36 2022
+ make -f system.make program started...
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc3s1600efg320-4   -msg __xps/ise/xmsgprops.lst  system.mss
+libgen
+Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc3s1600efg320-4 -msg
+__xps/ise/xmsgprops.lst system.mss 
+
+Release 12.4 - psf2Edward EDK_MS4.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 48 - 2
+master(s) : 4 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 62 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 386 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:ICE CONNECTOR:ilmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 387 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:IUE CONNECTOR:ilmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 388 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 424 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DCE CONNECTOR:dlmb_LMB_CE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 425 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DUE CONNECTOR:dlmb_LMB_UE -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_00_b\d
+   ata\microblaze_v2_1_0.mpd line 426 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\system.mhs line 131 -
+   floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Conversion to XML complete.
+
+-- Generating libraries for processor: microblaze_0 --
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare
+-mcpu=v8.00.b  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare
+-mcpu=v8.00.b  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"'.
+Compiling common
+Compiling standalone
+Compiling digilentspartan3espi
+Compiling lcd2x16interface
+In file included from lcd2x16Sinterface.c:1:
+lcd2x16Sinterface.h:12:34: warning: no newline at end of file
+Compiling uartlite
+Compiling spi
+Compiling cpu
+Running execs_generate.
+mb-gcc -O2 firmware/main.c drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c  -o main/executable.elf \
+	    -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b   -g    -I./microblaze_0/include/  -L./microblaze_0/lib/  \
+	  
+In file included from drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c:1:
+drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.h:12:34: warning: no newline at end of file
+mb-size main/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1682	    296	   1064	   3042	    be2	main/executable.elf
+
+WARNING:EDK:3915 - Process successfully completed but error message(s) were generated. Please verify that the messages are only warnings.Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:15:02 2022
+ make -f system.make init_bram started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit -p xc3s1600efg320-4 system.mhs   -pe microblaze_0 main/executable.elf  \
+	-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm "implementation/system_bd" -p xc3s1600efg320-4 -bt
+"implementation/system.bit"  -bd "main/executable.elf" tag microblaze_0  -o b
+implementation/download.bit 
+Memory Initialization completed successfully.
+
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:15:07 2022
+ make -f system.make download started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 12.4 - iMPACT M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+AutoDetecting cable. Please wait.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS
+12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/12.4/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+Downloading C:/Xilinx/12.4/ISE_DS/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc2c64a, Version : 0
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xbr/data/xc2c64a.bsd...
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+INFO:iMPACT:501 - '1': Added Device xc2c64a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xc3s1600e, Version : 2
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/xc3s1600e.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+Elapsed time =      1 sec.
+Elapsed time =      0 sec.
+'1': Loading file 'implementation/download.bit' ...
+done.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+Boundary-scan chain validated successfully.
+'1': Programming device...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+'1': Programmed successfully.
+Elapsed time =      2 sec.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1001 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+INFO:iMPACT - '1': Checking done pin....done.
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:18:56 2022
+ make -f system.make program started...
+mb-gcc -O2 firmware/main.c drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c  -o main/executable.elf \
+	    -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b   -g    -I./microblaze_0/include/  -L./microblaze_0/lib/  \
+	  
+In file included from drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c:1:
+drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.h:12:34: warning: no newline at end of file
+mb-size main/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1666	    296	   1064	   3026	    bd2	main/executable.elf
+
+WARNING:EDK:3915 - Process successfully completed but error message(s) were generated. Please verify that the messages are only warnings.Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:19:01 2022
+ make -f system.make init_bram started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit -p xc3s1600efg320-4 system.mhs   -pe microblaze_0 main/executable.elf  \
+	-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm "implementation/system_bd" -p xc3s1600efg320-4 -bt
+"implementation/system.bit"  -bd "main/executable.elf" tag microblaze_0  -o b
+implementation/download.bit 
+Memory Initialization completed successfully.
+
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:19:06 2022
+ make -f system.make download started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 12.4 - iMPACT M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+AutoDetecting cable. Please wait.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS
+12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of C:/Xilinx/12.4/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc2c64a, Version : 0
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xbr/data/xc2c64a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2c64a successfully.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+'2': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xc3s1600e, Version : 2
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/xc3s1600e.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+Elapsed time =      1 sec.
+Elapsed time =      0 sec.
+'1': Loading file 'implementation/download.bit' ...
+done.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+'1': Programming device...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+'1': Programmed successfully.
+Elapsed time =      2 sec.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1001 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+INFO:iMPACT - '1': Checking done pin....done.
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:20:10 2022
+ make -f system.make program started...
+mb-gcc -O2 firmware/main.c drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c  -o main/executable.elf \
+	    -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b   -g    -I./microblaze_0/include/  -L./microblaze_0/lib/  \
+	  
+In file included from drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c:1:
+drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.h:12:34: warning: no newline at end of file
+mb-size main/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1662	    296	   1064	   3022	    bce	main/executable.elf
+
+WARNING:EDK:3915 - Process successfully completed but error message(s) were generated. Please verify that the messages are only warnings.Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:20:14 2022
+ make -f system.make init_bram started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit -p xc3s1600efg320-4 system.mhs   -pe microblaze_0 main/executable.elf  \
+	-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 12.4 Build EDK_MS4.81d
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
+   C_PLBV46_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
+   C_PLBV46_NUM_SLAVES value to 4
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
+   value to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
+   \plb_v46_v2_1_0.mpd line 73 - tool is overriding PARAMETER C_PLBV46_DWIDTH
+   value to 32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data
+   \lmb_v10_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_LMB_NUM_SLAVES
+   value to 1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 67 - tool is overriding PARAMETER C_MEMSIZE
+   value to 0x8000
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 83 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to
+   1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_a\data\mdm
+   _v2_1_0.mpd line 84 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value
+   to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 27 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 28 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:lcd2x16interface INSTANCE:lcd2x16interface_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\lcd2x16interface_v6_
+   00_a\data\lcd2x16interface_v2_1_0.mpd line 29 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
+   \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
+   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm "implementation/system_bd" -p xc3s1600efg320-4 -bt
+"implementation/system.bit"  -bd "main/executable.elf" tag microblaze_0  -o b
+implementation/download.bit 
+Memory Initialization completed successfully.
+
+Done!
+
+********************************************************************************
+At Local date and time: Thu Dec 15 11:20:19 2022
+ make -f system.make download started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 12.4 - iMPACT M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+AutoDetecting cable. Please wait.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS
+12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of C:/Xilinx/12.4/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc2c64a, Version : 0
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xcf04s, Version : 13
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xbr/data/xc2c64a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2c64a successfully.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+'3': : Manufacturer's ID = Xilinx xc3s1600e, Version : 2
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Elapsed time =      1 sec.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/12.4/ISE_DS/ISE/spartan3e/data/xc3s1600e.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+Elapsed time =      0 sec.
+'1': Loading file 'implementation/download.bit' ...
+done.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+INFO:iMPACT:501 - '1': Added Device xc3s1600e successfully.
+'1': Programming device...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:iMPACT:2219 - Status register values:
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+'1': Programmed successfully.
+Elapsed time =      2 sec.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT - 0011 0111 1001 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+INFO:iMPACT - '1': Checking done pin....done.
+Done!
