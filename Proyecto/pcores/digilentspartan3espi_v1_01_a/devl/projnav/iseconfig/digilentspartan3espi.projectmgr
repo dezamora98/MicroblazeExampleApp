@@ -11,13 +11,13 @@
          <ClosedNode>/digilentspartan3espi - IMP Z:|SysEmp|ProyectoFinal|ProyectoFinalSDE|Proyecto|pcores|digilentspartan3espi_v1_01_a|hdl|vhdl|digilentspartan3espi.vhd/PLBV46_SLAVE_SINGLE_I - plbv46_slave_single - implementation</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd)</SelectedItem>
+         <SelectedItem>digilentspartan3espi - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000223000000020000000000000000000000000000000064ffffffff000000810000000000000002000002230000000100000000000000000000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000020f0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>USER_LOGIC_I - user_logic - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd)</CurrentItem>
+      <CurrentItem>digilentspartan3espi - IMP (Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -68,13 +68,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

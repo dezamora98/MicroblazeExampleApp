@@ -2641,3 +2641,8 @@ INFO:iMPACT:579 - '1': Completed downloading bit file to device.
 INFO:iMPACT:188 - '1': Programming completed successfully.
 INFO:iMPACT - '1': Checking done pin....done.
 Done!
+Writing filter settings....
+Done writing filter settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.filters
+Done writing Tab View settings to:
+	\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\etc\system.gui
