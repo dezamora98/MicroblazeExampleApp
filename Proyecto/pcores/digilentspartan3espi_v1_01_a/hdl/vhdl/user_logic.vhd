@@ -105,7 +105,7 @@ entity user_logic is
     MB_Mosi: in std_logic;
     MB_Sck: in std_logic;
 
-    SS_ADC: in std_logic;
+    SS_DAC: in std_logic;
     SS_AMP: in std_logic;
     SS_Flash: in std_logic;
 
@@ -180,7 +180,7 @@ begin
 		Cs => slv_reg_read_sel(0),
 		ack => s_ack_adc,
 		Miso => Miso,
-		Conv => CS_DAC,
+		Conv => CS_ADC,
 		Sck => S_Sck,
 		DataCh0 => s_slv_reg0(0 to 13),
 		DataCh1 => s_slv_reg0(16 to 29)
@@ -189,7 +189,7 @@ begin
   sck <= MB_Sck when slv_reg_read_sel(0) = '0' else S_Sck;
   MB_Miso <= Miso;
   Mosi <= MB_Mosi;
-  CS_ADC <= SS_ADC;
+  CS_DAC <= SS_DAC;
   CS_AMP <= SS_AMP;
   CS_Flash <= SS_Flash;
 

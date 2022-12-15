@@ -162,7 +162,22 @@ entity digilentspartan3espi is
   port
   (
     -- ADD USER PORTS BELOW THIS LINE ------------------
-    --USER ports added here
+	    Miso : in std_logic;
+		Mosi : out std_logic;
+		Sck : out std_logic;
+
+		MB_Miso: out std_logic;
+		MB_Mosi: in std_logic;
+		MB_Sck: in std_logic;
+
+		SS_DAC: in std_logic;
+		SS_AMP: in std_logic;
+		SS_Flash: in std_logic;
+
+		CS_DAC: out std_logic;
+		CS_ADC: out std_logic;
+		CS_AMP: out std_logic;
+		CS_Flash: out std_logic;
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -379,7 +394,6 @@ begin
     generic map
     (
       -- MAP USER GENERICS BELOW THIS LINE ---------------
-      --USER generics mapped here
       -- MAP USER GENERICS ABOVE THIS LINE ---------------
 
       C_SLV_DWIDTH                   => USER_SLV_DWIDTH,
@@ -388,7 +402,22 @@ begin
     port map
     (
       -- MAP USER PORTS BELOW THIS LINE ------------------
-      --USER ports mapped here
+      Miso  =>  Miso,
+      Mosi  =>  Mosi,
+      Sck   =>  Sck,
+
+      MB_Miso =>  MB_Miso,
+      MB_Mosi =>  MB_Mosi,
+      MB_Sck  =>  MB_Sck,
+
+      SS_DAC    =>  SS_DAC,
+      SS_AMP    =>  SS_AMP,
+      SS_Flash  =>  SS_Flash,
+
+      CS_DAC    =>  CS_DAC,
+      CS_ADC    =>  CS_ADC,
+      CS_AMP    =>  CS_AMP,
+		  CS_Flash  =>  CS_Flash,
       -- MAP USER PORTS ABOVE THIS LINE ------------------
 
       Bus2IP_Clk                     => ipif_Bus2IP_Clk,

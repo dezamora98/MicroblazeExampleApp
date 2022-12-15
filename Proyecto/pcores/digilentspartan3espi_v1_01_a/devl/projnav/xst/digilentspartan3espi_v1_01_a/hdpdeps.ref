@@ -1,10 +1,24 @@
-V3 5
-FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd 2022/12/11.07:19:10 M.81d
-EN digilentspartan3espi_v1_01_a/user_logic 1670761158 \
+V3 12
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd 2022/12/15.09:54:02 M.81d
+EN digilentspartan3espi_v1_01_a/digilentspartan3espi 1671116081 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1671116058 \
+      PB proc_common_v3_00_a/ipif_pkg 1671116070 LB plbv46_slave_single_v1_01_a \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1671116077 \
+      LB digilentspartan3espi_v1_01_a EN digilentspartan3espi_v1_01_a/user_logic 1671116079
+AR digilentspartan3espi_v1_01_a/digilentspartan3espi/IMP 1671116082 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/digilentspartan3espi.vhd \
+      EN digilentspartan3espi_v1_01_a/digilentspartan3espi 1671116081 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP digilentspartan3espi_v1_01_a/user_logic
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd 2022/12/15.09:52:40 M.81d
+EN digilentspartan3espi_v1_01_a/user_logic 1671116079 \
       FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd \
       PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
       PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
-      PB proc_common_v3_00_a/proc_common_pkg 1670761155
-AR digilentspartan3espi_v1_01_a/user_logic/IMP 1670761159 \
+      PB proc_common_v3_00_a/proc_common_pkg 1671116058
+AR digilentspartan3espi_v1_01_a/user_logic/IMP 1671116080 \
       FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd \
-      EN digilentspartan3espi_v1_01_a/user_logic 1670761158 CP InterfaceLct1407
+      EN digilentspartan3espi_v1_01_a/user_logic 1671116079 CP InterfaceLct1407

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/devl/projnav/digilentspartan3espi.xst" -ofn "Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/devl/projnav/digilentspartan3espi.syr" 
