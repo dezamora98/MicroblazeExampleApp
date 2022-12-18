@@ -22,13 +22,15 @@
  PORT lcd2x16interface_0_en_pin = lcd2x16interface_0_en, DIR = O
  PORT lcd2x16interface_0_rw_pin = lcd2x16interface_0_rw, DIR = O
  PORT lcd2x16interface_0_sfce_pin = lcd2x16interface_0_sfce, DIR = O
- PORT Miso_pin = Digilent_Spartan3e_SPI_Miso, DIR = I
- PORT Mosi_pin = Digilent_Spartan3e_SPI_Mosi, DIR = O
- PORT Sck_pin = Digilent_Spartan3e_SPI_Sck, DIR = O
- PORT CS_DAC_pin = Digilent_Spartan3e_SPI_CS_DAC, DIR = O
- PORT CS_ADC_pin = Digilent_Spartan3e_SPI_CS_ADC, DIR = O
- PORT CS_AMP_pin = Digilent_Spartan3e_SPI_CS_AMP, DIR = O
- PORT CS_Flash_pin = Digilent_Spartan3e_SPI_CS_Flash, DIR = O
+ PORT uartlite_RX_pin = xps_uartlite_0_RX, DIR = I
+ PORT uartlite_TX_pin = xps_uartlite_0_TX, DIR = O
+ PORT Miso_pin = digilentspartan3e1600spi_0_Miso, DIR = I
+ PORT Mosi_pin = digilentspartan3e1600spi_0_Mosi, DIR = O
+ PORT Sck_pin = digilentspartan3e1600spi_0_Sck, DIR = O
+ PORT CS_DAC_pin = digilentspartan3e1600spi_0_CS_DAC, DIR = O
+ PORT CS_ADC_pin = digilentspartan3e1600spi_0_CS_ADC, DIR = O
+ PORT CS_AMP_pin = digilentspartan3e1600spi_0_CS_AMP, DIR = O
+ PORT CS_Flash_pin = digilentspartan3e1600spi_0_CS_Flash, DIR = O
 
 
 BEGIN microblaze
@@ -147,35 +149,46 @@ END
 BEGIN xps_spi
  PARAMETER INSTANCE = spi
  PARAMETER HW_VER = 2.02.a
-<<<<<<< HEAD
- PARAMETER C_NUM_SS_BITS = 3
- PARAMETER C_FIFO_EXIST = 0
-=======
  PARAMETER C_NUM_SS_BITS = 4
->>>>>>> 6ea562c2a9c4a37e1c2dda7c52efd2c640188bb8
+ PARAMETER C_FIFO_EXIST = 0
+ PARAMETER C_SCK_RATIO = 4
  PARAMETER C_BASEADDR = 0x83400000
  PARAMETER C_HIGHADDR = 0x8340ffff
  BUS_INTERFACE SPLB = mb_plb
- PORT SS_O = SS_Spi
- PORT SCK_O = SPI_MB_Sck
- PORT MISO_I = SPI_MB_Miso
- PORT MOSI_O = SPI_MB_Mosi
+ PORT SS_O = digilentspartan3e1600spi_0_MB_SS
+ PORT SCK_O = digilentspartan3e1600spi_0_MB_Sck
+ PORT MISO_I = digilentspartan3e1600spi_0_MB_Miso
+ PORT MOSI_O = digilentspartan3e1600spi_0_MB_Mosi
 END
 
-BEGIN digilentspartan3espi
- PARAMETER INSTANCE = Digilent_Spartan3e_SPI
- PARAMETER HW_VER = 1.01.c
+BEGIN xps_uartlite
+ PARAMETER INSTANCE = xps_uartlite_0
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_BAUDRATE = 9600
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_BASEADDR = 0x84000000
+ PARAMETER C_HIGHADDR = 0x8400ffff
  BUS_INTERFACE SPLB = mb_plb
- PORT Miso = Digilent_Spartan3e_SPI_Miso
- PORT Mosi = Digilent_Spartan3e_SPI_Mosi
- PORT Sck = Digilent_Spartan3e_SPI_Sck
- PORT MB_Miso = SPI_MB_Miso
- PORT MB_Mosi = SPI_MB_Mosi
- PORT MB_Sck = SPI_MB_Sck
- PORT SS_Spi = SS_Spi
- PORT CS_DAC = Digilent_Spartan3e_SPI_CS_DAC
- PORT CS_ADC = Digilent_Spartan3e_SPI_CS_ADC
- PORT CS_AMP = Digilent_Spartan3e_SPI_CS_AMP
- PORT CS_Flash = Digilent_Spartan3e_SPI_CS_Flash
+ PORT RX = xps_uartlite_0_RX
+ PORT TX = xps_uartlite_0_TX
+END
+
+BEGIN digilentspartan3e1600spi
+ PARAMETER INSTANCE = digilentspartan3e1600spi_0
+ PARAMETER HW_VER = 2.01.b
+ PARAMETER C_BASEADDR = 0xc8600000
+ PARAMETER C_HIGHADDR = 0xc860ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT Miso = digilentspartan3e1600spi_0_Miso
+ PORT Mosi = digilentspartan3e1600spi_0_Mosi
+ PORT Sck = digilentspartan3e1600spi_0_Sck
+ PORT MB_Miso = digilentspartan3e1600spi_0_MB_Miso
+ PORT MB_Mosi = digilentspartan3e1600spi_0_MB_Mosi
+ PORT MB_Sck = digilentspartan3e1600spi_0_MB_Sck
+ PORT MB_SS = digilentspartan3e1600spi_0_MB_SS
+ PORT CS_DAC = digilentspartan3e1600spi_0_CS_DAC
+ PORT CS_ADC = digilentspartan3e1600spi_0_CS_ADC
+ PORT CS_AMP = digilentspartan3e1600spi_0_CS_AMP
+ PORT CS_Flash = digilentspartan3e1600spi_0_CS_Flash
 END
 

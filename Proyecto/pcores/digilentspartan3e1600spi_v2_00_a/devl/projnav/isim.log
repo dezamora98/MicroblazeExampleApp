@@ -1,0 +1,14 @@
+ISim log file
+Running: Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e1600spi_v2_00_a\devl\projnav\TB_spi_slave_interface_isim_beh.exe -gui -tclbatch isim.cmd -wdb Z:/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/devl/projnav/TB_spi_slave_interface_isim_beh.wdb 
+ISim M.81d (signature 0xcb73ee62)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us

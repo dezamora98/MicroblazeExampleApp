@@ -1,0 +1,26 @@
+V3 12
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/digilentspartan3e1600spi.vhd 2022/12/18.03:31:27 M.81d
+EN digilentspartan3e1600spi_v2_00_a/digilentspartan3e1600spi 1671352324 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/digilentspartan3e1600spi.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1671352299 \
+      PB proc_common_v3_00_a/ipif_pkg 1671352311 LB plbv46_slave_single_v1_01_a \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1671352320 \
+      LB digilentspartan3e1600spi_v2_00_a \
+      EN digilentspartan3e1600spi_v2_00_a/user_logic 1671352322
+AR digilentspartan3e1600spi_v2_00_a/digilentspartan3e1600spi/IMP 1671352325 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/digilentspartan3e1600spi.vhd \
+      EN digilentspartan3e1600spi_v2_00_a/digilentspartan3e1600spi 1671352324 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP digilentspartan3e1600spi_v2_00_a/user_logic
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/user_logic.vhd 2022/12/18.03:28:32 M.81d
+EN digilentspartan3e1600spi_v2_00_a/user_logic 1671352322 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1671352299
+AR digilentspartan3e1600spi_v2_00_a/user_logic/IMP 1671352323 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/user_logic.vhd \
+      EN digilentspartan3e1600spi_v2_00_a/user_logic 1671352322 \
+      CP spi_slave_interface

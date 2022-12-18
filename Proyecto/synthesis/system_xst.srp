@@ -66,438 +66,439 @@ Analyzing hierarchy for entity <system> in library <work> (architecture <STRUCTU
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <system> in library <work> (Architecture <STRUCTURE>).
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'MB_Halted' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'MB_Error' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_AWVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_WDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_WSTRB' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_WLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_WVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_BREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_ARVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IP_RREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_AWVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_WDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_WSTRB' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_WLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_WVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_BREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_ARVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DP_RREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_AWVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_WDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_WSTRB' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_WLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_WVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_BREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_ARVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_IC_RREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_AWVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_WDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_WSTRB' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_WLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_WVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_BREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARADDR' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARLEN' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARSIZE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARBURST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARLOCK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARCACHE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARPROT' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARQOS' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_ARVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M_AXI_DC_RREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Instruction' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Valid_Instr' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_PC' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Reg_Write' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Reg_Addr' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_MSR_Reg' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_PID_Reg' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_New_Reg_Value' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Exception_Taken' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Exception_Kind' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Jump_Taken' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Delay_Slot' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Address' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Access' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Read' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Write' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Write_Value' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Data_Byte_Enable' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_DCache_Req' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_DCache_Hit' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_DCache_Rdy' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_DCache_Read' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_ICache_Req' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_ICache_Hit' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_ICache_Rdy' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_OF_PipeRun' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_EX_PipeRun' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_MEM_PipeRun' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_MB_Halted' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'Trace_Jump_Hit' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL0_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL1_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL2_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL3_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL4_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL5_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL6_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL7_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL8_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL9_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL10_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL11_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL12_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL13_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL14_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_S_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_S_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_M_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_M_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_M_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'FSL15_M_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M0_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M0_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M0_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S0_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M1_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M1_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M1_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S1_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M2_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M2_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M2_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S2_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M3_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M3_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M3_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S3_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M4_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M4_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M4_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S4_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M5_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M5_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M5_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S5_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M6_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M6_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M6_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S6_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M7_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M7_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M7_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S7_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M8_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M8_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M8_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S8_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M9_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M9_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M9_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S9_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M10_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M10_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M10_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S10_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M11_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M11_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M11_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S11_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M12_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M12_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M12_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S12_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M13_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M13_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M13_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S13_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M14_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M14_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M14_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S14_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M15_AXIS_TLAST' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M15_AXIS_TDATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'M15_AXIS_TVALID' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'S15_AXIS_TREADY' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_IN_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_IN_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_OUT_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_OUT_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_OUT_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'ICACHE_FSL_OUT_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_IN_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_IN_READ' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_OUT_CLK' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_OUT_WRITE' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_OUT_DATA' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1411: Unconnected output port 'DCACHE_FSL_OUT_CONTROL' of component 'microblaze_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_Rst' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'MPLB_Rst' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_dcrAck' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_dcrDBus' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SaddrAck' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SMRdErr' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SMWrErr' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SMBusy' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SrdBTerm' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SrdComp' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SrdDAck' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SrdDBus' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SrdWdAddr' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_Srearbitrate' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_Sssize' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_Swait' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SwrBTerm' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SwrComp' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'PLB_SwrDAck' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1997: Unconnected output port 'Bus_Error_Det' of component 'mb_plb_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT1' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT2' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT3' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT4' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT5' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT6' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT7' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT8' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT9' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT10' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT11' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT12' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT13' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT14' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKOUT15' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'CLKFBOUT' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2204: Unconnected output port 'PSDONE' of component 'clock_generator_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Interrupt' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_AWREADY' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_WREADY' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_BRESP' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_BVALID' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_ARREADY' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_RDATA' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_RRESP' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'S_AXI_RVALID' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_2' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_3' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_4' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_5' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_6' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Clk_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_TDI_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Reg_En_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Capture_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Shift_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Update_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Dbg_Rst_7' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_tdi' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_reset' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_shift' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_update' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_capture' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_sel1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'bscan_drck1' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_DRCK' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_RESET' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_SEL' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_CAPTURE' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_SHIFT' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_UPDATE' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2233: Unconnected output port 'Ext_JTAG_TDI' of component 'mdm_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetcore_0' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetchip_0' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetsys_0' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetcore_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetchip_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'RstcPPCresetsys_1' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'Peripheral_Reset' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'Interconnect_aresetn' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2382: Unconnected output port 'Peripheral_aresetn' of component 'proc_sys_reset_0_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'SCK_T' of component 'spi_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'MISO_O' of component 'spi_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'MISO_T' of component 'spi_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'MOSI_T' of component 'spi_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'SS_T' of component 'spi_wrapper'.
-WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2459: Unconnected output port 'IP2INTC_Irpt' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'MB_Halted' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'MB_Error' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_AWVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_WDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_WSTRB' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_WLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_WVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_BREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_ARVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IP_RREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_AWVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_WDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_WSTRB' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_WLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_WVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_BREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_ARVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DP_RREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_AWVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_WDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_WSTRB' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_WLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_WVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_BREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_ARVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_IC_RREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_AWVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_WDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_WSTRB' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_WLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_WVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_BREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARADDR' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARLEN' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARSIZE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARBURST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARLOCK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARCACHE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARPROT' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARQOS' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_ARVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M_AXI_DC_RREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Instruction' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Valid_Instr' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_PC' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Reg_Write' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Reg_Addr' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_MSR_Reg' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_PID_Reg' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_New_Reg_Value' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Exception_Taken' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Exception_Kind' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Jump_Taken' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Delay_Slot' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Address' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Access' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Read' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Write' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Write_Value' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Data_Byte_Enable' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_DCache_Req' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_DCache_Hit' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_DCache_Rdy' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_DCache_Read' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_ICache_Req' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_ICache_Hit' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_ICache_Rdy' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_OF_PipeRun' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_EX_PipeRun' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_MEM_PipeRun' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_MB_Halted' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'Trace_Jump_Hit' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL0_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL1_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL2_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL3_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL4_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL5_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL6_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL7_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL8_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL9_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL10_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL11_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL12_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL13_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL14_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_S_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_S_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_M_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_M_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_M_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'FSL15_M_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M0_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M0_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M0_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S0_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M1_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M1_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M1_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S1_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M2_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M2_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M2_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S2_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M3_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M3_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M3_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S3_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M4_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M4_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M4_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S4_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M5_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M5_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M5_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S5_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M6_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M6_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M6_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S6_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M7_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M7_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M7_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S7_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M8_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M8_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M8_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S8_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M9_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M9_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M9_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S9_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M10_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M10_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M10_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S10_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M11_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M11_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M11_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S11_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M12_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M12_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M12_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S12_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M13_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M13_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M13_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S13_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M14_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M14_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M14_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S14_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M15_AXIS_TLAST' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M15_AXIS_TDATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'M15_AXIS_TVALID' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'S15_AXIS_TREADY' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_IN_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_IN_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_OUT_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_OUT_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_OUT_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'ICACHE_FSL_OUT_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_IN_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_IN_READ' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_OUT_CLK' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_OUT_WRITE' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_OUT_DATA' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 1466: Unconnected output port 'DCACHE_FSL_OUT_CONTROL' of component 'microblaze_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_Rst' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'MPLB_Rst' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_dcrAck' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_dcrDBus' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SaddrAck' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SMRdErr' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SMWrErr' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SMBusy' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SrdBTerm' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SrdComp' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SrdDAck' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SrdDBus' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SrdWdAddr' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_Srearbitrate' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_Sssize' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_Swait' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SwrBTerm' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SwrComp' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'PLB_SwrDAck' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2052: Unconnected output port 'Bus_Error_Det' of component 'mb_plb_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT1' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT2' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT3' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT4' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT5' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT6' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT7' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT8' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT9' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT10' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT11' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT12' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT13' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT14' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKOUT15' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'CLKFBOUT' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2259: Unconnected output port 'PSDONE' of component 'clock_generator_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Interrupt' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_AWREADY' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_WREADY' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_BRESP' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_BVALID' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_ARREADY' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_RDATA' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_RRESP' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'S_AXI_RVALID' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_2' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_3' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_4' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_5' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_6' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Clk_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_TDI_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Reg_En_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Capture_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Shift_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Update_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Dbg_Rst_7' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_tdi' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_reset' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_shift' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_update' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_capture' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_sel1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'bscan_drck1' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_DRCK' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_RESET' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_SEL' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_CAPTURE' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_SHIFT' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_UPDATE' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2288: Unconnected output port 'Ext_JTAG_TDI' of component 'mdm_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetcore_0' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetchip_0' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetsys_0' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetcore_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetchip_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'RstcPPCresetsys_1' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'Peripheral_Reset' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'Interconnect_aresetn' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2437: Unconnected output port 'Peripheral_aresetn' of component 'proc_sys_reset_0_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'SCK_T' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'MISO_O' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'MISO_T' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'MOSI_T' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'SS_T' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2514: Unconnected output port 'IP2INTC_Irpt' of component 'spi_wrapper'.
+WARNING:Xst:753 - "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/system.vhd" line 2574: Unconnected output port 'Interrupt' of component 'xps_uartlite_0_wrapper'.
 Entity <system> analyzed. Unit <system> generated.
 
 
@@ -534,7 +535,8 @@ Reading core <../implementation/mdm_0_wrapper.ngc>.
 Reading core <../implementation/proc_sys_reset_0_wrapper.ngc>.
 Reading core <../implementation/lcd2x16interface_0_wrapper.ngc>.
 Reading core <../implementation/spi_wrapper.ngc>.
-Reading core <../implementation/digilent_spartan3e_spi_wrapper.ngc>.
+Reading core <../implementation/xps_uartlite_0_wrapper.ngc>.
+Reading core <../implementation/digilentspartan3e1600spi_0_wrapper.ngc>.
 Loading core <microblaze_0_wrapper> for timing and area information for instance <microblaze_0>.
 Loading core <mb_plb_wrapper> for timing and area information for instance <mb_plb>.
 Loading core <ilmb_wrapper> for timing and area information for instance <ilmb>.
@@ -547,7 +549,8 @@ Loading core <mdm_0_wrapper> for timing and area information for instance <mdm_0
 Loading core <proc_sys_reset_0_wrapper> for timing and area information for instance <proc_sys_reset_0>.
 Loading core <lcd2x16interface_0_wrapper> for timing and area information for instance <lcd2x16interface_0>.
 Loading core <spi_wrapper> for timing and area information for instance <spi>.
-Loading core <digilent_spartan3e_spi_wrapper> for timing and area information for instance <Digilent_Spartan3e_SPI>.
+Loading core <xps_uartlite_0_wrapper> for timing and area information for instance <xps_uartlite_0>.
+Loading core <digilentspartan3e1600spi_0_wrapper> for timing and area information for instance <digilentspartan3e1600spi_0>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -563,17 +566,15 @@ Optimizing unit <system> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2> in Unit <mb_plb> is equivalent to the following FF/Latch : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2_1> 
-INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_MPLB_RST[1].I_MPLB_RST> in Unit <mb_plb> is equivalent to the following 6 FFs/Latches : <mb_plb/GEN_MPLB_RST[0].I_MPLB_RST> <mb_plb/GEN_SPLB_RST[3].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[2].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[1].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[0].I_SPLB_RST> <mb_plb/I_PLB_RST> 
+INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_MPLB_RST[1].I_MPLB_RST> in Unit <mb_plb> is equivalent to the following 7 FFs/Latches : <mb_plb/GEN_MPLB_RST[0].I_MPLB_RST> <mb_plb/GEN_SPLB_RST[4].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[3].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[2].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[1].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[0].I_SPLB_RST> <mb_plb/I_PLB_RST> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3> in Unit <mb_plb> is equivalent to the following FF/Latch : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3_1> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1> in Unit <mb_plb> is equivalent to the following 3 FFs/Latches : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_1> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_2> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_3> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0> in Unit <mb_plb> is equivalent to the following 3 FFs/Latches : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_1> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_2> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_3> 
 INFO:Xst:2260 - The FF/Latch <spi/I_SPI_MODULE/transfer_start> in Unit <spi> is equivalent to the following FF/Latch : <spi/I_SPI_MODULE/transfer_start_1> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0> in Unit <mb_plb> is equivalent to the following 3 FFs/Latches : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_1> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_2> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_3> 
-INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2> in Unit <mb_plb> is equivalent to the following FF/Latch : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2_1> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1> in Unit <mb_plb> is equivalent to the following 3 FFs/Latches : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_1> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_2> <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_3> 
 INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3> in Unit <mb_plb> is equivalent to the following FF/Latch : <mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3_1> 
-INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_MPLB_RST[1].I_MPLB_RST> in Unit <mb_plb> is equivalent to the following 6 FFs/Latches : <mb_plb/GEN_MPLB_RST[0].I_MPLB_RST> <mb_plb/GEN_SPLB_RST[3].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[2].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[1].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[0].I_SPLB_RST> <mb_plb/I_PLB_RST> 
+INFO:Xst:2260 - The FF/Latch <mb_plb/GEN_MPLB_RST[1].I_MPLB_RST> in Unit <mb_plb> is equivalent to the following 7 FFs/Latches : <mb_plb/GEN_MPLB_RST[0].I_MPLB_RST> <mb_plb/GEN_SPLB_RST[4].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[3].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[2].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[1].I_SPLB_RST> <mb_plb/GEN_SPLB_RST[0].I_SPLB_RST> <mb_plb/I_PLB_RST> 
 INFO:Xst:2260 - The FF/Latch <spi/I_SPI_MODULE/transfer_start> in Unit <spi> is equivalent to the following FF/Latch : <spi/I_SPI_MODULE/transfer_start_1> 
 
 Final Macro Processing ...
@@ -605,60 +606,60 @@ Optimization Goal                  : speed
 Keep Hierarchy                     : no
 
 Design Statistics
-# IOs                              : 21
+# IOs                              : 23
 
 Cell Usage :
-# BELS                             : 3484
-#      GND                         : 15
-#      INV                         : 48
-#      LUT1                        : 127
-#      LUT2                        : 304
-#      LUT2_D                      : 20
-#      LUT2_L                      : 16
-#      LUT3                        : 667
-#      LUT3_D                      : 57
-#      LUT3_L                      : 19
-#      LUT4                        : 1257
-#      LUT4_D                      : 21
-#      LUT4_L                      : 35
+# BELS                             : 3619
+#      GND                         : 16
+#      INV                         : 59
+#      LUT1                        : 128
+#      LUT2                        : 331
+#      LUT2_D                      : 14
+#      LUT2_L                      : 18
+#      LUT3                        : 685
+#      LUT3_D                      : 54
+#      LUT3_L                      : 18
+#      LUT4                        : 1240
+#      LUT4_D                      : 24
+#      LUT4_L                      : 27
 #      MULT_AND                    : 34
-#      MUXCY                       : 219
-#      MUXCY_L                     : 126
-#      MUXF5                       : 295
+#      MUXCY                       : 242
+#      MUXCY_L                     : 136
+#      MUXF5                       : 349
 #      MUXF6                       : 5
 #      MUXF7                       : 2
 #      MUXF8                       : 1
-#      VCC                         : 11
-#      XORCY                       : 205
-# FlipFlops/Latches                : 1941
-#      FD                          : 256
+#      VCC                         : 12
+#      XORCY                       : 224
+# FlipFlops/Latches                : 2033
+#      FD                          : 257
 #      FDC                         : 19
 #      FDC_1                       : 5
 #      FDCE                        : 14
 #      FDE                         : 295
 #      FDE_1                       : 8
 #      FDP                         : 9
-#      FDR                         : 610
-#      FDRE                        : 522
+#      FDR                         : 676
+#      FDRE                        : 516
 #      FDRE_1                      : 1
 #      FDRS                        : 46
 #      FDRSE                       : 55
-#      FDS                         : 41
-#      FDSE                        : 60
+#      FDS                         : 67
+#      FDSE                        : 65
 # RAMS                             : 145
 #      RAM16X1D                    : 128
 #      RAMB16_S2_S2                : 16
 #      RAMB16_S36_S36              : 1
-# Shift Registers                  : 113
+# Shift Registers                  : 132
 #      SRL16                       : 9
-#      SRL16E                      : 96
+#      SRL16E                      : 115
 #      SRLC16E                     : 8
 # Clock Buffers                    : 4
 #      BUFG                        : 4
-# IO Buffers                       : 21
-#      IBUF                        : 2
+# IO Buffers                       : 23
+#      IBUF                        : 3
 #      IBUFG                       : 1
-#      OBUF                        : 18
+#      OBUF                        : 19
 # DCMs                             : 1
 #      DCM_SP                      : 1
 # MULTs                            : 3
@@ -672,14 +673,14 @@ Device utilization summary:
 
 Selected Device : 3s1600efg320-4 
 
- Number of Slices:                     1730  out of  14752    11%  
- Number of Slice Flip Flops:           1935  out of  29504     6%  
- Number of 4 input LUTs:               2940  out of  29504     9%  
-    Number used as logic:              2571
-    Number used as Shift registers:     113
+ Number of Slices:                     1817  out of  14752    12%  
+ Number of Slice Flip Flops:           2027  out of  29504     6%  
+ Number of 4 input LUTs:               2986  out of  29504    10%  
+    Number used as logic:              2598
+    Number used as Shift registers:     132
     Number used as RAMs:                256
- Number of IOs:                          21
- Number of bonded IOBs:                  21  out of    250     8%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    250     9%  
     IOB Flip Flops:                       6
  Number of BRAMs:                        17  out of     36    47%  
  Number of MULT18X18SIOs:                 3  out of     36     8%  
@@ -707,7 +708,7 @@ Clock Information:
 -----------------------------------+-------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                 | Load  |
 -----------------------------------+-------------------------------------------------------+-------+
-fpga_0_clk_1_sys_clk_pin           | clock_generator_0/DCM0_INST/Using_Virtex.DCM_INST:CLK0| 1956  |
+fpga_0_clk_1_sys_clk_pin           | clock_generator_0/DCM0_INST/Using_Virtex.DCM_INST:CLK0| 2067  |
 mdm_0/mdm_0/drck_i                 | BUFG                                                  | 205   |
 mdm_0/bscan_update1                | BUFG                                                  | 41    |
 -----------------------------------+-------------------------------------------------------+-------+
@@ -734,7 +735,7 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 15.800ns (Maximum Frequency: 63.291MHz)
-   Minimum input arrival time before clock: 4.729ns
+   Minimum input arrival time before clock: 4.704ns
    Maximum output required time after clock: 11.253ns
    Maximum combinational path delay: No path found
 
@@ -744,10 +745,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'fpga_0_clk_1_sys_clk_pin'
-  Clock period: 11.061ns (frequency: 90.406MHz)
-  Total number of paths / destination ports: 155786 / 6144
+  Clock period: 11.592ns (frequency: 86.264MHz)
+  Total number of paths / destination ports: 159199 / 6448
 -------------------------------------------------------------------------
-Delay:               11.061ns (Levels of Logic = 29)
+Delay:               11.592ns (Levels of Logic = 38)
   Source:            microblaze_0/microblaze_0/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.Buffer_DFFs[1].FDS_I (FF)
   Destination:       lmb_bram/lmb_bram/ramb16_s2_s2_0 (RAM)
   Source Clock:      fpga_0_clk_1_sys_clk_pin rising
@@ -780,8 +781,17 @@ Delay:               11.061ns (Levels of Logic = 29)
      MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[12].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<12>)
      MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[11].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<11>)
      MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[10].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<10>)
-     XORCY:CI->O           1   0.804   0.595  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[9].PC_Bit_I/XOR_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[9].PC_Bit_I/pc_Sum)
-     LUT4:I0->O            7   0.704   0.787  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[9].PC_Bit_I/NewPC_Mux (INSTR_ADDR<9>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[9].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<9>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[8].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<8>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[7].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<7>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[6].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<6>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[5].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<5>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[4].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<4>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[3].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<3>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[2].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<2>)
+     MUXCY_L:CI->LO        1   0.059   0.000  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[1].PC_Bit_I/MUXCY_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Carry<1>)
+     XORCY:CI->O           1   0.804   0.595  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[0].PC_Bit_I/XOR_X (microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[0].PC_Bit_I/pc_Sum)
+     LUT4:I0->O            7   0.704   0.787  microblaze_0/Area.Data_Flow_I/PC_Module_I/Using_FPGA.PC_GEN[0].PC_Bit_I/NewPC_Mux (INSTR_ADDR<0>)
      end scope: 'microblaze_0'
      begin scope: 'ilmb'
      end scope: 'ilmb'
@@ -792,8 +802,8 @@ Delay:               11.061ns (Levels of Logic = 29)
      begin scope: 'lmb_bram'
      RAMB16_S2_S2:WEA          1.253          ramb16_s2_s2_12
     ----------------------------------------
-    Total                     11.061ns (7.049ns logic, 4.012ns route)
-                                       (63.7% logic, 36.3% route)
+    Total                     11.592ns (7.580ns logic, 4.012ns route)
+                                       (65.4% logic, 34.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'mdm_0/mdm_0/drck_i'
@@ -899,9 +909,9 @@ Offset:              4.085ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'fpga_0_clk_1_sys_clk_pin'
-  Total number of paths / destination ports: 30 / 30
+  Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              4.729ns (Levels of Logic = 5)
+Offset:              3.888ns (Levels of Logic = 5)
   Source:            Miso_pin (PAD)
   Destination:       spi/spi/I_SPI_MODULE/Serial_Din (FF)
   Destination Clock: fpga_0_clk_1_sys_clk_pin rising
@@ -910,20 +920,20 @@ Offset:              4.729ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            29   1.218   1.340  Miso_pin_IBUF (Miso_pin_IBUF)
-     begin scope: 'Digilent_Spartan3e_SPI'
-     end scope: 'Digilent_Spartan3e_SPI'
+     IBUF:I->O             1   1.218   0.499  Miso_pin_IBUF (Miso_pin_IBUF)
+     begin scope: 'digilentspartan3e1600spi_0'
+     end scope: 'digilentspartan3e1600spi_0'
      begin scope: 'spi'
      LUT3:I1->O            1   0.704   0.455  spi/I_SPI_MODULE/Serial_Din_mux0003_SW0 (N8)
      LUT3:I2->O            1   0.704   0.000  spi/I_SPI_MODULE/Serial_Din_mux0003 (spi/I_SPI_MODULE/Serial_Din_mux0003)
      FDR:D                     0.308          spi/I_SPI_MODULE/Serial_Din
     ----------------------------------------
-    Total                      4.729ns (2.934ns logic, 1.795ns route)
-                                       (62.0% logic, 38.0% route)
+    Total                      3.888ns (2.934ns logic, 0.954ns route)
+                                       (75.5% logic, 24.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'fpga_0_clk_1_sys_clk_pin'
-  Total number of paths / destination ports: 64 / 16
+  Total number of paths / destination ports: 64 / 17
 -------------------------------------------------------------------------
 Offset:              8.016ns (Levels of Logic = 5)
   Source:            lcd2x16interface_0/lcd2x16interface_0/USER_LOGIC_I/Inst_cldInterface/Inst_LcdCtrFsm/LcdBRam/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp36x36.ram (RAM)
@@ -1010,14 +1020,14 @@ Offset:              9.063ns (Levels of Logic = 10)
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 12.06 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.69 secs
  
 --> 
 
-Total memory usage is 165416 kilobytes
+Total memory usage is 165420 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  432 (   0 filtered)
-Number of infos    :   12 (   0 filtered)
+Number of warnings :  433 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
 

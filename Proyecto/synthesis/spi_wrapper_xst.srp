@@ -274,9 +274,9 @@ Analyzing hierarchy for entity <xps_spi> in library <xps_spi_v2_02_a> (architect
 	C_FAMILY = "spartan3e"
 	C_FIFO_EXIST = 0
 	C_HIGHADDR = "10000011010000001111111111111111"
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 	C_NUM_TRANSFER_BITS = 8
-	C_SCK_RATIO = 32
+	C_SCK_RATIO = 4
 	C_SPLB_AWIDTH = 32
 	C_SPLB_DWIDTH = 32
 	C_SPLB_MID_WIDTH = 1
@@ -326,13 +326,13 @@ Analyzing hierarchy for entity <spi_cntrl_reg> in library <xps_spi_v2_02_a> (arc
 Analyzing hierarchy for entity <spi_status_slave_sel_reg> in library <xps_spi_v2_02_a> (architecture <imp>) with generics.
 	C_DBUS_WIDTH = 32
 	C_NUM_BITS_REG = 8
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 
 Analyzing hierarchy for entity <spi_module> in library <xps_spi_v2_02_a> (architecture <imp>) with generics.
 	C_NUM_BITS_REG = 10
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 	C_NUM_TRANSFER_BITS = 8
-	C_SCK_RATIO = 32
+	C_SCK_RATIO = 4
 
 Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
 	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000010000011010000000000000000000000",
@@ -548,9 +548,9 @@ Analyzing generic Entity <xps_spi> in library <xps_spi_v2_02_a> (Architecture <i
 	C_FAMILY = "spartan3e"
 	C_FIFO_EXIST = 0
 	C_HIGHADDR = "10000011010000001111111111111111"
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 	C_NUM_TRANSFER_BITS = 8
-	C_SCK_RATIO = 32
+	C_SCK_RATIO = 4
 	C_SPLB_AWIDTH = 32
 	C_SPLB_DWIDTH = 32
 	C_SPLB_MID_WIDTH = 1
@@ -841,14 +841,14 @@ Entity <spi_cntrl_reg> analyzed. Unit <spi_cntrl_reg> generated.
 Analyzing generic Entity <spi_status_slave_sel_reg> in library <xps_spi_v2_02_a> (Architecture <imp>).
 	C_DBUS_WIDTH = 32
 	C_NUM_BITS_REG = 8
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 Entity <spi_status_slave_sel_reg> analyzed. Unit <spi_status_slave_sel_reg> generated.
 
 Analyzing generic Entity <spi_module> in library <xps_spi_v2_02_a> (Architecture <imp>).
 	C_NUM_BITS_REG = 10
-	C_NUM_SS_BITS = 3
+	C_NUM_SS_BITS = 4
 	C_NUM_TRANSFER_BITS = 8
-	C_SCK_RATIO = 32
+	C_SCK_RATIO = 4
     Set user-defined property "INIT =  1" for instance <SPI_TRISTATE_CONTROL_II> in unit <spi_module>.
     Set user-defined property "IOB =  true" for instance <SPI_TRISTATE_CONTROL_II> in unit <spi_module>.
     Set user-defined property "INIT =  1" for instance <SPI_TRISTATE_CONTROL_III> in unit <spi_module>.
@@ -928,12 +928,12 @@ Unit <interrupt_control> synthesized.
 
 Synthesizing Unit <spi_status_slave_sel_reg>.
     Related source file is "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_spi_v2_02_a/hdl/vhdl/spi_status_slave_sel_reg.vhd".
-WARNING:Xst:647 - Input <Bus2IP_Data_slave_sel<0:28>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus2IP_Data_slave_sel<0:27>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <register_Data_s<0:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit register for signal <modf>.
-    Found 3-bit register for signal <register_Data_int>.
+    Found 4-bit register for signal <register_Data_int>.
     Summary:
-	inferred   4 D-type flip-flop(s).
+	inferred   5 D-type flip-flop(s).
 Unit <spi_status_slave_sel_reg> synthesized.
 
 
@@ -1100,13 +1100,14 @@ Synthesizing Unit <spi_module>.
     Related source file is "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_spi_v2_02_a/hdl/vhdl/spi_module.vhd".
 WARNING:Xst:647 - Input <SS_I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Control_Reg<3:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <sck_o_in> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sck_i_d1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <sck_d21> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <sck_d11> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <SCK_O_1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Register <MODF_strobe_int> equivalent to <MODF_strobe> has been removed
     Found 1-bit register for signal <Slave_MODF_strobe>.
     Found 1-bit register for signal <MODF_strobe>.
-    Found 3-bit register for signal <SS_O>.
+    Found 4-bit register for signal <SS_O>.
     Found 8-bit register for signal <Receive_Data>.
     Found 1-bit register for signal <DTR_underrun>.
     Found 1-bit register for signal <SCK_O>.
@@ -1116,13 +1117,12 @@ WARNING:Xst:1780 - Signal <SCK_O_1> is never used or assigned. This unconnected 
     Found 5-bit adder for signal <Count$addsub0000> created at line 868.
     Found 1-bit register for signal <Count_trigger>.
     Found 1-bit register for signal <Count_trigger_d1>.
-    Found 4-bit down counter for signal <Ratio_Count>.
+    Found T flip-flop for signal <Ratio_Count<0>>.
     Found 8-bit register for signal <rx_shft_reg_mode_0011>.
     Found 8-bit register for signal <rx_shft_reg_mode_0110>.
     Found 8-bit register for signal <rx_shft_reg_s>.
     Found 1-bit register for signal <sck_d1>.
     Found 1-bit register for signal <sck_d2>.
-    Found 1-bit register for signal <sck_i_d1>.
     Found 1-bit register for signal <sck_o_int>.
     Found 1-bit xor2 for signal <sck_o_int$xor0000> created at line 898.
     Found 1-bit register for signal <Serial_Din>.
@@ -1139,7 +1139,7 @@ WARNING:Xst:1780 - Signal <SCK_O_1> is never used or assigned. This unconnected 
     Found 1-bit register for signal <transfer_start>.
     Found 1-bit register for signal <transfer_start_d1>.
     Summary:
-	inferred   1 Counter(s).
+	inferred   1 T-type flip-flop(s).
 	inferred  71 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
 Unit <spi_module> synthesized.
@@ -1297,10 +1297,8 @@ Macro Statistics
 # Adders/Subtractors                                   : 2
  5-bit adder                                           : 1
  9-bit subtractor                                      : 1
-# Counters                                             : 1
- 4-bit down counter                                    : 1
-# Registers                                            : 184
- 1-bit register                                        : 169
+# Registers                                            : 185
+ 1-bit register                                        : 170
  3-bit register                                        : 1
  32-bit register                                       : 4
  4-bit register                                        : 3
@@ -1308,6 +1306,8 @@ Macro Statistics
  6-bit register                                        : 1
  8-bit register                                        : 3
  9-bit register                                        : 2
+# Toggle Registers                                     : 1
+ T flip-flop                                           : 1
 # Xors                                                 : 11
  1-bit xor2                                            : 11
 
@@ -1327,10 +1327,8 @@ Macro Statistics
 # Adders/Subtractors                                   : 2
  5-bit adder                                           : 1
  9-bit subtractor                                      : 1
-# Counters                                             : 1
- 4-bit down counter                                    : 1
-# Registers                                            : 380
- Flip-Flops                                            : 380
+# Registers                                            : 382
+ Flip-Flops                                            : 382
 # Xors                                                 : 11
  1-bit xor2                                            : 11
 
@@ -1489,8 +1487,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 268
- Flip-Flops                                            : 268
+# Registers                                            : 266
+ Flip-Flops                                            : 266
 
 =========================================================================
 
@@ -1515,33 +1513,33 @@ Optimization Goal                  : speed
 Keep Hierarchy                     : no
 
 Design Statistics
-# IOs                              : 219
+# IOs                              : 221
 
 Cell Usage :
-# BELS                             : 283
+# BELS                             : 281
 #      GND                         : 1
 #      INV                         : 4
-#      LUT2                        : 45
+#      LUT2                        : 44
 #      LUT2_D                      : 4
 #      LUT2_L                      : 5
-#      LUT3                        : 70
+#      LUT3                        : 68
 #      LUT3_D                      : 2
-#      LUT3_L                      : 3
-#      LUT4                        : 114
+#      LUT3_L                      : 4
+#      LUT4                        : 115
 #      LUT4_D                      : 8
-#      LUT4_L                      : 9
+#      LUT4_L                      : 8
 #      MUXCY                       : 7
 #      MUXF5                       : 10
 #      VCC                         : 1
-# FlipFlops/Latches                : 268
+# FlipFlops/Latches                : 266
 #      FD                          : 7
 #      FDE                         : 16
-#      FDR                         : 93
+#      FDR                         : 92
 #      FDRE                        : 96
 #      FDRS                        : 20
 #      FDRSE                       : 10
-#      FDS                         : 15
-#      FDSE                        : 11
+#      FDS                         : 13
+#      FDSE                        : 12
 =========================================================================
 
 Device utilization summary:
@@ -1549,10 +1547,10 @@ Device utilization summary:
 
 Selected Device : 3s1600efg320-4 
 
- Number of Slices:                      206  out of  14752     1%  
- Number of Slice Flip Flops:            262  out of  29504     0%  
- Number of 4 input LUTs:                264  out of  29504     0%  
- Number of IOs:                         219
+ Number of Slices:                      204  out of  14752     1%  
+ Number of Slice Flip Flops:            260  out of  29504     0%  
+ Number of 4 input LUTs:                262  out of  29504     0%  
+ Number of IOs:                         221
  Number of bonded IOBs:                   0  out of    250     0%  
     IOB Flip Flops:                       6
 
@@ -1577,7 +1575,7 @@ Clock Information:
 -----------------------------------+-------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                       | Load  |
 -----------------------------------+-------------------------------------------------------------+-------+
-SPLB_Clk                           | NONE(spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31)| 268   |
+SPLB_Clk                           | NONE(spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31)| 266   |
 -----------------------------------+-------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -1590,7 +1588,7 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 6.670ns (Maximum Frequency: 149.925MHz)
-   Minimum input arrival time before clock: 4.988ns
+   Minimum input arrival time before clock: 5.317ns
    Maximum output required time after clock: 3.441ns
    Maximum combinational path delay: No path found
 
@@ -1601,7 +1599,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SPLB_Clk'
   Clock period: 6.670ns (frequency: 149.925MHz)
-  Total number of paths / destination ports: 2907 / 528
+  Total number of paths / destination ports: 2851 / 525
 -------------------------------------------------------------------------
 Delay:               6.670ns (Levels of Logic = 4)
   Source:            spi/I_CONTROL_REG_1/control_register_data_int_6 (FF)
@@ -1614,8 +1612,8 @@ Delay:               6.670ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDRE:C->Q            11   0.591   0.937  spi/I_CONTROL_REG_1/control_register_data_int_6 (spi/I_CONTROL_REG_1/control_register_data_int_6)
-     LUT4_D:I3->LO         1   0.704   0.135  spi/I_SPI_MODULE/rx_shft_reg_s_not00011_SW0 (N189)
-     LUT3:I2->O            1   0.704   0.424  spi/I_SPI_MODULE/Shift_Reg_2_not000153_SW0_SW0 (N138)
+     LUT4_D:I3->O          1   0.704   0.455  spi/I_SPI_MODULE/rx_shft_reg_s_not00011_SW0 (N62)
+     LUT3_L:I2->LO         1   0.704   0.104  spi/I_SPI_MODULE/Shift_Reg_2_not000153_SW0_SW0 (N138)
      LUT4:I3->O            1   0.704   0.455  spi/I_SPI_MODULE/Shift_Reg_2_not000153_SW0 (N113)
      LUT4:I2->O            8   0.704   0.757  spi/I_SPI_MODULE/Shift_Reg_2_not000153 (spi/I_SPI_MODULE/Shift_Reg_2_not0001)
      FDRE:CE                   0.555          spi/I_SPI_MODULE/Shift_Reg_2
@@ -1625,28 +1623,29 @@ Delay:               6.670ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
-  Total number of paths / destination ports: 362 / 317
+  Total number of paths / destination ports: 390 / 320
 -------------------------------------------------------------------------
-Offset:              4.988ns (Levels of Logic = 3)
-  Source:            SPLB_Rst (PAD)
+Offset:              5.317ns (Levels of Logic = 4)
+  Source:            SCK_I (PAD)
   Destination:       spi/I_SPI_MODULE/Shift_Reg_2 (FF)
   Destination Clock: SPLB_Clk rising
 
-  Data Path: SPLB_Rst to spi/I_SPI_MODULE/Shift_Reg_2
+  Data Path: SCK_I to spi/I_SPI_MODULE/Shift_Reg_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT2:I0->O           93   0.704   1.285  spi/I_SOFT_RESET/Reset2IP_Reset1 (spi/reset2ip_reset)
-     LUT4_D:I3->LO         1   0.704   0.104  spi/I_SPI_MODULE/Loading_SR_Reg_int (N190)
-     LUT4:I3->O            8   0.704   0.757  spi/I_SPI_MODULE/Shift_Reg_2_not000153 (spi/I_SPI_MODULE/Shift_Reg_2_not0001)
+     LUT4_D:I0->O          1   0.704   0.455  spi/I_SPI_MODULE/rx_shft_reg_s_not00011_SW0 (N62)
+     LUT3_L:I2->LO         1   0.704   0.104  spi/I_SPI_MODULE/Shift_Reg_2_not000153_SW0_SW0 (N138)
+     LUT4:I3->O            1   0.704   0.455  spi/I_SPI_MODULE/Shift_Reg_2_not000153_SW0 (N113)
+     LUT4:I2->O            8   0.704   0.757  spi/I_SPI_MODULE/Shift_Reg_2_not000153 (spi/I_SPI_MODULE/Shift_Reg_2_not0001)
      FDRE:CE                   0.555          spi/I_SPI_MODULE/Shift_Reg_2
     ----------------------------------------
-    Total                      4.988ns (2.842ns logic, 2.146ns route)
-                                       (57.0% logic, 43.0% route)
+    Total                      5.317ns (3.546ns logic, 1.771ns route)
+                                       (66.7% logic, 33.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'SPLB_Clk'
-  Total number of paths / destination ports: 49 / 34
+  Total number of paths / destination ports: 50 / 35
 -------------------------------------------------------------------------
 Offset:              3.441ns (Levels of Logic = 3)
   Source:            spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_0 (FF)
@@ -1668,14 +1667,14 @@ Offset:              3.441ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 22.07 secs
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 37.18 secs
  
 --> 
 
-Total memory usage is 349736 kilobytes
+Total memory usage is 348716 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  240 (   0 filtered)
+Number of warnings :  241 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 

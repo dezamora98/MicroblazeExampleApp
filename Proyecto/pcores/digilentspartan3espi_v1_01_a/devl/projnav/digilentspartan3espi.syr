@@ -3,14 +3,14 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: digilentspartan3espi.prj
 
@@ -347,8 +347,8 @@ Unit <InterfaceLct1407> synthesized.
 Synthesizing Unit <user_logic>.
     Related source file is "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:646 - Signal <slv_reg0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:653 - Signal <s_slv_reg0<14:15>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
-WARNING:Xst:653 - Signal <s_slv_reg0<30:31>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:653 - Signal <s_slv_reg0<13:14>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:653 - Signal <s_slv_reg0<29:30>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
 Unit <user_logic> synthesized.
 
 
@@ -501,10 +501,10 @@ WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_0> (without init value) has a constant 
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_7> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_6> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_5> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_13> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_14> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_15> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_29> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_30> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sl_rddbus_i_31> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_3> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_4> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_2> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
@@ -544,10 +544,10 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_3> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_2> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_5> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_4> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_6> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_7> (without init value) has a constant value of 0 in block <digilentspartan3espi>. This FF/Latch will be trimmed during the optimization process.
@@ -670,7 +670,6 @@ WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block digilentspartan3espi, actual ratio is 0.
-FlipFlop PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -678,8 +677,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 99
- Flip-Flops                                            : 99
+# Registers                                            : 98
+ Flip-Flops                                            : 98
 
 =========================================================================
 
@@ -708,22 +707,22 @@ Design Statistics
 # IOs                              : 444
 
 Cell Usage :
-# BELS                             : 113
+# BELS                             : 111
 #      GND                         : 1
 #      INV                         : 2
-#      LUT2                        : 2
+#      LUT2                        : 31
 #      LUT2_D                      : 4
 #      LUT2_L                      : 1
-#      LUT3                        : 12
+#      LUT3                        : 7
 #      LUT3_D                      : 5
 #      LUT3_L                      : 2
-#      LUT4                        : 75
-#      LUT4_D                      : 4
-#      LUT4_L                      : 4
+#      LUT4                        : 49
+#      LUT4_D                      : 3
+#      LUT4_L                      : 5
 #      VCC                         : 1
-# FlipFlops/Latches                : 99
+# FlipFlops/Latches                : 98
 #      FDR                         : 48
-#      FDRE                        : 50
+#      FDRE                        : 49
 #      FDRS                        : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
@@ -738,8 +737,8 @@ Device utilization summary:
 Selected Device : 3s1600efg320-4 
 
  Number of Slices:                       80  out of  14752     0%  
- Number of Slice Flip Flops:             99  out of  29504     0%  
- Number of 4 input LUTs:                111  out of  29504     0%  
+ Number of Slice Flip Flops:             98  out of  29504     0%  
+ Number of 4 input LUTs:                109  out of  29504     0%  
  Number of IOs:                         444
  Number of bonded IOBs:                 202  out of    250    80%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -765,7 +764,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-SPLB_Clk                           | BUFGP                  | 99    |
+SPLB_Clk                           | BUFGP                  | 98    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -776,9 +775,9 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 5.211ns (Maximum Frequency: 191.911MHz)
+   Minimum period: 5.043ns (Maximum Frequency: 198.295MHz)
    Minimum input arrival time before clock: 5.538ns
-   Maximum output required time after clock: 6.424ns
+   Maximum output required time after clock: 6.425ns
    Maximum combinational path delay: 6.113ns
 
 Timing Detail:
@@ -787,30 +786,30 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SPLB_Clk'
-  Clock period: 5.211ns (frequency: 191.911MHz)
-  Total number of paths / destination ports: 620 / 151
+  Clock period: 5.043ns (frequency: 198.295MHz)
+  Total number of paths / destination ports: 495 / 148
 -------------------------------------------------------------------------
-Delay:               5.211ns (Levels of Logic = 2)
-  Source:            USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 (FF)
-  Destination:       USER_LOGIC_I/IntLct1407/DataCh1_9 (FF)
+Delay:               5.043ns (Levels of Logic = 2)
+  Source:            USER_LOGIC_I/IntLct1407/Count_3 (FF)
+  Destination:       USER_LOGIC_I/IntLct1407/DataCh0_1 (FF)
   Source Clock:      SPLB_Clk rising
   Destination Clock: SPLB_Clk rising
 
-  Data Path: USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 to USER_LOGIC_I/IntLct1407/DataCh1_9
+  Data Path: USER_LOGIC_I/IntLct1407/Count_3 to USER_LOGIC_I/IntLct1407/DataCh0_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRS:C->Q            40   0.591   1.300  USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 (USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1)
-     LUT3_D:I2->O         11   0.704   0.937  USER_LOGIC_I/IntLct1407/DataCh0_0_not000111 (USER_LOGIC_I/IntLct1407/N11)
-     LUT4:I3->O            1   0.704   0.420  USER_LOGIC_I/IntLct1407/DataCh1_13_not00011 (USER_LOGIC_I/IntLct1407/DataCh1_13_not0001)
-     FDRE:CE                   0.555          USER_LOGIC_I/IntLct1407/DataCh1_13
+     FDRE:C->Q            21   0.591   1.132  USER_LOGIC_I/IntLct1407/Count_3 (USER_LOGIC_I/IntLct1407/Count_3)
+     LUT4_D:I3->O         11   0.704   0.937  USER_LOGIC_I/IntLct1407/DataCh0_1_not000111 (USER_LOGIC_I/IntLct1407/N2)
+     LUT4:I3->O            1   0.704   0.420  USER_LOGIC_I/IntLct1407/DataCh1_4_not00011 (USER_LOGIC_I/IntLct1407/DataCh1_4_not0001)
+     FDRE:CE                   0.555          USER_LOGIC_I/IntLct1407/DataCh1_4
     ----------------------------------------
-    Total                      5.211ns (2.554ns logic, 2.657ns route)
-                                       (49.0% logic, 51.0% route)
+    Total                      5.043ns (2.554ns logic, 2.489ns route)
+                                       (50.6% logic, 49.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
-  Total number of paths / destination ports: 139 / 139
+  Total number of paths / destination ports: 138 / 138
 -------------------------------------------------------------------------
 Offset:              5.538ns (Levels of Logic = 2)
   Source:            SPLB_Rst (PAD)
@@ -822,8 +821,8 @@ Offset:              5.538ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            55   1.218   1.444  SPLB_Rst_IBUF (SPLB_Rst_IBUF)
-     LUT4:I0->O           28   0.704   1.261  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or00001 (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or0000)
-     FDR:R                     0.911          PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29
+     LUT2:I0->O           28   0.704   1.261  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or00001 (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or0000)
+     FDR:R                     0.911          PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31
     ----------------------------------------
     Total                      5.538ns (2.833ns logic, 2.705ns route)
                                        (51.2% logic, 48.8% route)
@@ -832,7 +831,7 @@ Offset:              5.538ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'SPLB_Clk'
   Total number of paths / destination ports: 129 / 128
 -------------------------------------------------------------------------
-Offset:              6.424ns (Levels of Logic = 2)
+Offset:              6.425ns (Levels of Logic = 2)
   Source:            PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 (FF)
   Destination:       Sck (PAD)
   Source Clock:      SPLB_Clk rising
@@ -841,11 +840,11 @@ Offset:              6.424ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            32   0.591   1.437  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0)
+     FDRE:C->Q            34   0.591   1.438  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0)
      LUT3:I0->O            1   0.704   0.420  USER_LOGIC_I/Sck1 (Sck_OBUF)
      OBUF:I->O                 3.272          Sck_OBUF (Sck)
     ----------------------------------------
-    Total                      6.424ns (4.567ns logic, 1.857ns route)
+    Total                      6.425ns (4.567ns logic, 1.858ns route)
                                        (71.1% logic, 28.9% route)
 
 =========================================================================
@@ -870,12 +869,12 @@ Delay:               6.113ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.53 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.54 secs
  
 --> 
 
-Total memory usage is 161448 kilobytes
+Total memory usage is 161612 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  202 (   0 filtered)

@@ -17,13 +17,13 @@
 
 /******************************************************************/
 
-/* Definitions for driver DIGILENTSPARTAN3ESPI */
-#define XPAR_DIGILENTSPARTAN3ESPI_NUM_INSTANCES 1
+/* Definitions for driver DIGILENTSPARTAN3E1600SPI */
+#define XPAR_DIGILENTSPARTAN3E1600SPI_NUM_INSTANCES 1
 
-/* Definitions for peripheral DIGILENT_SPARTAN3E_SPI */
-#define XPAR_DIGILENT_SPARTAN3E_SPI_DEVICE_ID 0
-#define XPAR_DIGILENT_SPARTAN3E_SPI_BASEADDR 0xFFFFFFFF
-#define XPAR_DIGILENT_SPARTAN3E_SPI_HIGHADDR 0x00000000
+/* Definitions for peripheral DIGILENTSPARTAN3E1600SPI_0 */
+#define XPAR_DIGILENTSPARTAN3E1600SPI_0_DEVICE_ID 0
+#define XPAR_DIGILENTSPARTAN3E1600SPI_0_BASEADDR 0xC8600000
+#define XPAR_DIGILENTSPARTAN3E1600SPI_0_HIGHADDR 0xC860FFFF
 
 
 /******************************************************************/
@@ -53,7 +53,7 @@
 /******************************************************************/
 
 /* Definitions for driver UARTLITE */
-#define XPAR_XUARTLITE_NUM_INSTANCES 1
+#define XPAR_XUARTLITE_NUM_INSTANCES 2
 
 /* Definitions for peripheral MDM_0 */
 #define XPAR_MDM_0_BASEADDR 0x84400000
@@ -63,6 +63,16 @@
 #define XPAR_MDM_0_USE_PARITY 0
 #define XPAR_MDM_0_ODD_PARITY 0
 #define XPAR_MDM_0_DATA_BITS 0
+
+
+/* Definitions for peripheral XPS_UARTLITE_0 */
+#define XPAR_XPS_UARTLITE_0_BASEADDR 0x84000000
+#define XPAR_XPS_UARTLITE_0_HIGHADDR 0x8400FFFF
+#define XPAR_XPS_UARTLITE_0_DEVICE_ID 1
+#define XPAR_XPS_UARTLITE_0_BAUDRATE 9600
+#define XPAR_XPS_UARTLITE_0_USE_PARITY 0
+#define XPAR_XPS_UARTLITE_0_ODD_PARITY 1
+#define XPAR_XPS_UARTLITE_0_DATA_BITS 8
 
 
 /******************************************************************/
@@ -77,6 +87,16 @@
 #define XPAR_UARTLITE_0_DATA_BITS 0
 #define XPAR_UARTLITE_0_SIO_CHAN -1
 
+/* Canonical definitions for peripheral XPS_UARTLITE_0 */
+#define XPAR_UARTLITE_1_DEVICE_ID XPAR_XPS_UARTLITE_0_DEVICE_ID
+#define XPAR_UARTLITE_1_BASEADDR 0x84000000
+#define XPAR_UARTLITE_1_HIGHADDR 0x8400FFFF
+#define XPAR_UARTLITE_1_BAUDRATE 9600
+#define XPAR_UARTLITE_1_USE_PARITY 0
+#define XPAR_UARTLITE_1_ODD_PARITY 1
+#define XPAR_UARTLITE_1_DATA_BITS 8
+#define XPAR_UARTLITE_1_SIO_CHAN -1
+
 
 /******************************************************************/
 
@@ -89,7 +109,7 @@
 #define XPAR_SPI_HIGHADDR 0x8340FFFF
 #define XPAR_SPI_FIFO_EXIST 0
 #define XPAR_SPI_SPI_SLAVE_ONLY 0
-#define XPAR_SPI_NUM_SS_BITS 3
+#define XPAR_SPI_NUM_SS_BITS 4
 #define XPAR_SPI_NUM_TRANSFER_BITS 8
 
 
@@ -101,7 +121,7 @@
 #define XPAR_SPI_0_HIGHADDR 0x8340FFFF
 #define XPAR_SPI_0_FIFO_EXIST 0
 #define XPAR_SPI_0_SPI_SLAVE_ONLY 0
-#define XPAR_SPI_0_NUM_SS_BITS 3
+#define XPAR_SPI_0_NUM_SS_BITS 4
 #define XPAR_SPI_0_NUM_TRANSFER_BITS 8
 
 

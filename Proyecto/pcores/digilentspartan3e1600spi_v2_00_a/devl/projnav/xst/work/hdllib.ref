@@ -1,0 +1,4 @@
+EN spi_slave_interface NULL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/spi_slave_interface.vhd sub00/vhpl02 1671352316
+AR rising_edge_detector behavioral //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/rising_edge_detector.vhd sub00/vhpl01 1671352313
+AR spi_slave_interface arch //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/spi_slave_interface.vhd sub00/vhpl03 1671352317
+EN rising_edge_detector NULL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/rising_edge_detector.vhd sub00/vhpl00 1671352312

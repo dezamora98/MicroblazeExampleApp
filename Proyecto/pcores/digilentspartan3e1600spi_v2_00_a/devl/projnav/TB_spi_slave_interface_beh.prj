@@ -1,0 +1,3 @@
+vhdl work "../../hdl/vhdl/rising_edge_detector.vhd"
+vhdl work "../../hdl/vhdl/spi_slave_interface.vhd"
+vhdl work "../../hdl/vhdl/TB_spi_slave_interface.vhd"

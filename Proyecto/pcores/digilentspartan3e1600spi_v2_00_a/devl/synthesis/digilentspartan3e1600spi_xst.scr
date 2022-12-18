@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e1600spi_v2_00_a\devl\synthesis\digilentspartan3e1600spi_xst.prj"
+-top digilentspartan3e1600spi
+-p virtex5
+-ofn "\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e1600spi_v2_00_a\devl\synthesis\digilentspartan3e1600spi_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib digilentspartan3e1600spi_v2_00_a

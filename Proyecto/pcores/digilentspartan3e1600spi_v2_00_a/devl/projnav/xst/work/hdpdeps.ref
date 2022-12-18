@@ -1,0 +1,15 @@
+V3 7
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/rising_edge_detector.vhd 2016/02/13.13:40:12 M.81d
+EN work/rising_edge_detector 1671352312 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/rising_edge_detector.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/rising_edge_detector/Behavioral 1671352313 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/rising_edge_detector.vhd \
+      EN work/rising_edge_detector 1671352312
+FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/spi_slave_interface.vhd 2022/12/18.03:20:15 M.81d
+EN work/spi_slave_interface 1671352316 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/spi_slave_interface.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
+AR work/spi_slave_interface/arch 1671352317 \
+      FL //vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3e1600spi_v2_00_a/hdl/vhdl/spi_slave_interface.vhd \
+      EN work/spi_slave_interface 1671352316 CP rising_edge_detector

@@ -84,7 +84,7 @@ Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
 Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd" in Library digilentspartan3espi_v1_01_a.
 Entity <user_logic> compiled.
 Entity <user_logic> (Architecture <IMP>) compiled.
-Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_c/hdl/vhdl/InterfaceLct1407.vhd" in Library digilentspartan3espi_v1_01_c.
+Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_d/hdl/vhdl/InterfaceLct1407.vhd" in Library digilentspartan3espi_v1_01_d.
 Entity <InterfaceLct1407> compiled.
 Entity <InterfaceLct1407> (Architecture <arch>) compiled.
 Compiling vhdl file "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/hdl/digilent_spartan3e_spi_wrapper.vhd" in Library work.
@@ -100,9 +100,9 @@ Entity <digilentspartan3espi> (Architecture <IMP>) compiled.
 Analyzing hierarchy for entity <digilent_spartan3e_spi_wrapper> in library <work> (architecture <STRUCTURE>).
 
 Analyzing hierarchy for entity <digilentspartan3espi> in library <digilentspartan3espi_v1_01_a> (architecture <IMP>) with generics.
-	C_BASEADDR = "11111111111111111111111111111111"
+	C_BASEADDR = "11001110010000000000000000000000"
 	C_FAMILY = "spartan3e"
-	C_HIGHADDR = "00000000000000000000000000000000"
+	C_HIGHADDR = "11001110010000001111111111111111"
 	C_INCLUDE_DPHASE_TIMER = 0
 	C_SPLB_AWIDTH = 32
 	C_SPLB_CLK_PERIOD_PS = 20000
@@ -116,8 +116,8 @@ Analyzing hierarchy for entity <digilentspartan3espi> in library <digilentsparta
 WARNING:Xst:821 - "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" line 272: Loop body will iterate zero times
 
 Analyzing hierarchy for entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_FAMILY = "spartan3e"
@@ -134,8 +134,8 @@ Analyzing hierarchy for entity <user_logic> in library <digilentspartan3espi_v1_
 	C_SLV_DWIDTH = 32
 
 Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_DPHASE_TIMEOUT = 128
@@ -147,20 +147,20 @@ Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_s
 	C_PLB_NUM_MASTERS = 2
 	C_SPLB_P2P = 0
 
-Analyzing hierarchy for entity <InterfaceLct1407> in library <digilentspartan3espi_v1_01_c> (architecture <arch>).
+Analyzing hierarchy for entity <InterfaceLct1407> in library <digilentspartan3espi_v1_01_d> (architecture <arch>).
 
 Analyzing hierarchy for entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (architecture <IMP>) with generics.
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS_AWIDTH = 32
 	C_FAMILY = "nofamily"
 	C_SPLB_P2P = 0
 
 Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
-	C_AB = 0
+	C_AB = 16
 	C_AW = 32
-	C_BAR = "11111111111111111111111111111111"
+	C_BAR = "11001110010000000000000000000000"
 	C_FAMILY = "nofamily"
 
 Analyzing hierarchy for entity <or_gate128> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
@@ -181,9 +181,9 @@ WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/p
 Entity <digilent_spartan3e_spi_wrapper> analyzed. Unit <digilent_spartan3e_spi_wrapper> generated.
 
 Analyzing generic Entity <digilentspartan3espi> in library <digilentspartan3espi_v1_01_a> (Architecture <IMP>).
-	C_BASEADDR = "11111111111111111111111111111111"
+	C_BASEADDR = "11001110010000000000000000000000"
 	C_FAMILY = "spartan3e"
-	C_HIGHADDR = "00000000000000000000000000000000"
+	C_HIGHADDR = "11001110010000001111111111111111"
 	C_INCLUDE_DPHASE_TIMER = 0
 	C_SPLB_AWIDTH = 32
 	C_SPLB_CLK_PERIOD_PS = 20000
@@ -202,8 +202,8 @@ WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/p
 Entity <digilentspartan3espi> analyzed. Unit <digilentspartan3espi> generated.
 
 Analyzing generic Entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_FAMILY = "spartan3e"
@@ -217,8 +217,8 @@ Analyzing generic Entity <plbv46_slave_single> in library <plbv46_slave_single_v
 Entity <plbv46_slave_single> analyzed. Unit <plbv46_slave_single> generated.
 
 Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS2CORE_CLK_RATIO = 1
 	C_DPHASE_TIMEOUT = 128
@@ -232,8 +232,8 @@ Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_single_
 Entity <plb_slave_attachment> analyzed. Unit <plb_slave_attachment> generated.
 
 Analyzing generic Entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (Architecture <IMP>).
-	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
-	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011001110010000000000000000000000",
+	                          "0000000000000000000000000000000011001110010000001111111111111111")
 	C_ARD_NUM_CE_ARRAY = (1)
 	C_BUS_AWIDTH = 32
 	C_FAMILY = "nofamily"
@@ -241,9 +241,9 @@ Analyzing generic Entity <plb_address_decoder> in library <plbv46_slave_single_v
 Entity <plb_address_decoder> analyzed. Unit <plb_address_decoder> generated.
 
 Analyzing generic Entity <pselect_f> in library <proc_common_v3_00_a> (Architecture <imp>).
-	C_AB = 0
+	C_AB = 16
 	C_AW = 32
-	C_BAR = "11111111111111111111111111111111"
+	C_BAR = "11001110010000000000000000000000"
 	C_FAMILY = "nofamily"
 Entity <pselect_f> analyzed. Unit <pselect_f> generated.
 
@@ -264,7 +264,7 @@ WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
 Entity <user_logic> analyzed. Unit <user_logic> generated.
 
-Analyzing Entity <InterfaceLct1407> in library <digilentspartan3espi_v1_01_c> (Architecture <arch>).
+Analyzing Entity <InterfaceLct1407> in library <digilentspartan3espi_v1_01_d> (Architecture <arch>).
 Entity <InterfaceLct1407> analyzed. Unit <InterfaceLct1407> generated.
 
 
@@ -276,7 +276,7 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <pselect_f>.
     Related source file is "C:/Xilinx/12.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <A<16:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <pselect_f> synthesized.
 
 
@@ -286,7 +286,7 @@ Unit <or_muxcy> synthesized.
 
 
 Synthesizing Unit <InterfaceLct1407>.
-    Related source file is "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_c/hdl/vhdl/InterfaceLct1407.vhd".
+    Related source file is "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_d/hdl/vhdl/InterfaceLct1407.vhd".
     Found finite state machine <FSM_0> for signal <CurrentState>.
     -----------------------------------------------------------------------
     | States             | 3                                              |
@@ -315,8 +315,8 @@ Unit <InterfaceLct1407> synthesized.
 Synthesizing Unit <user_logic>.
     Related source file is "//vboxsvr/workarea/SysEmp/ProyectoFinal/ProyectoFinalSDE/Proyecto/pcores/digilentspartan3espi_v1_01_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:646 - Signal <slv_reg0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:653 - Signal <s_slv_reg0<14:15>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
-WARNING:Xst:653 - Signal <s_slv_reg0<30:31>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:653 - Signal <s_slv_reg0<13:14>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:653 - Signal <s_slv_reg0<29:30>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
 Unit <user_logic> synthesized.
 
 
@@ -486,10 +486,10 @@ Optimizing unit <plb_address_decoder> ...
 Optimizing unit <plb_slave_attachment> ...
 WARNING:Xst:1710 - FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_1> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_0> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_1> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_0> (without init value) has a constant value of 0 in block <digilent_spartan3e_spi_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_s_h_0> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
@@ -535,22 +535,6 @@ WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_AT
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
-WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
 WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18> of sequential type is unconnected in block <digilent_spartan3e_spi_wrapper>.
@@ -602,6 +586,8 @@ WARNING:Xst:2677 - Node <Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_AT
 
 Mapping all equations...
 Building and optimizing final netlist ...
+FlipFlop Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_2 has been replicated 1 time(s)
+FlipFlop Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -609,8 +595,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 88
- Flip-Flops                                            : 88
+# Registers                                            : 106
+ Flip-Flops                                            : 106
 
 =========================================================================
 
@@ -638,22 +624,24 @@ Design Statistics
 # IOs                              : 214
 
 Cell Usage :
-# BELS                             : 107
+# BELS                             : 113
 #      GND                         : 1
-#      INV                         : 2
-#      LUT2                        : 4
-#      LUT2_D                      : 4
+#      INV                         : 3
+#      LUT2                        : 36
+#      LUT2_D                      : 5
 #      LUT2_L                      : 1
-#      LUT3                        : 12
-#      LUT3_D                      : 5
+#      LUT3                        : 7
+#      LUT3_D                      : 3
 #      LUT3_L                      : 2
-#      LUT4                        : 67
-#      LUT4_D                      : 4
+#      LUT4                        : 43
+#      LUT4_D                      : 1
 #      LUT4_L                      : 4
+#      MUXCY                       : 5
+#      MUXF5                       : 1
 #      VCC                         : 1
-# FlipFlops/Latches                : 88
-#      FDR                         : 46
-#      FDRE                        : 41
+# FlipFlops/Latches                : 106
+#      FDR                         : 62
+#      FDRE                        : 43
 #      FDRS                        : 1
 =========================================================================
 
@@ -662,8 +650,8 @@ Device utilization summary:
 
 Selected Device : 3s1600efg320-4 
 
- Number of Slices:                       71  out of  14752     0%  
- Number of Slice Flip Flops:             88  out of  29504     0%  
+ Number of Slices:                       85  out of  14752     0%  
+ Number of Slice Flip Flops:            106  out of  29504     0%  
  Number of 4 input LUTs:                105  out of  29504     0%  
  Number of IOs:                         214
  Number of bonded IOBs:                   0  out of    250     0%  
@@ -689,7 +677,7 @@ Clock Information:
 -----------------------------------+---------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                         | Load  |
 -----------------------------------+---------------------------------------------------------------+-------+
-SPLB_Clk                           | NONE(Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_8)| 88    |
+SPLB_Clk                           | NONE(Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_8)| 106   |
 -----------------------------------+---------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -701,7 +689,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 5.211ns (Maximum Frequency: 191.911MHz)
+   Minimum period: 4.935ns (Maximum Frequency: 202.634MHz)
    Minimum input arrival time before clock: 3.051ns
    Maximum output required time after clock: 2.733ns
    Maximum combinational path delay: 0.739ns
@@ -712,30 +700,30 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SPLB_Clk'
-  Clock period: 5.211ns (frequency: 191.911MHz)
-  Total number of paths / destination ports: 563 / 132
+  Clock period: 4.935ns (frequency: 202.634MHz)
+  Total number of paths / destination ports: 558 / 138
 -------------------------------------------------------------------------
-Delay:               5.211ns (Levels of Logic = 2)
-  Source:            Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 (FF)
-  Destination:       Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_9 (FF)
+Delay:               4.935ns (Levels of Logic = 2)
+  Source:            Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4 (FF)
+  Destination:       Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5 (FF)
   Source Clock:      SPLB_Clk rising
   Destination Clock: SPLB_Clk rising
 
-  Data Path: Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 to Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_9
+  Data Path: Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4 to Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRS:C->Q            40   0.591   1.300  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1)
-     LUT3_D:I2->O         11   0.704   0.937  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_0_not000111 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/N11)
-     LUT4:I3->O            1   0.704   0.420  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_13_not00011 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_13_not0001)
-     FDRE:CE                   0.555          Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_13
+     FDRE:C->Q            25   0.591   1.339  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4)
+     LUT2_D:I1->O          4   0.704   0.622  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_0_not0001211 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/N51)
+     LUT4:I2->O            1   0.704   0.420  Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5_not00011 (Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5_not0001)
+     FDRE:CE                   0.555          Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5
     ----------------------------------------
-    Total                      5.211ns (2.554ns logic, 2.657ns route)
-                                       (49.0% logic, 51.0% route)
+    Total                      4.935ns (2.554ns logic, 2.381ns route)
+                                       (51.8% logic, 48.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
-  Total number of paths / destination ports: 126 / 126
+  Total number of paths / destination ports: 160 / 160
 -------------------------------------------------------------------------
 Offset:              3.051ns (Levels of Logic = 1)
   Source:            SPLB_Rst (PAD)
@@ -746,8 +734,8 @@ Offset:              3.051ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT4:I0->O           28   0.704   1.261  Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or00001 (Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or0000)
-     FDR:R                     0.911          Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29
+     LUT2:I0->O           28   0.704   1.261  Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or00001 (Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or0000)
+     FDR:R                     0.911          Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31
     ----------------------------------------
     Total                      3.051ns (1.790ns logic, 1.261ns route)
                                        (58.7% logic, 41.3% route)
@@ -765,7 +753,7 @@ Offset:              2.733ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            33   0.591   1.438  Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 (Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0)
+     FDRE:C->Q            34   0.591   1.438  Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0 (Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0)
      LUT3:I0->O            0   0.704   0.000  Digilent_Spartan3e_SPI/USER_LOGIC_I/Sck1 (Sck)
     ----------------------------------------
     Total                      2.733ns (1.295ns logic, 1.438ns route)
@@ -792,13 +780,13 @@ Delay:               0.739ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.57 secs
+Total CPU time to Xst completion: 5.05 secs
  
 --> 
 
-Total memory usage is 158248 kilobytes
+Total memory usage is 158416 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  171 (   0 filtered)
+Number of warnings :  155 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

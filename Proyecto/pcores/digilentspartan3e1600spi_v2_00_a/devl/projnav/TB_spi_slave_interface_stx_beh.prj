@@ -1,0 +1,3 @@
+vhdl isim_temp "../../hdl/vhdl/rising_edge_detector.vhd"
+vhdl isim_temp "../../hdl/vhdl/spi_slave_interface.vhd"
+vhdl isim_temp "../../hdl/vhdl/TB_spi_slave_interface.vhd"

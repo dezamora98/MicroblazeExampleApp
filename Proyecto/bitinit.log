@@ -15,8 +15,10 @@ Address Map for Processor microblaze_0
   (0000000000-0x00007fff) dlmb_cntlr	dlmb
   (0000000000-0x00007fff) ilmb_cntlr	ilmb
   (0x83400000-0x8340ffff) spi	mb_plb
+  (0x84000000-0x8400ffff) xps_uartlite_0	mb_plb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
   (0xc6e00000-0xc6e0ffff) lcd2x16interface_0	mb_plb
+  (0xc8600000-0xc860ffff) digilentspartan3e1600spi_0	mb_plb
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 69 - tool is overriding PARAMETER
@@ -24,7 +26,7 @@ INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 70 - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 4
+   C_PLBV46_NUM_SLAVES value to 5
 INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data
    \plb_v46_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH
@@ -69,25 +71,32 @@ INFO:EDK:1560 - IPNAME:xps_spi INSTANCE:spi -
    C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_spi_v2_02_a\data
    \xps_spi_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS
    value to 2
-INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
-   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
-   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 27 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32
-INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
-   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
-   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 28 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2
-INFO:EDK:1560 - IPNAME:digilentspartan3espi INSTANCE:Digilent_Spartan3e_SPI -
-   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi
-   _v1_01_c\data\digilentspartan3espi_v2_1_0.mpd line 29 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:xps_uartlite_0 -
+   C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a
+   \data\xps_uartlite_v2_1_0.mpd line 74 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3e1600spi
+   INSTANCE:digilentspartan3e1600spi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e160
+   0spi_v2_01_b\data\digilentspartan3e1600spi_v2_1_0.mpd line 25 - tool is
+   overriding PARAMETER C_SPLB_DWIDTH value to 32
+INFO:EDK:1560 - IPNAME:digilentspartan3e1600spi
+   INSTANCE:digilentspartan3e1600spi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e160
+   0spi_v2_01_b\data\digilentspartan3e1600spi_v2_1_0.mpd line 26 - tool is
+   overriding PARAMETER C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:digilentspartan3e1600spi
+   INSTANCE:digilentspartan3e1600spi_0 -
+   Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3e160
+   0spi_v2_01_b\data\digilentspartan3e1600spi_v2_1_0.mpd line 27 - tool is
+   overriding PARAMETER C_SPLB_MID_WIDTH value to 1
 
 Checking platform address map ...
 
 Initializing Memory...
 Running Data2Mem with the following command:
 data2mem -bm "implementation/system_bd" -p xc3s1600efg320-4 -bt
-"implementation/system.bit"  -bd "main/executable.elf" tag microblaze_0  -o b
+"implementation/system.bit"  -bd "test_0/executable.elf" tag microblaze_0  -o b
 implementation/download.bit 
 Memory Initialization completed successfully.
 

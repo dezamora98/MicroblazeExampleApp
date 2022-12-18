@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+spi_slave_interface instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .Miso(Miso), 
+    .Mosi(Mosi), 
+    .Sck(Sck), 
+    .MB_Miso(MB_Miso), 
+    .MB_Mosi(MB_Mosi), 
+    .MB_Sck(MB_Sck), 
+    .MB_SS_DAC(MB_SS_DAC), 
+    .MB_SS_ADC(MB_SS_ADC), 
+    .MB_SS_AMP(MB_SS_AMP), 
+    .MB_SS_Flash(MB_SS_Flash), 
+    .CS_DAC(CS_DAC), 
+    .CS_ADC(CS_ADC), 
+    .CS_AMP(CS_AMP), 
+    .CS_Flash(CS_Flash)
+    );
+
+

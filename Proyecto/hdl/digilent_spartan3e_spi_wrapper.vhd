@@ -7,8 +7,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 
-library digilentspartan3espi_v1_01_c;
-use digilentspartan3espi_v1_01_c.all;
+library digilentspartan3espi_v1_01_d;
+use digilentspartan3espi_v1_01_d.all;
 
 entity digilent_spartan3e_spi_wrapper is
   port (
@@ -147,8 +147,8 @@ begin
 
   Digilent_Spartan3e_SPI : digilentspartan3espi
     generic map (
-      C_BASEADDR => X"ffffffff",
-      C_HIGHADDR => X"00000000",
+      C_BASEADDR => X"ce400000",
+      C_HIGHADDR => X"ce40ffff",
       C_SPLB_AWIDTH => 32,
       C_SPLB_DWIDTH => 32,
       C_SPLB_NUM_MASTERS => 2,

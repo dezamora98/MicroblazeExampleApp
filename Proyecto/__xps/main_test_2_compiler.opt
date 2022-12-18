@@ -1,0 +1,22 @@
+microblaze_0
+MAIN_TEST_2_SOURCES = firmware/main.c 
+MAIN_TEST_2_HEADERS = 
+MAIN_TEST_2_CC = mb-gcc
+MAIN_TEST_2_CC_SIZE = mb-size
+MAIN_TEST_2_CC_OPT = -O2
+MAIN_TEST_2_CFLAGS = 
+MAIN_TEST_2_CC_SEARCH = # -B
+MAIN_TEST_2_LIBPATH = -L./microblaze_0/lib/ # -L
+MAIN_TEST_2_INCLUDES = -I./microblaze_0/include/ # -I
+MAIN_TEST_2_LFLAGS = # -l
+MAIN_TEST_2_LINKER_SCRIPT = 
+MAIN_TEST_2_CC_DEBUG_FLAG =  -g 
+MAIN_TEST_2_CC_PROFILE_FLAG = # -pg
+MAIN_TEST_2_CC_GLOBPTR_FLAG= # -mxl-gp-opt
+MAIN_TEST_2_MODE = executable
+MAIN_TEST_2_LIBG_OPT = -$(MAIN_TEST_2_MODE) microblaze_0
+MAIN_TEST_2_CC_INFERRED_FLAGS= -mxl-soft-mul -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.00.b 
+MAIN_TEST_2_CC_START_ADDR_FLAG=  # -Wl,-defsym -Wl,_TEXT_START_ADDR=
+MAIN_TEST_2_CC_STACK_SIZE_FLAG=  # -Wl,-defsym -Wl,_STACK_SIZE=
+MAIN_TEST_2_CC_HEAP_SIZE_FLAG=  # -Wl,-defsym -Wl,_HEAP_SIZE=
+                  $(MAIN_TEST_2_CC_INFERRED_FLAGS)  \

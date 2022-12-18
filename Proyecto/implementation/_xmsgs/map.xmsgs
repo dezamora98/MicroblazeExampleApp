@@ -974,19 +974,28 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">proc_sys_reset_0/proc_sys_reset_0/Peripheral_aresetn&lt;0&gt;</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/MISO_T</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">spi/MISO_T</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/SS_T</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">spi/SS_T</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/IP2INTC_Irpt</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">spi/IP2INTC_Irpt</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/MOSI_T</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">spi/MOSI_T</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">spi/SCK_T</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">spi/SCK_T</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/Interrupt</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO</arg> has no load.
 </msg>
 
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.

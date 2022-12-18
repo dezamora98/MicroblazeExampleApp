@@ -1,3 +1,3 @@
 vhdl lmb_bram_if_cntlr_v2_10_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2_10_b\hdl\vhdl\pselect_mask.vhd"
 vhdl lmb_bram_if_cntlr_v2_10_b "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2_10_b\hdl\vhdl\lmb_bram_if_cntlr.vhd"
-vhdl work "\\vboxsvr\workarea\SysEmp\test_MB_LCDCtr\TestLCD_2\hdl\ilmb_cntlr_wrapper.vhd"
+vhdl work "\\vboxsvr\workarea\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\hdl\ilmb_cntlr_wrapper.vhd"

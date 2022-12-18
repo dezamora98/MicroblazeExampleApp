@@ -6,7 +6,7 @@ vhdl proc_common_v3_00_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcor
 vhdl proc_common_v3_00_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\ipif_pkg.vhd"
 vhdl proc_common_v3_00_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\counter_f.vhd"
 vhdl plbv46_slave_single_v1_01_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plbv46_slave_single_v1_01_a\hdl\vhdl\plb_address_decoder.vhd"
-vhdl digilentspartan3espi_v1_01_c "Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi_v1_01_a\hdl\vhdl\InterfaceLct1407.vhd"
+vhdl digilentspartan3espi_v1_01_d "Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi_v1_01_a\hdl\vhdl\InterfaceLct1407.vhd"
 vhdl plbv46_slave_single_v1_01_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plbv46_slave_single_v1_01_a\hdl\vhdl\plb_slave_attachment.vhd"
 vhdl digilentspartan3espi_v1_01_a "Z:\SysEmp\ProyectoFinal\ProyectoFinalSDE\Proyecto\pcores\digilentspartan3espi_v1_01_a\hdl\vhdl\user_logic.vhd"
 vhdl plbv46_slave_single_v1_01_a "C:\Xilinx\12.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plbv46_slave_single_v1_01_a\hdl\vhdl\plbv46_slave_single.vhd"

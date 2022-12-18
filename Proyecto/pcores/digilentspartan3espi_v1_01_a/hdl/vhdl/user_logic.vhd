@@ -101,6 +101,8 @@ entity user_logic is
     Mosi : out std_logic;
     Sck : out std_logic;
 
+    s_ack_adc: out std_logic;
+
     MB_Miso: out std_logic;
     MB_Mosi: in std_logic;
     MB_Sck: in std_logic;
@@ -159,7 +161,6 @@ architecture IMP of user_logic is
 	END COMPONENT;
 
   signal S_Sck: std_logic;
-  signal s_ack_adc: std_logic;
   signal s_slv_reg0: std_logic_vector(0 to C_SLV_DWIDTH-1);
   ------------------------------------------
   -- Signals for user logic slave model s/w accessible register example
@@ -182,8 +183,10 @@ begin
 		Miso => Miso,
 		Conv => CS_ADC,
 		Sck => S_Sck,
-		DataCh0 => s_slv_reg0(0 to 13),
-		DataCh1 => s_slv_reg0(16 to 29)
+		DataCh0(13) => s_slv_reg0(15),
+		Datach0(0 to 12) => s_slv_reg0(0 to 12),
+		DataCh1(13) => s_slv_reg0(31),
+		Datach1(0 to 12) => s_slv_reg0(16 to 28)
 	);
 
   sck <= MB_Sck when slv_reg_read_sel(0) = '0' else S_Sck;
@@ -215,7 +218,7 @@ begin
   slv_reg_write_sel <= Bus2IP_WrCE(0 to 0);
   slv_reg_read_sel  <= Bus2IP_RdCE(0 to 0);
   slv_write_ack     <= Bus2IP_WrCE(0);
-  slv_read_ack      <= Bus2IP_RdCE(0) and s_ack_adc;  -- a�adiendo ack del dac
+  slv_read_ack      <= Bus2IP_RdCE(0);  -- a�adiendo ack del dac
 
   -- implement slave model software accessible register(s)
   SLAVE_REG_WRITE_PROC : process( Bus2IP_Clk ) is
@@ -242,12 +245,10 @@ begin
   -- implement slave model software accessible register(s) read mux
   SLAVE_REG_READ_PROC : process( slv_reg_read_sel, s_slv_reg0 ) is
   begin
-
     case slv_reg_read_sel is
       when "1" => slv_ip2bus_data <= s_slv_reg0;
       when others => slv_ip2bus_data <= (others => '0');
     end case;
-
   end process SLAVE_REG_READ_PROC;
 
   ------------------------------------------

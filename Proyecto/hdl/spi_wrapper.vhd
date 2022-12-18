@@ -22,8 +22,8 @@ entity spi_wrapper is
     MOSI_O : out std_logic;
     MOSI_T : out std_logic;
     SPISEL : in std_logic;
-    SS_I : in std_logic_vector(0 to 2);
-    SS_O : out std_logic_vector(0 to 2);
+    SS_I : in std_logic_vector(0 to 3);
+    SS_O : out std_logic_vector(0 to 3);
     SS_T : out std_logic;
     SPLB_Clk : in std_logic;
     SPLB_Rst : in std_logic;
@@ -169,8 +169,8 @@ begin
       C_SPLB_SUPPORT_BURSTS => 0,
       C_SPLB_NATIVE_DWIDTH => 32,
       C_FIFO_EXIST => 0,
-      C_SCK_RATIO => 32,
-      C_NUM_SS_BITS => 3,
+      C_SCK_RATIO => 4,
+      C_NUM_SS_BITS => 4,
       C_NUM_TRANSFER_BITS => 8
     )
     port map (

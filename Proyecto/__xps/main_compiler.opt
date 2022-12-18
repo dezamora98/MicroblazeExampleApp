@@ -1,9 +1,9 @@
 microblaze_0
-MAIN_SOURCES = firmware/main.c drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c 
+MAIN_SOURCES = drivers/lcd2x16interface_v3_00_a/src/lcd2x16Sinterface.c firmware/main.cpp firmware/main.c 
 MAIN_HEADERS = 
 MAIN_CC = mb-gcc
 MAIN_CC_SIZE = mb-size
-MAIN_CC_OPT = -O2
+MAIN_CC_OPT = -O0
 MAIN_CFLAGS = 
 MAIN_CC_SEARCH = # -B
 MAIN_LIBPATH = -L./microblaze_0/lib/ # -L

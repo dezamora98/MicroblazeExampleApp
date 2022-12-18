@@ -16,6 +16,8 @@ entity system_stub is
     lcd2x16interface_0_en_pin : out std_logic;
     lcd2x16interface_0_rw_pin : out std_logic;
     lcd2x16interface_0_sfce_pin : out std_logic;
+    uartlite_RX_pin : in std_logic;
+    uartlite_TX_pin : out std_logic;
     Miso_pin : in std_logic;
     Mosi_pin : out std_logic;
     Sck_pin : out std_logic;
@@ -37,6 +39,8 @@ architecture STRUCTURE of system_stub is
       lcd2x16interface_0_en_pin : out std_logic;
       lcd2x16interface_0_rw_pin : out std_logic;
       lcd2x16interface_0_sfce_pin : out std_logic;
+      uartlite_RX_pin : in std_logic;
+      uartlite_TX_pin : out std_logic;
       Miso_pin : in std_logic;
       Mosi_pin : out std_logic;
       Sck_pin : out std_logic;
@@ -61,6 +65,8 @@ begin
       lcd2x16interface_0_en_pin => lcd2x16interface_0_en_pin,
       lcd2x16interface_0_rw_pin => lcd2x16interface_0_rw_pin,
       lcd2x16interface_0_sfce_pin => lcd2x16interface_0_sfce_pin,
+      uartlite_RX_pin => uartlite_RX_pin,
+      uartlite_TX_pin => uartlite_TX_pin,
       Miso_pin => Miso_pin,
       Mosi_pin => Mosi_pin,
       Sck_pin => Sck_pin,

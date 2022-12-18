@@ -305,6 +305,9 @@ architecture IMP of digilentspartan3espi is
   signal user_IP2Bus_RdAck              : std_logic;
   signal user_IP2Bus_WrAck              : std_logic;
   signal user_IP2Bus_Error              : std_logic;
+  signal s_SL_wait                      : std_logic;
+  
+  signal s_ack_adc                      : std_logic;
 
 begin
 
@@ -356,7 +359,7 @@ begin
       PLB_TAttribute                 => PLB_TAttribute,
       Sl_addrAck                     => Sl_addrAck,
       Sl_SSize                       => Sl_SSize,
-      Sl_wait                        => Sl_wait,
+      Sl_wait                        => s_Sl_wait,
       Sl_rearbitrate                 => Sl_rearbitrate,
       Sl_wrDAck                      => Sl_wrDAck,
       Sl_wrComp                      => Sl_wrComp,
@@ -385,6 +388,7 @@ begin
       Bus2IP_WrCE                    => ipif_Bus2IP_WrCE
     );
 
+    SL_wait <= s_Sl_wait and (not s_ack_adc);
   ------------------------------------------
   -- instantiate User Logic
   ------------------------------------------
@@ -407,6 +411,8 @@ begin
       MB_Miso =>  MB_Miso,
       MB_Mosi =>  MB_Mosi,
       MB_Sck  =>  MB_Sck,
+
+      s_ack_adc => s_ack_adc,
 
       SS_DAC    =>  SS_Spi(0),
       SS_AMP    =>  SS_Spi(1),

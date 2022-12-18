@@ -1,14 +1,16 @@
 //! **************************************************************************
-// Written by: Map M.81d on Thu Dec 15 11:09:47 2022
+// Written by: Map M.81d on Sun Dec 18 03:48:53 2022
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "CS_DAC_pin" LOCATE = SITE "N8" LEVEL 1;
 COMP "lcd2x16interface_0_en_pin" LOCATE = SITE "M18" LEVEL 1;
+COMP "uartlite_RX_pin" LOCATE = SITE "R7" LEVEL 1;
 COMP "fpga_0_clk_1_sys_clk_pin" LOCATE = SITE "C9" LEVEL 1;
 PIN fpga_0_clk_1_sys_clk_pin_pin<0> = BEL "fpga_0_clk_1_sys_clk_pin" PINNAME
         PAD;
 PIN "fpga_0_clk_1_sys_clk_pin_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "uartlite_TX_pin" LOCATE = SITE "M14" LEVEL 1;
 COMP "lcd2x16interface_0_sfce_pin" LOCATE = SITE "D16" LEVEL 1;
 COMP "fpga_0_rst_1_sys_rst_pin" LOCATE = SITE "K17" LEVEL 1;
 COMP "Miso_pin" LOCATE = SITE "N10" LEVEL 1;
@@ -1907,8 +1909,6 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "microblaze_0/microblaze_0/Area.Data_Flow_I/Using_Barrel_Shifter.barrel_shift_I/C_0"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd2_1"
-        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd3_1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_3"
@@ -1919,9 +1919,9 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_2"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/WrBurst_Mux_Idle_reg"
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/pavalid_i"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/savalid_reg"
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/WrBurst_Mux_Idle_reg"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbRdDBusBusyReg_i"
         BEL
@@ -1937,6 +1937,7 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "mb_plb/mb_plb/GEN_SPLB_RST[1].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[2].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[3].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[4].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_0" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_1" BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ADDRPATH/PLB_ABus_2" BEL
@@ -1979,8 +1980,6 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecRdMasterReg_i_0"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/pavalid_i"
-        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbDisMReqReg_1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbDisMReqReg_0"
@@ -1990,6 +1989,8 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecWrMasterReg_i_1"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbSecWrMasterReg_i_0"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/savalid_reg"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/ArbPriWrMasterReg_1"
         BEL
@@ -2723,10 +2724,12 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "spi/spi/I_INTERRUPT_CONTROL/ip_irpt_enable_reg_0" BEL
         "spi/spi/I_INTERRUPT_CONTROL/Intr2Bus_RdAck" BEL
         "spi/spi/I_INTERRUPT_CONTROL/irpt_wrack_d1" BEL
+        "spi/spi/I_STATUS_REG/register_Data_int_3" BEL
         "spi/spi/I_STATUS_REG/register_Data_int_2" BEL
-        "spi/spi/I_STATUS_REG/register_Data_int_1" BEL
         "spi/spi/I_STATUS_REG/register_Data_int_0" BEL
-        "spi/spi/I_STATUS_REG/modf" BEL "spi/spi/I_SOFT_RESET/FF_WRACK" BEL
+        "spi/spi/I_STATUS_REG/modf" BEL
+        "spi/spi/I_STATUS_REG/register_Data_int_1" BEL
+        "spi/spi/I_SOFT_RESET/FF_WRACK" BEL
         "spi/spi/I_SOFT_RESET/RESET_FLOPS[7].RST_FLOPS" BEL
         "spi/spi/I_SOFT_RESET/RESET_FLOPS[6].RST_FLOPS" BEL
         "spi/spi/I_SOFT_RESET/RESET_FLOPS[5].RST_FLOPS" BEL
@@ -2747,11 +2750,10 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "spi/spi/I_CONTROL_REG_1/control_register_data_int_2" BEL
         "spi/spi/I_CONTROL_REG_1/control_register_data_int_4" BEL
         "spi/spi/I_CONTROL_REG_1/control_register_data_int_1" BEL
-        "spi/spi/I_SPI_MODULE/Ratio_Count_0" BEL
-        "spi/spi/I_SPI_MODULE/Ratio_Count_1" BEL
-        "spi/spi/I_SPI_MODULE/Ratio_Count_2" BEL
-        "spi/spi/I_SPI_MODULE/Ratio_Count_3" BEL "spi/spi/I_SPI_MODULE/sck_d2"
-        BEL "spi/spi/I_SPI_MODULE/SPIXfer_done_int_d1" BEL
+        "spi/spi/I_SPI_MODULE/Ratio_Count_0_0" BEL
+        "spi/spi/I_SPI_MODULE/sck_d2" BEL
+        "spi/spi/I_SPI_MODULE/SPIXfer_done_int_d1" BEL
+        "spi/spi/I_SPI_MODULE/Count_trigger_d1" BEL
         "spi/spi/I_SPI_MODULE/sck_d1" BEL
         "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_0" BEL
         "spi/spi/I_SPI_MODULE/rx_shft_reg_mode_0110_1" BEL
@@ -2786,9 +2788,9 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "spi/spi/I_SPI_MODULE/rx_shft_reg_s_7" BEL
         "spi/spi/I_SPI_MODULE/Receive_Data_0" BEL
         "spi/spi/I_SPI_MODULE/SPIXfer_done_int" BEL
-        "spi/spi/I_SPI_MODULE/SPIXfer_done_int_pulse_d2" BEL
+        "spi/spi/I_SPI_MODULE/Count_trigger" BEL
         "spi/spi/I_SPI_MODULE/transfer_start_d1" BEL
-        "spi/spi/I_SPI_MODULE/Count_trigger_d1" BEL
+        "spi/spi/I_SPI_MODULE/SPIXfer_done_int_pulse_d2" BEL
         "spi/spi/I_SPI_MODULE/sck_o_int" BEL
         "spi/spi/I_SPI_MODULE/SS_Asserted_1dly" BEL
         "spi/spi/I_SPI_MODULE/Shift_Reg_1" BEL
@@ -2797,12 +2799,11 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "spi/spi/I_SPI_MODULE/MODF_strobe" BEL
         "spi/spi/I_SPI_MODULE/transfer_start" BEL
         "spi/spi/I_SPI_MODULE/Allow_MODF_Strobe" BEL
-        "spi/spi/I_SPI_MODULE/SCK_O" BEL "spi/spi/I_SPI_MODULE/SS_O_1" BEL
-        "spi/spi/I_SPI_MODULE/SS_O_2" BEL "spi/spi/I_SPI_MODULE/SS_O_0" BEL
-        "spi/spi/I_SPI_MODULE/Count_trigger" BEL
-        "spi/spi/I_SPI_MODULE/Count_4" BEL "spi/spi/I_SPI_MODULE/Count_3" BEL
-        "spi/spi/I_SPI_MODULE/Count_2" BEL "spi/spi/I_SPI_MODULE/Count_1" BEL
-        "spi/spi/I_SPI_MODULE/Count_0" BEL
+        "spi/spi/I_SPI_MODULE/SCK_O" BEL "spi/spi/I_SPI_MODULE/SS_O_2" BEL
+        "spi/spi/I_SPI_MODULE/SS_O_1" BEL "spi/spi/I_SPI_MODULE/SS_O_3" BEL
+        "spi/spi/I_SPI_MODULE/SS_O_0" BEL "spi/spi/I_SPI_MODULE/Count_4" BEL
+        "spi/spi/I_SPI_MODULE/Count_3" BEL "spi/spi/I_SPI_MODULE/Count_2" BEL
+        "spi/spi/I_SPI_MODULE/Count_1" BEL "spi/spi/I_SPI_MODULE/Count_0" BEL
         "spi/spi/I_SPI_MODULE/SPIXfer_done_int_pulse_d1" BEL
         "spi/spi/I_SPI_MODULE/Allow_Slave_MODF_Strobe" BEL
         "spi/spi/I_SPI_MODULE/DTR_underrun" BEL
@@ -2902,159 +2903,341 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_DCM0_CLK0 = PIN
         "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29" BEL
         "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30" BEL
         "spi/spi/I_PLBv46_IPIF/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31" BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd1"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_7"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_6"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_5"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_4"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_3"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_2"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_1"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_0"
+        BEL "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/clr_Status" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/enable_interrupts" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/reset_TX_FIFO" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/reset_RX_FIFO" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/status_Reg_1" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/status_Reg_2" BEL
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/EN_16x_Baud"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_2"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_1"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_5"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_3"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_4"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_8"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_6"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/BAUD_RATE_I/count_7"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/FIFO_Full"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_0_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_1_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_2_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_3_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_4_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_5_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_6_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_7_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[0].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[1].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[2].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[3].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrcomp_i"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/Mshreg_mid_Start_Bit_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/Mshreg_sample_Point_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_8"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_7"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_6"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_5"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_4"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_3"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_5"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_2"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_4"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/previous_rx"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_3"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_din_1"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_2"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/running_0"
+        BEL "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/rx_2"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_1"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/fifo_Write"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/Count_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/stop_Bit_Position"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/CurrentState_FSM_FFd2"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/start_Edge_Detected_0"
+        BEL "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_RX_I/rx_1"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_6"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/FIFO_Full"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_5"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_0_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_7"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_1_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_4"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_2_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_13"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_3_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_3"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_4_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_12"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_5_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_2"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_6_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_11"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/DYNSHREG_F_I/Mshreg_Dout_7_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_1"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[0].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_10"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[1].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[2].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_9"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[3].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_8"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].FDS_I"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_7"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/Mshreg_div16_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_6"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/mux_sel_0"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_5"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/mux_sel_1"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_4"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/mux_sel_2"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_3"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/tx_Data_Enable"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_2"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/serial_Data"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_1"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/tx_DataBits"
+        BEL "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/TX"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh0_0"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/fifo_Read"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_13"
+        "xps_uartlite_0/xps_uartlite_0/UARTLITE_CORE_I/UARTLITE_TX_I/tx_Start"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_12"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_11"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_10"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_9"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/ClkDiv"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
         BEL
-        "Digilent_Spartan3e_SPI/Digilent_Spartan3e_SPI/USER_LOGIC_I/IntLct1407/DataCh1_8"
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_28"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_27"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_26"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_23"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_22"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_21"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_20"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_19"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/icount_out_8"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_3"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_2"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_3"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_2"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_1"
+        BEL
+        "xps_uartlite_0/xps_uartlite_0/PLBV46_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/addr_cntl_cs_0"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/USER_LOGIC_I/Inst_spi_slave_interface/CurrentState_FSM_FFd1"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/USER_LOGIC_I/Inst_spi_slave_interface/CurrentState_FSM_FFd2"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/USER_LOGIC_I/Inst_spi_slave_interface/sck_rising_edge_det/rising_edge_detector_fsm_curr_st_FSM_FFd3"
+        BEL
+        "digilentspartan3e1600spi_0/digilentspartan3e1600spi_0/USER_LOGIC_I/Inst_spi_slave_interface/sck_rising_edge_det/rising_edge_detector_fsm_curr_st_FSM_FFd2"
         BEL "clock_generator_0/clock_generator_0/DCM0_CLK0_BUFG_INST.GCLKMUX"
         BEL "clock_generator_0/clock_generator_0/DCM0_CLK0_BUFG_INST";
 PIN
