@@ -1,5 +1,4 @@
-# ProyectoFinalSDE
- Repositorio para el proyecto de SDE de la Maestria 
+# links
 
  https://github.com/Xilinx/embeddedsw/blob/master/XilinxProcessorIPLib/drivers/spi/examples/xspi_eeprom_example.c
 
